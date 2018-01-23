@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignment-portal/fixedhtml.html" afterPath="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" />
-      <change beforePath="$PROJECT_DIR$/assignment-portal/index.html" afterPath="$PROJECT_DIR$/assignment-portal/index.html" />
+      <change beforePath="$PROJECT_DIR$/assignment-portal/assignment-portal.iml" afterPath="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/assignment-portal.iml" />
+      <change beforePath="$PROJECT_DIR$/assignment-portal/assignment-portal.ipr" afterPath="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/assignment-portal.ipr" />
+      <change beforePath="$PROJECT_DIR$/assignment-portal/assignment-portal.iws" afterPath="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/assignment-portal.iws" />
+      <change beforePath="$PROJECT_DIR$/assignment-portal/images/cheezin.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/images/cheezin.jpg" />
+      <change beforePath="$PROJECT_DIR$/assignment-portal/index.html" afterPath="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/index.html" />
+      <change beforePath="$PROJECT_DIR$/assignment-portal/styles/main.css" afterPath="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/styles/main.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" afterPath="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" />
+      <change beforePath="$PROJECT_DIR$/basic-page/basic-page.iml" afterPath="$PROJECT_DIR$/assignments/lesson-1/basic-page/basic-page.iml" />
+      <change beforePath="$PROJECT_DIR$/basic-page/basic-page.ipr" afterPath="$PROJECT_DIR$/assignments/lesson-1/basic-page/basic-page.ipr" />
+      <change beforePath="$PROJECT_DIR$/basic-page/basic-page.iws" afterPath="$PROJECT_DIR$/assignments/lesson-1/basic-page/basic-page.iws" />
+      <change beforePath="$PROJECT_DIR$/basic-page/basicpage.html" afterPath="$PROJECT_DIR$/assignments/lesson-1/basic-page/basicpage.html" />
+      <change beforePath="$PROJECT_DIR$/basic-page/images/fam.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-1/basic-page/images/fam.jpg" />
+      <change beforePath="$PROJECT_DIR$/basic-page/src/basic-page.iml" afterPath="$PROJECT_DIR$/assignments/lesson-1/basic-page/src/basic-page.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +46,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment-portal/index.html">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-2/assignment-portal/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
@@ -106,24 +116,19 @@
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment-portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -147,6 +152,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-1" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-2" />
       <recent name="$PROJECT_DIR$/assignments/lesson-3" />
     </key>
   </component>
@@ -259,16 +266,15 @@
       <option name="presentableId" value="Default" />
       <updated>1516672652991</updated>
       <workItem from="1516672656333" duration="670000" />
-      <workItem from="1516738672177" duration="205000" />
+      <workItem from="1516738672177" duration="326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="875000" />
+    <option name="totallyTimeSpent" value="996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="22" width="1080" height="798" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -282,7 +288,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25433525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25433525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -325,7 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment-portal/index.html">
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-2/assignment-portal/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
@@ -354,7 +360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment-portal/index.html">
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-2/assignment-portal/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
