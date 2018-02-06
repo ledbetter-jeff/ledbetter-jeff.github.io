@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/styles/normalize.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-4/franklin-4.html" afterPath="$PROJECT_DIR$/assignments/lesson-4/franklin-4.html" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" afterPath="$PROJECT_DIR$/gallery.html" />
-      <change beforePath="$PROJECT_DIR$/greenville.html" afterPath="$PROJECT_DIR$/greenville.html" />
-      <change beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/springfield.html" afterPath="$PROJECT_DIR$/springfield.html" />
-      <change beforePath="$PROJECT_DIR$/storm-center.html" afterPath="$PROJECT_DIR$/storm-center.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" afterPath="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storm-center.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="storm-center.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storm-center.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fixedhtml.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -123,7 +125,6 @@
       <list>
         <option value="$PROJECT_DIR$/assignment-portal/index.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-1/basic-page/basicpage.html" />
-        <option value="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-2/assignment-portal/index.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-4/fixme.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-4/fixedhtml.html" />
@@ -137,6 +138,7 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/springfield.html" />
         <option value="$PROJECT_DIR$/storm-center.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html" />
       </list>
     </option>
   </component>
@@ -187,12 +189,6 @@
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="lesson-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -343,16 +339,15 @@
       <workItem from="1517434695865" duration="1139000" />
       <workItem from="1517535580792" duration="5822000" />
       <workItem from="1517859202927" duration="1566000" />
-      <workItem from="1517946838728" duration="1279000" />
+      <workItem from="1517946838728" duration="1346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17895000" />
+    <option name="totallyTimeSpent" value="17962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="319" y="22" width="1121" height="798" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -366,7 +361,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2734013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2734013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -511,13 +506,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-4/rexburg-flight.html" />
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-4/rexburg-flight.html" />
     <entry file="file://$PROJECT_DIR$/styles/fixme.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -600,6 +588,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
