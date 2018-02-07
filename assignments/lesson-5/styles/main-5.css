@@ -11,6 +11,9 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
+.shrink {
+    max-width: 100px;
+}
 header {}
 header h1 {}
 header img {}
@@ -32,8 +35,8 @@ main figure img { width: 100%; }
 section {}
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
-    width: ???; /* fill the page in the small/phone view */
-    margin: ???;
+    width: 300px; /* fill the page in the small/phone view */
+    margin: 20px;
 }
 
 footer {}
