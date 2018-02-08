@@ -3,6 +3,27 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+    }
+    nav ul li.active a {
+        color: #2f50ea;
+    }
+    nav ul li a:hover {
+        color: blueviolet;
+    }
+
     section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
 
     article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
