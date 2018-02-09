@@ -1,9 +1,14 @@
 @media only screen and (min-width: 37.5em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
+    nav {
+
+    }
+
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
     nav ul {
+        display: block;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -22,6 +27,10 @@
     }
     nav ul li a:hover {
         color: blueviolet;
+    }
+
+    .forecast {
+        display: inline-grid;
     }
 
     section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */

@@ -18,12 +18,18 @@ header {}
 header h1 {}
 header img {
     width: 100px;
-    margin: 20px;}
+    margin: 20px;
+}
 header .subheading {}
 
-nav {}
-nav button {}
-nav ul {}
+nav {
+}
+nav button {
+    display: inline-grid;
+}
+nav ul {
+    display: none;
+}
 nav ul li {}
 
 nav ul li a {
@@ -41,6 +47,10 @@ main {}
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
+
+.forecast {
+    display: none;
+}
 
 section {}
 
