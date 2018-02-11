@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-3/fixme.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-5/franklin-5.html" afterPath="$PROJECT_DIR$/assignments/lesson-5/franklin-5.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-5/styles/main-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-5/styles/main-5.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-3/fixme.css" afterPath="$PROJECT_DIR$/assignments/lesson-4/fixme.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,10 +49,10 @@
         </entry>
       </file>
       <file leaf-file-name="fixme.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-3/fixme.css">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-4/fixme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -212,9 +211,9 @@
       <recent name="$PROJECT_DIR$/assignments/lesson-4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-4" />
       <recent name="$PROJECT_DIR$/assignments/lesson-5/images" />
       <recent name="$PROJECT_DIR$/assignments/lesson-5/scripts" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-4" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -340,12 +339,12 @@
       <workItem from="1517946838728" duration="1417000" />
       <workItem from="1517963510297" duration="1761000" />
       <workItem from="1517965549061" duration="8267000" />
-      <workItem from="1518320033424" duration="1014000" />
+      <workItem from="1518320033424" duration="1553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29075000" />
+    <option name="totallyTimeSpent" value="29614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="338" y="22" width="1342" height="940" extended-state="0" />
@@ -736,10 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-3/fixme.css">
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-4/fixme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
