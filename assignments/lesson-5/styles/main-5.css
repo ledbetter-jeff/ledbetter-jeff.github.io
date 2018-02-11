@@ -14,13 +14,21 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
 .shrink {
     max-width: 100px;
 }
-header {}
+header {
+    background-color: dodgerblue;
+}
 header h1 {}
 header img {
     width: 100px;
     margin: 20px;
 }
 header .subheading {}
+
+.downtown {
+    min-width: 350px;
+    max-width: 450px;
+}
+
 
 nav {
 }
@@ -43,6 +51,12 @@ nav ul li a:hover {
     color: blueviolet;
 }
 
+.record-day{
+    float: left;
+    max-width: 300px;
+    min-width: 250px;
+}
+
 main {}
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
@@ -59,7 +73,9 @@ article p.town-article img {  /* This structure refers to img elements that are 
     margin: 20px;
 }
 
-footer {}
+footer {
+    background-color: dodgerblue;
+}
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
