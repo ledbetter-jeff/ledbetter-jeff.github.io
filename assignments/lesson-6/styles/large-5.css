@@ -1,0 +1,26 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+    article p.town-article img { width: 29.333%; }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+    }
+    nav ul li.active a {
+        color: #2f50ea;
+    }
+    nav ul li a:hover {
+        color: blueviolet;
+    }
+}

@@ -1,0 +1,87 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+.shrink {
+    max-width: 100px;
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+}
+header h1 {}
+header img {
+    width: 100px;
+    margin: 20px;
+}
+header .subheading {}
+
+.downtown {
+    min-width: 350px;
+    max-width: 450px;
+}
+
+
+nav {
+}
+nav button {
+    display: inline-grid;
+}
+nav ul {
+    display: none;
+}
+nav ul li {}
+
+nav ul li a {
+    padding: 8px;
+    background-color: #dddddd;
+}
+nav ul li.active a {
+    color: #2f50ea;
+}
+nav ul li a:hover {
+    color: blueviolet;
+}
+
+.record-day{
+    float: left;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { width: 100%; }
+
+.forecast {
+    display: none;
+}
+
+section {}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
+    width: 100px; /* fill the page in the small/phone view */
+    margin: 20px;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */

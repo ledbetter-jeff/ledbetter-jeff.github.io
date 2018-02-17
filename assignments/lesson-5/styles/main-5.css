@@ -1,6 +1,9 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
     font-size: 16px;
@@ -16,6 +19,7 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
 }
 header {
     background-color: dodgerblue;
+    color: white;
 }
 header h1 {}
 header img {
@@ -75,6 +79,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
 
 footer {
     background-color: dodgerblue;
+    color: white;
 }
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
