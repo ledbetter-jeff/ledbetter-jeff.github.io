@@ -3,10 +3,13 @@
 * {
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
+
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
     font-size: 16px;
+    min-width:250px;
+    overflow: auto;
     /* Declare the base font-family - from google font api or other */
 }
 
@@ -14,25 +17,14 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
-.shrink {
-    max-width: 100px;
-}
+
 header {
     background-color: dodgerblue;
     color: white;
 }
 header h1 {}
-header img {
-    width: 100px;
-    margin: 20px;
-}
+header img {}
 header .subheading {}
-
-.downtown {
-    min-width: 350px;
-    max-width: 450px;
-}
-
 
 nav {
 }
@@ -55,16 +47,14 @@ nav ul li a:hover {
     color: blueviolet;
 }
 
-.record-day{
-    float: left;
-    max-width: 300px;
-    min-width: 250px;
+article picture {
+    float: right;
 }
 
 main {}
 main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 100%; }
+main figure { margin: 0 0 .2rem 2%;}
+main figure img {margin: 0 0 .2rem 1%;}
 
 .forecast {
     display: none;
@@ -72,8 +62,8 @@ main figure img { width: 100%; }
 
 section {}
 
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
-    width: 100px; /* fill the page in the small/phone view */
+article img {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
+    /* fill the page in the small/phone view */
     margin: 20px;
 }
 

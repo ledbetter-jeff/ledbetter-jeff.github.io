@@ -16,7 +16,7 @@
 <body>
 
 <header>
-    <img src="images/sunnyicon.png" alt="The site logo" width="80px" height="">
+    <img src="images/sunnyicon.jpg" alt="The site logo" width="80px">
     <h1>Franklin | WeatherBud</h1>
     <div class="subheading">Never miss a beat, with WeatherBud's local weather.</div>
 </header>
@@ -36,8 +36,22 @@
 
 <main>
     <h2>The City of Franklin</h2>
+
     <figure>
-        <img class="downtown" src="images/franklin-original.jpeg" alt="franklin wilderness" width="100px" height="">
+        <picture>
+
+            <source media="(max-width: 37.5em)"
+                    srcset="images/franklin-small.jpg 1x">
+
+            <source media="(max-width: 60em)"
+            srcset="images/franklin-medium.jpg 1x">
+
+            <source media="(max-width: 200em)"
+                    srcset="images/franklin-large.jpg 1x">
+
+            <img src="images/franklin-original.jpg" alt="Franklin woods">
+
+        </picture>
     </figure>
     <section>
         <h3>Weather Summary</h3>
@@ -48,7 +62,7 @@
         <div class="current">
             <em><strong>Sunny</strong></em>
             <picture>
-                <img class="shrink" src="images/sunny.jpg" alt="sunny field" width="300px" height="">
+                <img src="images/sunny.jpg" alt="sunny icon" width="80px">
             </picture>
         </div>
         <div class="conditions">
@@ -93,9 +107,22 @@
 
     <article>
         <h3>Franklin Breaks 70-year Heat Record</h3>
-        <p class="town-article">
-            <img class="record-day" src="images/hotday.jpg" alt="super hot day" width="150px" height="">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            <picture>
+
+                <source media="(max-width: 37.5em)"
+                        srcset="images/hotday-small.jpg 1.5x">
+
+                <source media="(max-width: 60em)"
+                        srcset="images/hotday-medium.jpg 1.5x">
+
+                <source media="(max-width: 80em)"
+                        srcset="images/hotday-large.jpg 1.5x">
+
+                <img src="images/hotday-original.jpg" alt="record scorching day">
+
+            </picture>
+        <p class="town-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </article>
 

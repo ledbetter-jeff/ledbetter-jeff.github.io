@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/franklin-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/franklin-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/franklin-original.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/franklin-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/hotday-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/hotday-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/hotday-small.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-5/styles/main-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-5/styles/main-5.css" />
       <change beforePath="$PROJECT_DIR$/assignments/lesson-6/franklin-6.html" afterPath="$PROJECT_DIR$/assignments/lesson-6/franklin-6.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/scripts/currentdate.js" afterPath="$PROJECT_DIR$/assignments/lesson-6/scripts/currentdate.js" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/images/franklin-original.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/images/hotday.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/hotday-original.jpg" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/images/sunny.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/sunny.jpg" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/images/sunnyicon.png" afterPath="$PROJECT_DIR$/assignments/lesson-6/images/sunnyicon.jpg" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +32,53 @@
       <file leaf-file-name="franklin-6.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/lesson-6/franklin-6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="830">
-              <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="570">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#1870#1875#0" expanded="true" />
-                <element signature="e#1920#1925#0" expanded="true" />
-                <element signature="e#2882#2887#0" expanded="true" />
-                <element signature="e#2916#2921#0" expanded="true" />
-                <element signature="e#2950#2955#0" expanded="true" />
-                <element signature="e#2984#2989#0" expanded="true" />
-                <element signature="e#3018#3023#0" expanded="true" />
-                <element signature="e#3052#3057#0" expanded="true" />
-                <element signature="e#3086#3091#0" expanded="true" />
-                <element signature="e#3120#3125#0" expanded="true" />
-                <element signature="e#3154#3159#0" expanded="true" />
-                <element signature="e#3188#3193#0" expanded="true" />
-                <element signature="e#4178#4184#0" expanded="true" />
+                <element signature="e#2171#2176#0" expanded="true" />
+                <element signature="e#2221#2226#0" expanded="true" />
+                <element signature="e#3156#3161#0" expanded="true" />
+                <element signature="e#3190#3195#0" expanded="true" />
+                <element signature="e#3224#3229#0" expanded="true" />
+                <element signature="e#3258#3263#0" expanded="true" />
+                <element signature="e#3292#3297#0" expanded="true" />
+                <element signature="e#3326#3331#0" expanded="true" />
+                <element signature="e#3360#3365#0" expanded="true" />
+                <element signature="e#3394#3399#0" expanded="true" />
+                <element signature="e#3428#3433#0" expanded="true" />
+                <element signature="e#3462#3467#0" expanded="true" />
+                <element signature="e#4809#4815#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-5.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medium-5.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="large-5.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/assignments/lesson-6/scripts/currentdate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,8 +133,11 @@
         <option value="$PROJECT_DIR$/assignments/lesson-5/styles/medium-5.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-5/franklin-5.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-5/styles/main-5.css" />
-        <option value="$PROJECT_DIR$/assignments/lesson-6/franklin-6.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-6/scripts/currentdate.js" />
+        <option value="$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-6/franklin-6.html" />
       </list>
     </option>
   </component>
@@ -100,10 +148,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
+    <option name="x" value="642" />
     <option name="y" value="22" />
-    <option name="width" value="1111" />
-    <option name="height" value="1028" />
+    <option name="width" value="1038" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -120,8 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -165,12 +211,21 @@
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-6" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,18 +237,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-6" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-3" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-5/styles" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignments/lesson-6/images" />
       <recent name="$PROJECT_DIR$/assignments/lesson-4" />
       <recent name="$PROJECT_DIR$/assignments/lesson-5/images" />
       <recent name="$PROJECT_DIR$/assignments/lesson-5/scripts" />
       <recent name="$PROJECT_DIR$/images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assignments/lesson-6" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-3" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-5/styles" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,15 +381,16 @@
       <workItem from="1518842224997" duration="31000" />
       <workItem from="1518844152271" duration="40000" />
       <workItem from="1518873346286" duration="208000" />
-      <workItem from="1518877199798" duration="6432000" />
+      <workItem from="1518877199798" duration="6599000" />
+      <workItem from="1518897122539" duration="6718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38851000" />
+    <option name="totallyTimeSpent" value="45736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="569" y="22" width="1111" height="1028" extended-state="0" />
+    <frame x="642" y="22" width="1038" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -344,19 +400,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15017986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19076306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -376,27 +432,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-3/fixedhtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-4/franklin-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -646,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/scripts/hamburger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -661,17 +689,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/downtown.jpg" />
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/franklin-original.jpeg">
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/franklin-original.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/hotday.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/sunny.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -687,29 +710,63 @@
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/scripts/currentdate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/sunny.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/images/sunnyicon.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/franklin-6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#1870#1875#0" expanded="true" />
-            <element signature="e#1920#1925#0" expanded="true" />
-            <element signature="e#2882#2887#0" expanded="true" />
-            <element signature="e#2916#2921#0" expanded="true" />
-            <element signature="e#2950#2955#0" expanded="true" />
-            <element signature="e#2984#2989#0" expanded="true" />
-            <element signature="e#3018#3023#0" expanded="true" />
-            <element signature="e#3052#3057#0" expanded="true" />
-            <element signature="e#3086#3091#0" expanded="true" />
-            <element signature="e#3120#3125#0" expanded="true" />
-            <element signature="e#3154#3159#0" expanded="true" />
-            <element signature="e#3188#3193#0" expanded="true" />
-            <element signature="e#4178#4184#0" expanded="true" />
+            <element signature="e#2171#2176#0" expanded="true" />
+            <element signature="e#2221#2226#0" expanded="true" />
+            <element signature="e#3156#3161#0" expanded="true" />
+            <element signature="e#3190#3195#0" expanded="true" />
+            <element signature="e#3224#3229#0" expanded="true" />
+            <element signature="e#3258#3263#0" expanded="true" />
+            <element signature="e#3292#3297#0" expanded="true" />
+            <element signature="e#3326#3331#0" expanded="true" />
+            <element signature="e#3360#3365#0" expanded="true" />
+            <element signature="e#3394#3399#0" expanded="true" />
+            <element signature="e#3428#3433#0" expanded="true" />
+            <element signature="e#3462#3467#0" expanded="true" />
+            <element signature="e#4809#4815#0" expanded="true" />
           </folding>
         </state>
       </provider>
