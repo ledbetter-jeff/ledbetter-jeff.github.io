@@ -1,18 +1,22 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* {
-    font-family: 'Nunito', sans-serif;
-    box-sizing: border-box;
+html {
+    -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
 
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
-.clearfix {
-    overflow: auto;
+.dropdown-content {
+    list-style-type: none;
 }
 
 .subheading {}
 
 body {
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
     min-width:250px;
     overflow: auto;
@@ -28,36 +32,49 @@ header {
     background-color: dodgerblue;
     color: white;
 }
-header h1 {}
-header img {}
-header .subheading {}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
 
 nav {
+    background-color: #ccc;
+    font-family: Verdana, sans-serif;
+
 }
-nav button {
-    display: inline-grid;
 }
 nav ul {
-    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-nav ul li {}
 
 nav ul li a {
-    padding: 8px;
+    display: block;
+    padding: .8rem 2%;
     background-color: #dddddd;
-}
-nav ul li.active a {
-    color: #2f50ea;
-}
-nav ul li a:hover {
-    color: blueviolet;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,.3);
 }
 
-main {}
-main h2 {}
-main figure { }
-main figure img {
+nav ul li#active a {
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.4);
+}
+
+.franklin-img {
+    resize: both;
     max-width: 100%;
+    height: auto;
 }
 
 .forecast {
@@ -69,23 +86,23 @@ section {}
 
 article picture {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
     /* fill the page in the small/phone view */
-    margin: 20px;
+    margin: 1rem 1rem;
     float: right;
 }
 
 .town-article {
-    margin: 0 0 .7rem 2rem;
+    margin: 1rem 1rem 2rem 1rem;
 }
 
 footer {
     background-color: dodgerblue;
     color: white;
-    padding: 1rem 0 .5rem 0;
+    padding: .5rem .5rem;
 }
 
 .contact-info {
     text-align: center;
-    margin: 0 1rem .5rem 1rem;
+    margin:  1rem .5rem;
 }
 
 .footer-bar {
@@ -97,3 +114,12 @@ footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

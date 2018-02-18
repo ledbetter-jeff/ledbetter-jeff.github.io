@@ -13,9 +13,7 @@
         float: left;
     }
     nav ul li a {
-        display: block;
-        padding: 8px;
-        background-color: #dddddd;
+        padding: .6rem 1rem;
     }
     nav ul li.active a {
         color: #2f50ea;
