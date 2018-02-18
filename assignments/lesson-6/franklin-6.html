@@ -22,7 +22,7 @@
 </header>
 
 <!-- site navigation use placeholder references -->
-<nav>
+<nav class="left">
     <button onclick="toggleNavMenu()">&#9776;</button>
     <ul class="dropdown">
         <li class="dropdown-content"><a href="#">Home</a></li>
@@ -35,18 +35,19 @@
 </nav>
 
 <main>
+
     <h2>The City of Franklin</h2>
 
     <figure class="img">
         <picture class="franklin-img">
             <source media="(max-width: 37.5em)"
-                    srcset="images/franklin-small.jpg">
+                    srcset="images/franklin-small.jpg 1000w">
 
             <source media="(max-width: 60em)"
-            srcset="images/franklin-medium.jpg">
+            srcset="images/franklin-medium.jpg 1000w">
 
             <source media="(max-width: 200em)"
-                    srcset="images/franklin-large.jpg">
+                    srcset="images/franklin-large.jpg 1100w">
 
             <img src="images/franklin-original.jpg" alt="Franklin woods">
 
@@ -59,10 +60,11 @@
             <p><strong>Low:</strong> 66&deg;F</p>
         </div>
         <div class="current">
-            <em><strong>Sunny</strong></em>
+
             <picture>
                 <img src="images/sunny.jpg" alt="sunny icon" width="80px">
             </picture>
+            <em><strong>Sunny</strong></em>
         </div>
         <div class="conditions">
             <p><strong>Precipitation:</strong> 0%</p>
@@ -110,13 +112,13 @@
             <picture>
 
                 <source media="(max-width: 37.5em)"
-                        srcset="images/hotday-small.jpg">
+                        srcset="images/hotday-small.jpg 1000w">
 
                 <source media="(max-width: 60em)"
-                        srcset="images/hotday-medium.jpg">
+                        srcset="images/hotday-medium.jpg 1000w">
 
                 <source media="(max-width: 200em)"
-                        srcset="images/hotday-large.jpg">
+                        srcset="images/hotday-large.jpg 1400w">
 
                 <img src="images/hotday-original.jpg" alt="record scorching day">
 

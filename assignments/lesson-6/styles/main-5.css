@@ -11,9 +11,15 @@ html {
 
 .dropdown-content {
     list-style-type: none;
+    min-height:40px;
+    position: sticky;
+    /* Add padding: 0 */
+    border:0px solid transparent;
+    overflow: auto;
 }
 
 .subheading {}
+
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -27,6 +33,9 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
+main {
+    margin: 0 1rem;
+}
 
 header {
     background-color: dodgerblue;
@@ -41,22 +50,19 @@ nav button {
     color: #555;
 }
 
-
 nav {
     background-color: #ccc;
     font-family: Verdana, sans-serif;
-
 }
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 nav ul li a {
     display: block;
     padding: .8rem 2%;
+    width: 100%;
     background-color: #dddddd;
     text-decoration: none;
     color: #000;
