@@ -6,6 +6,12 @@
 
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
+.clearfix {
+    overflow: auto;
+}
+
+.subheading {}
+
 body {
     font-size: 16px;
     min-width:250px;
@@ -47,14 +53,12 @@ nav ul li a:hover {
     color: blueviolet;
 }
 
-article picture {
-    float: right;
-}
-
 main {}
 main h2 {}
-main figure { margin: 0 0 .2rem 2%;}
-main figure img {margin: 0 0 .2rem 1%;}
+main figure { }
+main figure img {
+    max-width: 100%;
+}
 
 .forecast {
     display: none;
@@ -62,15 +66,33 @@ main figure img {margin: 0 0 .2rem 1%;}
 
 section {}
 
-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
+
+article picture {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
     /* fill the page in the small/phone view */
     margin: 20px;
+    float: right;
+}
+
+.town-article {
+    margin: 0 0 .7rem 2rem;
 }
 
 footer {
     background-color: dodgerblue;
     color: white;
+    padding: 1rem 0 .5rem 0;
 }
+
+.contact-info {
+    text-align: center;
+    margin: 0 1rem .5rem 1rem;
+}
+
+.footer-bar {
+    text-align: center;
+    margin: 0 1rem 1rem 1rem;
+}
+
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
