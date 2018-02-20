@@ -9,18 +9,6 @@ html {
     box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
-.dropdown-content {
-    list-style-type: none;
-    min-height:40px;
-    position: sticky;
-    /* Add padding: 0 */
-    border:0px solid transparent;
-    overflow: auto;
-}
-
-.subheading {}
-
-
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
@@ -44,8 +32,7 @@ header {
 
 nav button {
     margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
+    background-color: transparent; border: none;
     font-size: 1.6rem;
     color: #555;
 }
@@ -54,15 +41,24 @@ nav {
     background-color: #ccc;
     font-family: Verdana, sans-serif;
 }
-}
+
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    min-height:40px;
+    position: relative;
+    border:0px solid transparent;
 }
 
 nav ul li a {
     display: block;
     padding: .8rem 2%;
-    width: 100%;
     background-color: #dddddd;
     text-decoration: none;
     color: #000;
@@ -75,6 +71,12 @@ nav ul li#active a {
 }
 nav ul li a:hover {
     background-color: rgba(0,0,0,.4);
+}
+
+
+
+nav ul.hide {
+    display: none;
 }
 
 .franklin-img {

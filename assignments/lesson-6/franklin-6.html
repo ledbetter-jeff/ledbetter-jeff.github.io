@@ -22,9 +22,9 @@
 </header>
 
 <!-- site navigation use placeholder references -->
-<nav class="left">
+<nav class="clearfix">
     <button onclick="toggleNavMenu()">&#9776;</button>
-    <ul class="dropdown">
+    <ul id="toggleNav" class="hide">
         <li class="dropdown-content"><a href="#">Home</a></li>
         <li class="dropdown-content" id="active"><a href="#">Franklin</a></li>
         <li class="dropdown-content"><a href="#">Greenville</a></li>
@@ -35,9 +35,7 @@
 </nav>
 
 <main>
-
     <h2>The City of Franklin</h2>
-
     <figure class="img">
         <picture class="franklin-img">
             <source media="(max-width: 37.5em)"
@@ -146,8 +144,7 @@
 
 <script src="scripts/hamburger.js"></script>
 
-<script src="scripts/currentdate.js">
-</script>
+<script src="scripts/currentdate.js"></script>
 
 </body>
 </html>
