@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+    article p.town-article img { }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+
+}

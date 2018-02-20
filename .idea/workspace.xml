@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/franklin-6.html" afterPath="$PROJECT_DIR$/assignments/lesson-6/franklin-6.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/scripts/hamburger.js" afterPath="$PROJECT_DIR$/assignments/lesson-6/scripts/hamburger.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css" afterPath="$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/franklin-7.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/franklin-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/franklin-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/franklin-original.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/franklin-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/hotday-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/hotday-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/hotday-original.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/hotday-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/sunny.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/images/sunnyicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/scripts/currentdate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/scripts/hamburger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/styles/large-5.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/styles/main-5.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/styles/medium-5.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-7/styles/normalize.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +32,48 @@
       <file leaf-file-name="franklin-6.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/lesson-6/franklin-6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="360">
               <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-5.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="franklin-7.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-7/franklin-7.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hamburger.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-7/scripts/hamburger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-5.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-7/styles/main-5.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-5.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="690">
+              <caret line="46" column="15" lean-forward="false" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -62,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -144,6 +185,9 @@
     <option name="width" value="876" />
     <option name="height" value="941" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -176,38 +220,26 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="lesson-6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-6" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-6" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-6" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -228,18 +260,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assignments/lesson-6" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-3" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-5/styles" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignments/lesson-6/images" />
       <recent name="$PROJECT_DIR$/assignments/lesson-4" />
       <recent name="$PROJECT_DIR$/assignments/lesson-5/images" />
       <recent name="$PROJECT_DIR$/assignments/lesson-5/scripts" />
       <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-7" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-6" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-3" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-5/styles" />
+      <recent name="$PROJECT_DIR$/assignments/lesson-4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,12 +409,12 @@
       <workItem from="1518897122539" duration="10551000" />
       <workItem from="1518924043853" duration="7415000" />
       <workItem from="1519044239902" duration="4174000" />
-      <workItem from="1519071617746" duration="2549000" />
+      <workItem from="1519071617746" duration="3479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63707000" />
+    <option name="totallyTimeSpent" value="64637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="804" y="22" width="876" height="941" extended-state="0" />
@@ -426,27 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="72" lean-forward="false" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenville.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springfield.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -727,23 +739,47 @@
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/franklin-6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/styles/main-5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="690">
+          <caret line="46" column="15" lean-forward="false" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-6/franklin-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-7/scripts/hamburger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-7/styles/main-5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-7/franklin-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
