@@ -9,6 +9,7 @@ html {
     box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
+
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
@@ -25,9 +26,14 @@ main {
     margin: 0 1rem;
 }
 
+.forecastSum {
+    margin: 2rem 0 0 0;
+}
+
 header {
     background-color: dodgerblue;
     color: white;
+    padding: 1rem 1rem;
 }
 
 nav button {
@@ -98,8 +104,12 @@ article picture {  /* This structure refers to img elements that are the posteri
     float: right;
 }
 
+article h3 {
+    margin: 1rem 1rem .3rem 1rem;
+}
+
 .town-article {
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 footer {
@@ -110,7 +120,7 @@ footer {
 
 .contact-info {
     text-align: center;
-    margin:  1rem .5rem;
+    margin:  .5rem 1rem 1rem 1rem;
 }
 
 .footer-bar {
