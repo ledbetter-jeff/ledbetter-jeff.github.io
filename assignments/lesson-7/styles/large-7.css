@@ -3,13 +3,11 @@
 
     article p.town-article img { }
 
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    nav ul li a {
-        padding: .6rem 1rem;
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: .2em;
+        grid-column-gap: 0;
     }
 
 

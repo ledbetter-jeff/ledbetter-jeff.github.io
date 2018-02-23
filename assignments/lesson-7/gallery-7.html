@@ -35,78 +35,85 @@ contains the images and descriptions.
 <!-- site navigation use placeholder references -->
 <nav class="clearfix">
     <button onclick="toggleNavMenu()">&#9776;</button>
-    <ul id="toggleNav" class="hide">
-        <li class="dropdown-content"><a href="#">Home</a></li>
-        <li class="dropdown-content"><a href="franklin-7.html">Franklin</a></li>
-        <li class="dropdown-content"><a href="#">Greenville</a></li>
-        <li class="dropdown-content"><a href="#">Springfield</a></li>
-        <li class="dropdown-content"><a href="#">Storm Center</a></li>
-        <li class="dropdown-content" id="active"><a href="#">Gallery</a></li>
+    <ul id="toggleNav" class="container">
+        <li class="flexItem"><a href="#">Home</a></li>
+        <li class="flexItem"><a href="franklin-7.html">Franklin</a></li>
+        <li class="flexItem"><a href="#">Greenville</a></li>
+        <li class="flexItem"><a href="#">Springfield</a></li>
+        <li class="flexItem"><a href="#">Storm Center</a></li>
+        <li class="flexItem" id="active"><a href="#">Gallery</a></li>
     </ul>
 </nav>
 
 <main>
-
-    <picture class="mountain-top-img">
-        <source media="(max-width: 37.5em)"
-                srcset="images/gallery/small/mountain-top-small.jpg 1000w">
-        <source media="(max-width: 60em)"
-                srcset="images/gallery/medium/mountain-top-medium.jpg 1000w">
-        <source media="(max-width: 200em)"
-                srcset="images/gallery/large/mountain-top-large.jpg 1100w">
-        <img src="images/gallery/original/mountain-top.jpg" alt="Franklin woods">
-    </picture>
-
-    <picture class="spooky-tree-img">
-        <source media="(max-width: 37.5em)"
-                srcset="images/gallery/small/lake-small.jpg 1000w">
-        <source media="(max-width: 60em)"
-                srcset="images/gallery/medium/lake-medium.jpg 1000w">
-        <source media="(max-width: 200em)"
-                srcset="images/gallery/large/lake-large.jpg 1100w">
-        <img src="images/gallery/original/lake.jpg" alt="Franklin woods">
-    </picture>
-
-    <picture class="stars-img">
-        <source media="(max-width: 37.5em)"
-                srcset="images/gallery/small/stars-small.jpg 1000w">
-        <source media="(max-width: 60em)"
-                srcset="images/gallery/medium/stars-medium.jpg 1000w">
-        <source media="(max-width: 200em)"
-                srcset="images/gallery/large/stars-large.jpg 1100w">
-        <img src="images/gallery/original/stars.jpg" alt="Franklin woods">
-    </picture>
-
-    <picture class="tree-img">
-        <source media="(max-width: 37.5em)"
-                srcset="images/gallery/small/tree-small.jpg 1000w">
-        <source media="(max-width: 60em)"
-                srcset="images/gallery/medium/tree-medium.jpg 1000w">
-        <source media="(max-width: 200em)"
-                srcset="images/gallery/large/tree-large.jpg 1100w">
-        <img src="images/gallery/original/tree.jpg" alt="Franklin woods">
-    </picture>
-
-    <picture class="turbines-img">
-        <source media="(max-width: 37.5em)"
-                srcset="images/gallery/small/turbines-small.jpg 1000w">
-        <source media="(max-width: 60em)"
-                srcset="images/gallery/medium/turbines-medium.jpg 1000w">
-        <source media="(max-width: 200em)"
-                srcset="images/gallery/large/turbines-large.jpg 1100w">
-        <img src="images/gallery/original/turbines.jpg" alt="Franklin woods">
-    </picture>
-
-    <picture class="winter-img">
-        <source media="(max-width: 37.5em)"
-                srcset="images/gallery/small/winter-small.jpg 1000w">
-        <source media="(max-width: 60em)"
-                srcset="images/gallery/medium/winter-medium.jpg 1000w">
-        <source media="(max-width: 200em)"
-                srcset="images/gallery/large/winter-large.jpg 1100w">
-        <img src="images/gallery/original/winter.jpg" alt="Franklin woods">
-    </picture>
-
+<div class="wrapper">
+    <div>
+        <picture class="mountain-top-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/mountain-top-small.jpg 1000w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/mountain-top-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/mountain-top-large.jpg 2400w">
+            <img src="images/gallery/original/mountain-top.jpg" alt="Franklin woods">
+        </picture>
+    </div>
+    <div>
+        <picture class="spooky-tree-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/lake-small.jpg 1000w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/lake-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/lake-large.jpg 2400w">
+            <img src="images/gallery/original/lake.jpg" alt="Franklin woods">
+        </picture>
+    </div>
+    <div>
+        <picture class="stars-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/stars-small.jpg 1000w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/stars-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/stars-large.jpg 2400w">
+            <img src="images/gallery/original/stars.jpg" alt="Franklin woods">
+        </picture>
+    </div>
+    <div>
+        <picture class="tree-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/tree-small.jpg 1000w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/tree-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/tree-large.jpg 2400w">
+            <img src="images/gallery/original/tree.jpg" alt="Franklin woods">
+        </picture>
+    </div>
+    <div>
+        <picture class="turbines-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/turbines-small.jpg 1000w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/turbines-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/turbines-large.jpg 2400w">
+            <img src="images/gallery/original/turbines.jpg" alt="Franklin woods">
+        </picture>
+    </div>
+    <div>
+        <picture class="winter-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/winter-small.jpg 1000w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/winter-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/winter-large.jpg 2400w">
+            <img src="images/gallery/original/winter.jpg" alt="Franklin woods">
+        </picture>
+    </div>
+</div>
 </main>
 
 <footer>

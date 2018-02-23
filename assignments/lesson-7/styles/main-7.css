@@ -9,6 +9,24 @@ html {
     box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flexItem {
+
+}
+
+#toggleNav {
+
+}
+
+.wrapper {
+    display: grid;
+    grid-row-gap: .2rem;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -63,7 +81,7 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
+    display: flex;
     padding: .8rem 2%;
     background-color: #dddddd;
     text-decoration: none;
