@@ -1,0 +1,70 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+html {
+    -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+
+* {
+
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+table {
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 10px gray;
+    margin: 2rem;
+}
+
+/*
+      color pallete {
+          color: #e7f0ed; /* data rows: August, October, Black Friday  */
+/*        color: #e7ffed; /* data rows: September, November, December  */
+/*        color: #628ca6; /* heading background and Nov. Goal*/
+/*        color: #7fb9c2; /* header and footer background */
+/*        color: black; /* default text color */
+/*        color: white; /* heading & Nov goal text color */
+/*    }
+*/
+
+.oddStyle {
+    color: white;
+    background-color: #628ca6;
+}
+
+#bFriday {
+    font-style: italic;
+}
+
+th {
+    border: 1px solid darkgray;
+    padding: .3rem .4rem;
+    margin: 0;
+}
+
+td {
+    border: 1px solid darkgray;
+    padding: .4rem .4rem;
+    margin: 0;
+}
+
+table thead tr td {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #7fb9c2;
+    padding: .4rem 0;
+}
+
+table tfoot tr td {
+    font-size: 10px;
+    background-color: #7fb9c2;
+    padding: .3rem 0;
+}
+
+table tbody tr {
+    background-color: #e7f0ed;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}

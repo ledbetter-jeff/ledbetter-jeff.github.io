@@ -111,12 +111,14 @@ table {
     border: black solid 1px;
 }
 
+table, th, td {
+    border: black solid 2px;
+}
+
 th, td {
-    border: black solid 1px;
     text-align: center;
     padding: .1rem .3rem;
 }
-
 
 th {
     background: dodgerblue;
