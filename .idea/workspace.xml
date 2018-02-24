@@ -2,16 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/styles/large-8.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/styles/medium-8.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/styles/normalize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/styles/table.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/tablebuild.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/formbuild/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/franklin-8.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/gallery-8.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/franklin-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/franklin-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/franklin-original.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/franklin-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/hotday-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/hotday-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/hotday-original.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/hotday-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/sunny.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/franklin/sunnyicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/lake-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/mountain-top-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/spooky-tree-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/stars-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/tree-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/turbines-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/large/winter-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/lake-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/mountain-top-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/spooky-tree-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/stars-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/tree-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/turbines-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/medium/winter-medium.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/lake.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/mountain-top.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/spooky-tree.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/stars.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/tree.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/turbines.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/original/winter.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/lake-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/mountain-top-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/spooky-tree-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/stars-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/tree-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/turbines-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/images/gallery/small/winter-small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/scripts/currentdate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/scripts/hamburger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/scripts/windchill.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/stormcenter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-8/styles/main-8.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-7/franklin-7.html" afterPath="$PROJECT_DIR$/assignments/lesson-7/franklin-7.html" />
       <change beforePath="$PROJECT_DIR$/assignments/lesson-7/gallery-7.html" afterPath="$PROJECT_DIR$/assignments/lesson-7/gallery-7.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-7/styles/large-7.css" afterPath="$PROJECT_DIR$/assignments/lesson-7/styles/large-7.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-7/styles/main-7.css" afterPath="$PROJECT_DIR$/assignments/lesson-7/styles/main-7.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,31 +60,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tablebuild.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-8/tablebuild.html">
+      <file leaf-file-name="stormcenter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-8/stormcenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="375">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-7.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-7/styles/main-7.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="table.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/lesson-8/styles/table.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-8.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-8/styles/main-8.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="franklin-8.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-8/franklin-8.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery-8.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-8/gallery-8.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1686">
+              <caret line="125" column="116" lean-forward="false" selection-start-line="125" selection-start-column="116" selection-end-line="125" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -64,6 +122,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>float</find>
+      <find>newsl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +171,11 @@
         <option value="$PROJECT_DIR$/assignments/lesson-8/tablebuild.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/styles/main-8.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/styles/table.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-8/formbuild/index.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-8/formbuild/css/phone-default.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-8/franklin-8.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-8/gallery-8.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-8/stormcenter.html" />
       </list>
     </option>
   </component>
@@ -122,9 +186,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="585" />
+    <option name="x" value="866" />
     <option name="y" value="22" />
-    <option name="width" value="1095" />
+    <option name="width" value="814" />
     <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -161,27 +225,7 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -223,18 +267,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-8/formbuild" />
       <recent name="$PROJECT_DIR$/assignments/lesson-7/images/gallery/original" />
       <recent name="$PROJECT_DIR$/assignments/lesson-7/images/gallery/large" />
       <recent name="$PROJECT_DIR$/assignments/lesson-7/images/gallery/medium" />
       <recent name="$PROJECT_DIR$/assignments/lesson-7/images/gallery/small" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-7/images/gallery" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-8/styles" />
       <recent name="$PROJECT_DIR$/assignments/lesson-8" />
       <recent name="$PROJECT_DIR$/assignments/lesson-7" />
       <recent name="$PROJECT_DIR$/assignments/lesson-6" />
       <recent name="$PROJECT_DIR$/assignments/lesson-3" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-5/styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,15 +422,15 @@
       <workItem from="1519307593963" duration="4539000" />
       <workItem from="1519393448388" duration="8970000" />
       <workItem from="1519439033178" duration="353000" />
-      <workItem from="1519481301798" duration="6256000" />
+      <workItem from="1519481301798" duration="12933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94290000" />
+    <option name="totallyTimeSpent" value="100967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="22" width="1095" height="941" extended-state="0" />
+    <frame x="866" y="22" width="814" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -401,8 +445,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1671415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22279793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928312" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -414,7 +459,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,43 +472,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basicpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-4/rexburg-flight.html" />
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-4/rexburg-flight.html" />
-    <entry file="file://$PROJECT_DIR$/styles/fixme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basicpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -704,26 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-7/gallery-7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="45" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-7/franklin-7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/tablebuild.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -736,10 +727,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/tablebuild.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/formbuild/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="19" lean-forward="true" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/formbuild/css/phone-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-7/gallery-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="47" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/scripts/hamburger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/franklin-8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/gallery-8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1686">
+          <caret line="125" column="116" lean-forward="false" selection-start-line="125" selection-start-column="116" selection-end-line="125" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/styles/main-8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-8/styles/table.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/stormcenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>
