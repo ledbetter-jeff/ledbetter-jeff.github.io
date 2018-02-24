@@ -15,8 +15,17 @@ html {
 
 }
 
+.caption {
+    text-align: match-parent;
+}
+
 .flexItem {
 
+}
+
+
+img:hover {
+    box-shadow: 5px 5px 10px gray;
 }
 
 #toggleNav {
@@ -26,6 +35,7 @@ html {
 .wrapper {
     display: grid;
     grid-row-gap: .2rem;
+    padding: 1rem 0;
 }
 
 body {
@@ -97,16 +107,34 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,.4);
 }
 
+table {
+    border: black solid 1px;
+}
 
+th, td {
+    border: black solid 1px;
+    text-align: center;
+    padding: .1rem .3rem;
+}
+
+
+th {
+    background: dodgerblue;
+    color: white;
+    font-size: 17px;
+}
+
+td {
+    background: deepskyblue;
+    color: white;
+}
+
+.forecast-details {
+    margin-left: 2rem;
+}
 
 nav ul.hide {
     display: none;
-}
-
-.franklin-img {
-    resize: both;
-    max-width: 100%;
-    height: auto;
 }
 
 .forecast {
@@ -116,6 +144,7 @@ nav ul.hide {
 section {}
 
 
+
 article picture {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
     /* fill the page in the small/phone view */
     margin: 1rem 1rem;
@@ -123,11 +152,11 @@ article picture {  /* This structure refers to img elements that are the posteri
 }
 
 article h3 {
-    margin: 1rem 1rem .3rem 1rem;
+    margin: 1.5rem 1rem .3rem 0;
 }
 
 .town-article {
-    margin: 0 1rem 1rem 1rem;
+    margin: 0 1rem 1rem 2rem;
 }
 
 footer {
