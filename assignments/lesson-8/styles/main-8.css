@@ -1,13 +1,16 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
 html {
-    -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 }
 
 * {
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
+
+#stormchaser {
+    display: block;
+}
 
 .container {
     display: flex;
@@ -23,6 +26,9 @@ html {
 
 }
 
+form {
+    display: inline-block;
+}
 
 img:hover {
     box-shadow: 5px 5px 10px gray;
