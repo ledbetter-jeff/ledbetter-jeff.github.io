@@ -8,9 +8,6 @@ html {
     box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
-#stormchaser {
-    display: block;
-}
 
 .container {
     display: flex;
@@ -26,8 +23,54 @@ html {
 
 }
 
-form {
-    display: inline-block;
+
+main form label {
+    display: block;
+    margin: 1em 0;
+}
+
+#ratingvalue {
+    display: inline;
+}
+
+#dropdown {
+    margin: .2em 0;
+}
+
+main form span {
+    display: block;
+}
+
+label textarea {
+    margin: .2em 0;
+}
+
+#comments {
+    margin: 2em  0;
+}
+
+fieldset {
+    margin: 2em 0;
+    background-color: gainsboro;
+}
+
+form legend {
+    font-size: 20px;
+    border: darkgray solid 1px;
+    padding: 1%;
+    background-color: white;
+}
+
+
+
+
+
+.radioIndent {
+    margin-left: 1em;
+}
+
+.radioIndent span {
+    display: inline;
 }
 
 img:hover {
