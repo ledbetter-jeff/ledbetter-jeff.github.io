@@ -1,6 +1,8 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-html {
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 * {
@@ -27,6 +29,11 @@ form button {
     padding: 1% 2%;
 
 }
+
+.push   {
+    padding: 0 0 60% 0;
+}
+
 
 
 main form label {
@@ -230,6 +237,11 @@ footer {
     text-align: center;
     margin: 0 1rem 1rem 1rem;
 }
+
+footer {
+    position: absolute;
+}
+
 
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
