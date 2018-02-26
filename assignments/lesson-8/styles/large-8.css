@@ -3,13 +3,8 @@
 
     article p.town-article img { }
 
-    .wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-row-gap: .2em;
-        grid-column-gap: 0;
-    }
+    .wrapper {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-row-gap: .2em; grid-column-gap: 0;}
 
-    nav button { display:none; }
+    nav button {display:none;}
 
 }
