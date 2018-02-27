@@ -6,8 +6,6 @@
 *******************   Main Elements   ********************
 */
 
-header, nav, main, footer {}
-
 header {background-color: dodgerblue; color: white; padding: 1rem 1rem;}
 
 body {font-family: 'Nunito', sans-serif; font-size: 16px; min-width:250px; overflow: auto;}
@@ -41,12 +39,9 @@ nav ul li a:hover {background-color: rgba(0,0,0,.4);}
 
 nav button {margin: .2rem 2%; background-color: transparent; border: none; font-size: 1.6rem; color: #555;}
 
-
 #dropdown {margin: .2em 0;}
 
 .container {display: flex; flex-direction: column;}
-
-.flexItem {}
 
 /*
 *******************   Image Styling   ********************
@@ -57,6 +52,8 @@ img:hover {box-shadow: 5px 5px 10px gray;}
 article picture {margin: 1rem 1rem; float: right;}
 
 .caption {text-align: match-parent;}
+
+.wrapper {display: grid; grid-row-gap: .2rem; padding: 1rem 0;} /* Gallery Page - Grid layout styling */
 
 /*
 *******************   Article Styling   ********************
@@ -89,6 +86,9 @@ label textarea {margin: .2em 0;}
 
 form button {padding: 1% 2%;}
 
+.push {padding: 0 0 60% 0;} /* Styling for the thanks.html page */
+
+
 /*
 *******************   Forecast Styling   ********************
 */
@@ -113,14 +113,6 @@ th {background: dodgerblue; color: white; font-size: 17px;}
 
 td {background: deepskyblue; color: white;}
 
-
-/*
-*******************   ??? Mystery ???   ********************
-*/
-
-.push {padding: 0 0 60% 0;}
-
-.wrapper {display: grid; grid-row-gap: .2rem; padding: 1rem 0;}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 
