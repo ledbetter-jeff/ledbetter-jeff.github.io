@@ -6,13 +6,13 @@
 *******************   Main Elements   ********************
 */
 
-header {background-color: dodgerblue; color: white; padding: 1rem 1rem;}
+header {background-color: #1d4690; color: white; padding: 1rem 1rem;}
 
-body {font-family: 'Nunito', sans-serif; font-size: 16px; min-width:250px; overflow: auto;}
+body {font-family: 'Lato', sans-serif; font-size: 16px; min-width:250px; overflow: auto;}
 
 main {margin: 0 1rem;}
 
-footer {background-color: dodgerblue; color: white; padding: .5rem .5rem;
+footer {background-color: #1d4690; color: white; padding: .5rem .5rem;
     width: 100%;}
 
 .footer-bar {text-align: center; margin: 0 1rem 1rem 1rem;}
@@ -23,7 +23,7 @@ footer {background-color: dodgerblue; color: white; padding: .5rem .5rem;
 *******************   Nav Styling   ********************
 */
 
-nav {background-color: #ccc; font-family: Verdana, sans-serif;}
+nav {background-color: #ccc; font-family: "Lato", sans-serif;}
 
 nav ul.hide {display: none;}
 
@@ -31,7 +31,8 @@ nav ul {list-style-type: none; padding: 0; margin: 0;}
 
 nav ul li {list-style-type: none; min-height:40px; position: relative; border:0px solid transparent;}
 
-nav ul li a {display: flex; padding: .8rem 2%; background-color: #dddddd; text-decoration: none; color: #000; border-top: 1px solid rgba(0,0,0,.3);}
+nav ul li a {display: flex; padding: .8rem 2%; background-color: #dddddd;
+    font-size: 18px; text-decoration: none; color: #000; border-top: 1px solid rgba(0,0,0,.3);}
 
 nav ul li#active a {background-color: rgba(0,0,0,.2); color: #fff;}
 
@@ -108,7 +109,7 @@ table, th, td {border: black solid 2px;}
 
 th, td {text-align: center; padding: .1rem .3rem;}
 
-th {background: dodgerblue; color: white; font-size: 17px;}
+th {background: #1d4690; color: white; font-size: 17px;}
 
 td {background: deepskyblue; color: white;}
 
