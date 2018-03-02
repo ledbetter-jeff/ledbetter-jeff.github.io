@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/assignments/lesson-8/stormcenter-8.html" afterPath="$PROJECT_DIR$/assignments/lesson-8/stormcenter-8.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +26,10 @@
       <file leaf-file-name="stormcenter-8.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/lesson-8/stormcenter-8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            <state relative-caret-position="570">
+              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding>
-                <element signature="e#5348#5354#0" expanded="true" />
+                <element signature="e#5294#5300#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -476,12 +475,12 @@
       <workItem from="1519778671192" duration="104000" />
       <workItem from="1519846866240" duration="1811000" />
       <workItem from="1519955539586" duration="2894000" />
-      <workItem from="1519959095794" duration="118000" />
+      <workItem from="1519959095794" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127202000" />
+    <option name="totallyTimeSpent" value="127324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="195" y="22" width="1401" height="941" extended-state="0" />
@@ -879,10 +878,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-8/stormcenter-8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="570">
+          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
           <folding>
-            <element signature="e#5348#5354#0" expanded="true" />
+            <element signature="e#5294#5300#0" expanded="true" />
           </folding>
         </state>
       </provider>
