@@ -1,80 +1,76 @@
 {
-  "squadName" : "Super hero squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
+  "squadName" : "Favorite Players",
+  "homeTown" : "Lawrence, Kansas",
+  "formed" : 1898,
+  "secretBase" : "Allen Fieldhouse",
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Wayne Simien",
+      "age" : 34,
+      "secretIdentity" : "Reverend",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Dunking hard",
+        "Bully ball",
+        "Community service"
       ]
     },
     {
-      "name" : "Madame Uppercut",
+      "name" : "Kirk Hinrich",
       "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "secretIdentity" : "Ratigan",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Deep ball",
+        "Lockdown-d",
+        "Dribbles"
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "name" : "Drew Gooden",
+      "age" : 36,
+      "secretIdentity" : "Baldy",
       "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Junk shots",
+        "Comedy",
+        "D",
       ]
     }
   ]
 }{
-  "squadName" : "Super hero squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
+  "squadName" : "Favorite Players",
+  "homeTown" : "Lawrence, Kansas",
+  "formed" : 1898,
+  "secretBase" : "Allen Fieldhouse",
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Perry Ellis",
+      "age" : 27,
+      "secretIdentity" : "40-year old Freshman",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Fundamentals",
+        "Driving",
+        "Silent Assasin"
       ]
     },
     {
-      "name" : "Madame Uppercut",
+      "name" : "Wayne Selden",
       "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "secretIdentity" : "Air McDunkins",
       "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Power Jam",
+        "Clutch 3",
+        "Lazer Eyes"
       ]
     },
     {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
+      "name" : "Joel Embiid",
+      "age" : 25,
+      "secretIdentity" : "Wilt 2.0",
       "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Motumbo D",
+        "Sweet touch",
+        "Twitter beast",
       ]
     }
   ]
