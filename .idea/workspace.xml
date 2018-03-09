@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/styles/style.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/styles/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,8 @@
           <file leaf-file-name="favorite-players.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/lesson-9/favorite-players.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="435">
+                  <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -38,8 +38,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/assignments/lesson-9/heroes.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/heroesText.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/superheroes.json" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/style.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/style.css" />
       </list>
     </option>
   </component>
@@ -420,12 +420,12 @@
       <workItem from="1520142588129" duration="158000" />
       <workItem from="1520279888311" duration="1664000" />
       <workItem from="1520367723324" duration="453000" />
-      <workItem from="1520451964779" duration="3494000" />
+      <workItem from="1520451964779" duration="3774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134371000" />
+    <option name="totallyTimeSpent" value="134651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="22" width="1578" height="941" extended-state="0" />
@@ -789,14 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/heroes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -821,10 +813,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/favorite-players.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding />
         </state>
       </provider>
