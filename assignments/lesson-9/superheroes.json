@@ -22,7 +22,7 @@
       "powers" : [
         "Deep ball",
         "Lockdown-d",
-        "Dribbles"
+        "Dribbles";
       ]
     },
     {
@@ -32,45 +32,7 @@
       "powers" : [
         "Junk shots",
         "Comedy",
-        "D",
-      ]
-    }
-  ]
-}{
-  "squadName" : "Favorite Players",
-  "homeTown" : "Lawrence, Kansas",
-  "formed" : 1898,
-  "secretBase" : "Allen Fieldhouse",
-  "active" : true,
-  "members" : [
-    {
-      "name" : "Perry Ellis",
-      "age" : 27,
-      "secretIdentity" : "40-year old Freshman",
-      "powers" : [
-        "Fundamentals",
-        "Driving",
-        "Silent Assasin"
-      ]
-    },
-    {
-      "name" : "Wayne Selden",
-      "age" : 39,
-      "secretIdentity" : "Air McDunkins",
-      "powers" : [
-        "Power Jam",
-        "Clutch 3",
-        "Lazer Eyes"
-      ]
-    },
-    {
-      "name" : "Joel Embiid",
-      "age" : 25,
-      "secretIdentity" : "Wilt 2.0",
-      "powers" : [
-        "Motumbo D",
-        "Sweet touch",
-        "Twitter beast",
+        "D"
       ]
     }
   ]
