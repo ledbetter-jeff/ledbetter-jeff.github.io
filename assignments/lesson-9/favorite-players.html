@@ -5,7 +5,7 @@
 
     <title>Our superheroes</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">-->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -19,10 +19,15 @@
 
 </section>
 
+<!--
+https://ledbetter-jeff.github.io/assignments/lesson-9/superheroes.json
+-->
+
+
 <script>
     var header = document.querySelector('header');
     var section = document.querySelector('section');
-    var requestURL = 'https://ledbetter-jeff.github.io/assignments/lesson-9/superheroes.json';
+    var requestURL = 'favPlayers.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'text';

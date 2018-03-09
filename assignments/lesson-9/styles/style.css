@@ -1,7 +1,9 @@
 /* || general styles */
 
 html {
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-family: 'Arial', arial, sans-serif;
+    background-color: dodgerblue;
+    color: white;
 }
 
 body {
