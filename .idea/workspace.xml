@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-9/images/home-page/desert-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-9/images/home-page/desert-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-9/images/home-page/desert-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-9/images/home-page/desert.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/sanFran.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" />
       <change beforePath="$PROJECT_DIR$/assignments/lesson-9/index.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/index.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,21 +21,21 @@
         <splitter split-orientation="horizontal" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assignments/lesson-9/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="869">
-                      <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+                    <state relative-caret-position="125">
+                      <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="favorite-players.html" pinned="false" current-in-tab="false">
+              <file leaf-file-name="favorite-players.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assignments/lesson-9/favorite-players.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="459">
-                      <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+                    <state relative-caret-position="172">
+                      <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
                       <folding />
                     </state>
                   </provider>
@@ -53,8 +48,8 @@
               <file leaf-file-name="wu-weather.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="816">
-                      <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+                    <state relative-caret-position="340">
+                      <caret line="20" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -63,8 +58,8 @@
               <file leaf-file-name="favorite-players.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/assignments/lesson-9/favorite-players.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="607">
-                      <caret line="49" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="7" />
+                    <state relative-caret-position="209">
+                      <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -76,7 +71,17 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main-9.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sanFran.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/sanFran.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1530">
+                  <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main-9.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="152">
@@ -127,8 +132,8 @@
       <find>font</find>
       <find>thanks</find>
       <find>flexit</find>
-      <find>grid</find>
       <find>onload</find>
+      <find>grid</find>
     </findStrings>
     <replaceStrings>
       <replace>Roboto</replace>
@@ -146,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/lesson-6/scripts/currentdate.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-6/scripts/hamburger.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-6/styles/large-5.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-6/styles/medium-5.css" />
@@ -190,13 +194,14 @@
         <option value="$PROJECT_DIR$/assignments/lesson-9/heroesText.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/superheroes.json" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/styles/style.css" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/wu-weather.js" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/index.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/sanFran.json" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/index.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" />
       </list>
     </option>
   </component>
@@ -261,12 +266,6 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -493,16 +492,15 @@
       <workItem from="1520451964779" duration="4283000" />
       <workItem from="1520624686935" duration="183000" />
       <workItem from="1520650723861" duration="186000" />
-      <workItem from="1520691404579" duration="5490000" />
+      <workItem from="1520691404579" duration="8909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141019000" />
+    <option name="totallyTimeSpent" value="144438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -516,7 +514,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14713065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14713065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -543,13 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-7/scripts/windchill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-6/franklin-6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -883,26 +874,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/index.html">
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/sanFran.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        <state relative-caret-position="1530">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/favorite-players.html">
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="49" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="7" />
+        <state relative-caret-position="125">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/favorite-players.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
       </provider>
