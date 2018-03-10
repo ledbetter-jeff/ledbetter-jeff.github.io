@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
 
-    <title>KU Greats</title>
+    <title>Our superheroes</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="https://ledbetter-jeff.github.io/assignments/lesson-9/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,20 +19,16 @@
 
 </section>
 
-<!--  https://ledbetter-jeff.github.io/assignments/lesson-9/favoriteplayers.json  -->
-
-
 <script>
     var header = document.querySelector('header');
     var section = document.querySelector('section');
-    var requestURL = 'scripts/favPlayers.json';
+    var requestURL = 'scripts/jsonPractice.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
-    request.responseType = 'text';
+    request.responseType = 'json';
     request.send();
     request.onload = function() {
-        var superHeroesText = request.response;
-        var superHeroes = JSON.parse(superHeroesText);
+        var superHeroes = request.response;
         populateHeader(superHeroes);
         showHeroes(superHeroes);
     }
@@ -73,6 +69,4 @@
     }
 </script>
 </body>
-</html>
-
 </html>
