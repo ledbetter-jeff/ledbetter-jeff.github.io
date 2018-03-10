@@ -12,7 +12,7 @@
     <link href="styles/main-9.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium-9.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large-9.css" rel="stylesheet">   <!-- large/wide/desktop views -->
-    <!-- https://ledbetter-jeff.github.io/assignments/lesson-9/home-9.html   -->
+    <!-- https://ledbetter-jeff.github.io/assignments/lesson-9/index-9.html   -->
 </head>
 <body onload="doWC()">
 
@@ -36,99 +36,19 @@
 </nav>
 
 <main>
-    <h2>WeatherBud Home Page</h2>
-    <figure class="img">
-        <picture class="franklin-img">
-            <source media="(max-width: 37.5em)"
-                    srcset="images/franklin/franklin-small.jpg 900w">
-            <source media="(max-width: 60em)"
-                    srcset="images/franklin/franklin-medium.jpg 1100w">
-            <source media="(max-width: 200em)"
-                    srcset="images/franklin/franklin-large.jpg 1200w">
-            <img src="images/franklin/franklin-original.jpg" alt="Franklin woods">
-        </picture>
-    </figure>
-
-    <section>
-        <h2 class="forecastSum">Weather Summary</h2>
-        <div class="forecast-details">
-            <p><strong>High:</strong> 90&deg;F</p>
-            <p><strong>Low:</strong> 66&deg;F</p>
-            <picture>
-                <img src="images/franklin/sunny.jpg" alt="sunny icon" width="80px">
-            </picture>
-            <em><strong> ~ Sunny</strong></em>
-            <p><strong>Precipitation:</strong> 0%</p>
-            <p><strong>Wind Speed:</strong> 5mph SW</p>
-            <div id="windchill"></div>
-        </div>
-    </section>
-
-    <section class="forecast">
-        <h3>10 Day Forecast</h3>
-        <table>
-            <thead>
-            <tr>
-                <th>Day 1</th>
-                <th>Day 2</th>
-                <th>Day 3</th>
-                <th>Day 4</th>
-                <th>Day 5</th>
-                <th>Day 6</th>
-                <th>Day 7</th>
-                <th>Day 8</th>
-                <th>Day 9</th>
-                <th>Day 10</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>89&deg;F</td>
-                <td>87&deg;F</td>
-                <td>78&deg;F</td>
-                <td>75&deg;F</td>
-                <td>72&deg;F</td>
-                <td>72&deg;F</td>
-                <td>79&deg;F</td>
-                <td>83&deg;F</td>
-                <td>85&deg;F</td>
-                <td>89&deg;F</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
-
     <article class="clearfix">
         <h3>WeatherBud Article</h3>
 
         <picture>
             <source media="(max-width: 37.5em)"
-                    srcset="images/franklin/hotday-small.jpg 700w">
+                    srcset="images/home-page/desert-small.jpg 1100w">
             <source media="(max-width: 60em)"
-                    srcset="images/franklin/hotday-medium.jpg 1100w">
+                    srcset="images/home-page/desert-medium.jpg 1800w">
             <source media="(max-width: 200em)"
-                    srcset="images/franklin/hotday-large.jpg 1600w">
-            <img src="images/franklin/hotday-original.jpg" alt="record scorching day">
+                    srcset="images/home-page/desert-large.jpg 2500w">
+            <img src="images/home-page/desert.jpg" alt="record scorching day">
         </picture>
         <div class="town-article">
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
             <p>
                 Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -141,6 +61,30 @@
         </div>
     </article>
 
+    <div class="wrapper">
+        <div class="franklin-div">
+            <h2>Franklin</h2>
+            <p>Town stats:</p>
+            <p>Current temp:</p>
+            <p>More information:</p>
+        </div>
+        <div class="greenville-div">
+            <h2>Greenville</h2>
+            <p>Town stats:</p>
+            <p>Current temp:</p>
+            <p>More information:</p>
+        </div>
+        <div class="springfield-div">
+            <h2>Springfield</h2>
+            <p>Town stats:</p>
+            <p>Current temp:</p>
+            <p>More information:</p>
+        </div>
+    </div>
+
+
+
+
 </main>
 
 <footer>
@@ -150,7 +94,7 @@
     <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &&nbsp WeatherBug &nbsp | &nbsp <span id="currentdate">Current Date Placeholder</span></p>
 
 </footer>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/wu-weather.js"></script>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/currentdate.js"></script>
 
