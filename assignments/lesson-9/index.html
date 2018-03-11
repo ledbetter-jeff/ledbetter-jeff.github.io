@@ -14,7 +14,10 @@
     <link href="styles/large-9.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     <!-- https://ledbetter-jeff.github.io/assignments/lesson-9/index-9.html   -->
 </head>
+
+<!--
 <body onload="doWC()">
+-->
 
 <header>
     <img id="siteIcon" src="images/franklin/sunnyicon.jpg" alt="The site logo" width="80px">
@@ -61,29 +64,29 @@
         </div>
     </article>
 
-<!--    <div class="wrapper">
+    <div class="wrapper">
         <div class="franklin-div">
-            <h2>Franklin</h2>
-            <p>Town stats:</p>
-            <p>Current temp:</p>
-            <p>More information:</p>
+            <h2><span id="fPlace">City, State</span></h2>
+            <p>Year Founded: <span id="fFound"></span></p>
+            <p>Population: <span id="fPop"></span></p>
+            <p>Current Temp: <span id="fTemp"></span>&deg; </p>
+            <img id="fw_icon" alt="current weather">
         </div>
         <div class="greenville-div">
-            <h2>Greenville</h2>
-            <p>Town stats:</p>
-            <p>Current temp:</p>
-            <p>More information:</p>
+            <h2><span id="gPlace">City, State</span></h2>
+            <p>Year Founded: <span id="gFound"></span></p>
+            <p>Population: <span id="gPop"></span></p>
+            <p>Current Temp: <span id="gTemp"></span>&deg; </p>
+            <img id="gw_icon" alt="current weather">
         </div>
         <div class="springfield-div">
-            <h2>Springfield</h2>
-            <p>Town stats:</p>
-            <p>Current temp:</p>
-            <p>More information:</p>
+            <h2><span id="sPlace">City, State</span></h2>
+            <p>Year Founded: <span id="sFound"></span></p>
+            <p>Population: <span id="sPop"></span></p>
+            <p>Current Temp: <span id="sTemp"></span>&deg; </p>
+            <img id="sw_icon" alt="current weather">
         </div>
-    </div>-->
-
-
-
+    </div>
 
 </main>
 
@@ -91,89 +94,10 @@
     <aside>
         <p class="contact-info">Weather Bud <br> 123 Main St. <br> Franklin, ID 83454 <br> 999-999-9999 <br> weather@weatherbud.com</p>
     </aside>
-    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &&nbsp WeatherBug &nbsp | &nbsp <span id="currentdate">Current Date Placeholder</span></p>
+    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &&nbsp WeatherBug &nbsp | &nbsp <span id="fCurrentDate">Current Date Placeholder</span></p>
 
 </footer>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-
-<script>
-
-    jQuery(document).ready(function($) {
-        $.ajax({
-            url : "http://api.wunderground.com/api/a4a4356fb4e85dd7/geolookup/conditions/q/MN/Franklin.json",
-            dataType : "jsonp",
-            success : function(parsed_json) {
-                var location = parsed_json['current_observation']['display_location']['city'];
-                var temp_f = parsed_json['current_observation']['temp_f'];
-                var conditions = parsed_json['current_observation']['weather'];
-                var wind = parsed_json['current_observation']['wind_mph'];
-                var icon = parsed_json['current_observation']['icon'];
-
-                alert(icon + "City: " + location + "| " + "Conditions: " + temp_f + " and " + conditions + " " + "Wind speed:" + wind);
-            }
-        });
-    });
-
-
-    jQuery(document).ready(function($) {
-        $.ajax({
-            url : "https://byui-cit230.github.io/weather/data/towndata.json",
-            dataType : "text",
-            success : function(parsed_json) {
-                var name = parsed_json['towns']['name'];
-                var motto = parsed_json['towns']['motto'];
-                var yearFounded = parsed_json['towns']['yearFounded'];
-                var population = parsed_json['towns']['currentPopulation'];
-                var annualRainfall = parsed_json['towns']['averageRainfall'];
-
-                alert(name + " | " + motto + " | " + yearFounded + " | " + population + " | " + annualRainfall);
-            }
-        });
-    });
-/*
-    var section = document.querySelector('section');
-    var requestURL = 'scripts/franklinMN.json';
-    var request = new XMLHttpRequest();
-
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-
-    request.onload = function() {
-        var weatherDataText = request.response;
-        var weatherData = JSON.parse(weatherDataText);
-        showTownData(weatherData);
-    }
-    function showTownData(jsonObj) {
-        var towns = jsonObj['conditions'];
-        for (var i = 0; towns.length; i++) {
-            var myArticle = document.createElement('article');
-            var myH2 = document.createElement('h2');
-            var myPara1 = document.createElement('p');
-            var myPara2 = document.createElement('p');
-            var myPara3 = document.createElement('p');
-            myH2.textContent = towns[i].full;
-            myPara1.textContent = 'Current temp: ' + towns[i].currrent_observation.temp_f;
-            myPara2.textContent = 'Wind: ' + towns[i].current_observation.wind_string;
-            myPara3.textContent = 'Feels like: ' + towns[i].current_observation.feelslike_string;
-
-            myArticle.appendChild(myH2);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            section.appendChild(myArticle);
-        }
-    }
-*/
-
-
-</script>
-
-<!--
-<script src="scripts/wu-weather.js"></script>
--->
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/currentdate.js"></script>
-
+    <script src="scripts/wu-weather.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

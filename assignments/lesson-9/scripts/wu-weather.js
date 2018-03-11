@@ -1,37 +1,87 @@
 
-var header = document.querySelector('header');
-var section = document.querySelector('section');
-var requestURL = 'scripts/franklinMN.json';
 
-/*
-var requestURL = 'http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json';
-*/
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'text';
-request.send();
-request.onload = function() {
-    var weatherDataText = request.response;
-    var weatherData = JSON.parse(weatherDataText);
-    showTownData(weatherData);
-}
-function showTownData(jsonObj) {
-    var towns = jsonObj['members'];
-    for(var i = 0; i < 4; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        myH2.textContent = towns[i].display_location.full;
-        myPara1.textContent = 'Current temp: ' + towns[i].current_observation.temp_f;
-        myPara2.textContent = 'Wind: ' + towns[i].current_observation.wind_string;
-        myPara3.textContent = 'Feel like: ' + towns[i].current_observation.feelslike_string;
+var fWeatherObject = new XMLHttpRequest();
 
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-        myArticle.appendChild(myPara3);
-        section.appendChild(myArticle);
-    }
-}
+fWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
+
+fWeatherObject.send();
+
+fWeatherObject.onload = function () {
+
+    var fWeatherInfo = JSON.parse(fWeatherObject.responseText);
+    console.log(fWeatherInfo);
+
+    document.getElementById('fPlace').innerHTML = fWeatherInfo.current_observation.display_location.full;
+    document.getElementById('fTemp').innerHTML = fWeatherInfo.current_observation.temp_f;
+    document.getElementById('fw_icon').src = fWeatherInfo.current_observation.icon_url;
+
+    document.getElementById('fCurrentDate').innerHTML = fWeatherInfo.current_observation.observation_time_rfc822;
+
+} // End of onload
+
+var gWeatherObject = new XMLHttpRequest();
+
+gWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/AL/Greenville.json',true);
+
+gWeatherObject.send();
+
+gWeatherObject.onload = function () {
+
+    var gWeatherInfo = JSON.parse(gWeatherObject.responseText);
+    console.log(gWeatherInfo);
+
+    document.getElementById('gPlace').innerHTML = gWeatherInfo.current_observation.display_location.full;
+    document.getElementById('gTemp').innerHTML = gWeatherInfo.current_observation.temp_f;
+    document.getElementById('gw_icon').src = gWeatherInfo.current_observation.icon_url;
+
+    document.getElementById('gCurrentDate').innerHTML = gWeatherInfo.current_observation.observation_time_rfc822;
+
+
+} // End of onload
+
+var sWeatherObject = new XMLHttpRequest();
+
+sWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MO/Springfield.json',true);
+
+sWeatherObject.send();
+
+sWeatherObject.onload = function () {
+
+    var sWeatherInfo = JSON.parse(sWeatherObject.responseText);
+    console.log(sWeatherInfo);
+
+    document.getElementById('sPlace').innerHTML = sWeatherInfo.current_observation.display_location.full;
+    document.getElementById('sTemp').innerHTML = sWeatherInfo.current_observation.temp_f;
+    document.getElementById('sw_icon').src = sWeatherInfo.current_observation.icon_url;
+
+    document.getElementById('sCurrentDate').innerHTML = sWeatherInfo.current_observation.observation_time_rfc822;
+
+
+
+
+} // End of onload
+
+
+
+var townObject = new XMLHttpRequest();
+
+townObject.open('GET','https://byui-cit230.github.io/weather/data/towndata.json',true);
+
+townObject.send();
+
+townObject.onload = function () {
+
+    var townInfo = JSON.parse(townObject.responseText);
+    console.log(townInfo);
+
+    document.getElementById('fPop').innerHTML = townInfo.towns["0"].currentPopulation;
+    document.getElementById('fFound').innerHTML = townInfo.towns["0"].yearFounded;
+
+    document.getElementById('gPop').innerHTML = townInfo.towns["1"].currentPopulation;
+    document.getElementById('gFound').innerHTML = townInfo.towns["1"].yearFounded;
+
+
+    document.getElementById('sPop').innerHTML = townInfo.towns["3"].currentPopulation;
+    document.getElementById('sFound').innerHTML = townInfo.towns["3"].yearFounded;
+
+} // End of onload
