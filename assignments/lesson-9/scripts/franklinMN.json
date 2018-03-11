@@ -1,0 +1,238 @@
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "geolookup": 1
+    ,
+      "conditions": 1
+    }
+  }
+,	"location": {
+  "type":"CITY",
+  "country":"US",
+  "country_iso3166":"US",
+  "country_name":"USA",
+  "state":"MN",
+  "city":"Franklin",
+  "tz_short":"CST",
+  "tz_long":"America/Chicago",
+  "lat":"44.52999878",
+  "lon":"-94.87999725",
+  "zip":"55333",
+  "magic":"1",
+  "wmo":"99999",
+  "l":"/q/zmw:55333.1.99999",
+  "requesturl":"US/MN/Franklin.html",
+  "wuiurl":"https://www.wunderground.com/US/MN/Franklin.html",
+  "nearby_weather_stations": {
+    "airport": {
+      "station": [
+        { "city":"Redwood Falls", "state":"MN", "country":"US", "icao":"KRWF", "lat":"44.54999924", "lon":"-95.08000183" }
+      ,{ "city":"Olivia", "state":"MN", "country":"US", "icao":"KOVL", "lat":"44.77999878", "lon":"-95.02999878" }
+      ,{ "city":"New Ulm", "state":"MN", "country":"US", "icao":"KULM", "lat":"44.31999969", "lon":"-94.50000000" }
+      ,{ "city":"Hutchinson", "state":"MN", "country":"US", "icao":"KHCD", "lat":"44.86000061", "lon":"-94.37999725" }
+      ]
+    }
+  ,
+    "pws": {
+      "station": [
+        {
+          "neighborhood":"Dacotah Ridge GC",
+          "city":"Morgan",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNMORGA2",
+          "lat":44.494377,
+          "lon":-94.928246,
+          "distance_km":5,
+          "distance_mi":3
+        },
+        {
+          "neighborhood":"Beaver Falls TWP",
+          "city":"Morton",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNMORTO2",
+          "lat":44.584259,
+          "lon":-95.041222,
+          "distance_km":14,
+          "distance_mi":8
+        },
+        {
+          "neighborhood":"KMNREDW03",
+          "city":"Redwood Falls",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNREDWO3",
+          "lat":44.535507,
+          "lon":-95.109558,
+          "distance_km":18,
+          "distance_mi":10
+        },
+        {
+          "neighborhood":"Prokosch Farms",
+          "city":"Redwood Falls",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNREDWO5",
+          "lat":44.407990,
+          "lon":-95.126968,
+          "distance_km":23,
+          "distance_mi":14
+        },
+        {
+          "neighborhood":"Hector Airport - 1D6",
+          "city":"Hector",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNHECTO4",
+          "lat":44.731216,
+          "lon":-94.713882,
+          "distance_km":25,
+          "distance_mi":15
+        },
+        {
+          "neighborhood":"backyard at 446 Borden Ave.",
+          "city":"Buffalo Lake",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNBUFFA13",
+          "lat":44.735027,
+          "lon":-94.622154,
+          "distance_km":30,
+          "distance_mi":18
+        },
+        {
+          "neighborhood":"",
+          "city":"Springfield",
+          "state":"MN",
+          "country":"US",
+          "id":"ME8553",
+          "lat":44.261299,
+          "lon":-94.992500,
+          "distance_km":31,
+          "distance_mi":18
+        },
+        {
+          "neighborhood":"UFC Hector",
+          "city":"Hector",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNHECTO3",
+          "lat":44.795853,
+          "lon":-94.690346,
+          "distance_km":33,
+          "distance_mi":19
+        },
+        {
+          "neighborhood":"Sleepy Eye Airport",
+          "city":"Sleepy Eye",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNSLEEP1",
+          "lat":44.251869,
+          "lon":-94.710495,
+          "distance_km":33,
+          "distance_mi":20
+        },
+        {
+          "neighborhood":"Leaning Willow Farm",
+          "city":"Buffalo Lake",
+          "state":"MN",
+          "country":"US",
+          "id":"KMNBUFFA17",
+          "lat":44.799591,
+          "lon":-94.625877,
+          "distance_km":36,
+          "distance_mi":21
+        }
+      ]
+    }
+  }
+}
+,	"current_observation": {
+  "image": {
+    "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+    "title":"Weather Underground",
+    "link":"http://www.wunderground.com"
+  },
+  "display_location": {
+    "full":"Franklin, MN",
+    "city":"Franklin",
+    "state":"MN",
+    "state_name":"Minnesota",
+    "country":"US",
+    "country_iso3166":"US",
+    "zip":"55333",
+    "magic":"1",
+    "wmo":"99999",
+    "latitude":"44.52999878",
+    "longitude":"-94.87999725",
+    "elevation":"307.8"
+  },
+  "observation_location": {
+    "full":"Dacotah Ridge GC, Morgan, Minnesota",
+    "city":"Dacotah Ridge GC, Morgan",
+    "state":"Minnesota",
+    "country":"US",
+    "country_iso3166":"US",
+    "latitude":"44.494377",
+    "longitude":"-94.928246",
+    "elevation":"1000 ft"
+  },
+  "estimated": {
+  },
+  "station_id":"KMNMORGA2",
+  "observation_time":"Last Updated on March 10, 4:16 PM CST",
+  "observation_time_rfc822":"Sat, 10 Mar 2018 16:16:36 -0600",
+  "observation_epoch":"1520720196",
+  "local_time_rfc822":"Sat, 10 Mar 2018 16:16:40 -0600",
+  "local_epoch":"1520720200",
+  "local_tz_short":"CST",
+  "local_tz_long":"America/Chicago",
+  "local_tz_offset":"-0600",
+  "weather":"Overcast",
+  "temperature_string":"32.7 F (0.4 C)",
+  "temp_f":32.7,
+  "temp_c":0.4,
+  "relative_humidity":"71%",
+  "wind_string":"From the SE at 7.4 MPH Gusting to 9.8 MPH",
+  "wind_dir":"SE",
+  "wind_degrees":142,
+  "wind_mph":7.4,
+  "wind_gust_mph":"9.8",
+  "wind_kph":11.9,
+  "wind_gust_kph":"15.8",
+  "pressure_mb":"1017",
+  "pressure_in":"30.03",
+  "pressure_trend":"+",
+  "dewpoint_string":"24 F (-4 C)",
+  "dewpoint_f":24,
+  "dewpoint_c":-4,
+  "heat_index_string":"NA",
+  "heat_index_f":"NA",
+  "heat_index_c":"NA",
+  "windchill_string":"26 F (-3 C)",
+  "windchill_f":"26",
+  "windchill_c":"-3",
+  "feelslike_string":"26 F (-3 C)",
+  "feelslike_f":"26",
+  "feelslike_c":"-3",
+  "visibility_mi":"6.0",
+  "visibility_km":"9.7",
+  "solarradiation":"111",
+  "UV":"1.0","precip_1hr_string":"0.00 in ( 0 mm)",
+  "precip_1hr_in":"0.00",
+  "precip_1hr_metric":" 0",
+  "precip_today_string":"0.00 in (0 mm)",
+  "precip_today_in":"0.00",
+  "precip_today_metric":"0",
+  "icon":"cloudy",
+  "icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+  "forecast_url":"http://www.wunderground.com/US/MN/Franklin.html",
+  "history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMNMORGA2",
+  "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=44.494377,-94.928246",
+  "nowcast":""
+}
+}

@@ -1,7 +1,7 @@
 
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-var requestURL = 'scripts/sanFran.json';
+var requestURL = 'scripts/franklinMN.json';
 
 /*
 var requestURL = 'http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json';
@@ -24,9 +24,9 @@ function showTownData(jsonObj) {
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         myH2.textContent = towns[i].display_location.full;
-        myPara1.textContent = 'Current temp: ' + towns[i].temp_f;
-        myPara2.textContent = 'Wind: ' + towns[i].wind_string;
-        myPara3.textContent = 'Feel like: ' + towns[i].feelslike_string;
+        myPara1.textContent = 'Current temp: ' + towns[i].current_observation.temp_f;
+        myPara2.textContent = 'Wind: ' + towns[i].current_observation.wind_string;
+        myPara3.textContent = 'Feel like: ' + towns[i].current_observation.feelslike_string;
 
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
