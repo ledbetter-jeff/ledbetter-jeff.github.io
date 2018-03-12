@@ -1,55 +1,55 @@
 
 
-var fWeatherObject = new XMLHttpRequest();
+var franlinkWeatherObject = new XMLHttpRequest();
 
-fWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
+franklinWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
 
-fWeatherObject.send();
+franklinWeatherObject.send();
 
-fWeatherObject.onload = function () {
+franklinWeatherObject.onload = function () {
 
-    var fWeatherInfo = JSON.parse(fWeatherObject.responseText);
-    console.log(fWeatherInfo);
+    var franklinWeatherInfo = JSON.parse(franklinkWeatherObject.responseText);
+    console.log(franklinWeatherInfo);
 
 
-    document.getElementById('fPlace').innerHTML = fWeatherInfo.current_observation.display_location.full;
-    document.getElementById('fTemp').innerHTML = fWeatherInfo.current_observation.temp_f;
-    document.getElementById('fw_icon').src = fWeatherInfo.current_observation.icon_url;
-    document.getElementById('fCurrentDate').innerHTML = fWeatherInfo.current_observation.local_time_rfc822;
-
-} // End of onload
-
-var gWeatherObject = new XMLHttpRequest();
-
-gWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/AL/Greenville.json',true);
-
-gWeatherObject.send();
-
-gWeatherObject.onload = function () {
-
-    var gWeatherInfo = JSON.parse(gWeatherObject.responseText);
-    console.log(gWeatherInfo);
-
-    document.getElementById('gPlace').innerHTML = gWeatherInfo.current_observation.display_location.full;
-    document.getElementById('gTemp').innerHTML = gWeatherInfo.current_observation.temp_f;
-    document.getElementById('gw_icon').src = gWeatherInfo.current_observation.icon_url;
+    document.getElementById('fPlace').innerHTML = franklinWeatherInfo.current_observation.display_location.full;
+    document.getElementById('fTemp').innerHTML = franklinWeatherInfo.current_observation.temp_f;
+    document.getElementById('fw_icon').src = franklinWeatherInfo.current_observation.icon_url;
+    document.getElementById('fCurrentDate').innerHTML = franklinWeatherInfo.current_observation.local_time_rfc822;
 
 } // End of onload
 
-var sWeatherObject = new XMLHttpRequest();
+var greenWeatherObject = new XMLHttpRequest();
 
-sWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MO/Springfield.json',true);
+greenWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/AL/Greenville.json',true);
 
-sWeatherObject.send();
+greenWeatherObject.send();
 
-sWeatherObject.onload = function () {
+greenWeatherObject.onload = function () {
 
-    var sWeatherInfo = JSON.parse(sWeatherObject.responseText);
-    console.log(sWeatherInfo);
+    var greenWeatherInfo = JSON.parse(greenWeatherObject.responseText);
+    console.log(greenWeatherInfo);
 
-    document.getElementById('sPlace').innerHTML = sWeatherInfo.current_observation.display_location.full;
-    document.getElementById('sTemp').innerHTML = sWeatherInfo.current_observation.temp_f;
-    document.getElementById('sw_icon').src = sWeatherInfo.current_observation.icon_url;
+    document.getElementById('gPlace').innerHTML = greenWeatherInfo.current_observation.display_location.full;
+    document.getElementById('gTemp').innerHTML = greenWeatherInfo.current_observation.temp_f;
+    document.getElementById('gw_icon').src = greenWeatherInfo.current_observation.icon_url;
+
+} // End of onload
+
+var springWeatherObject = new XMLHttpRequest();
+
+springWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MO/Springfield.json',true);
+
+springWeatherObject.send();
+
+springWeatherObject.onload = function () {
+
+    var springWeatherInfo = JSON.parse(springWeatherObject.responseText);
+    console.log(springWeatherInfo);
+
+    document.getElementById('sPlace').innerHTML = springWeatherInfo.current_observation.display_location.full;
+    document.getElementById('sTemp').innerHTML = springWeatherInfo.current_observation.temp_f;
+    document.getElementById('sw_icon').src = springWeatherInfo.current_observation.icon_url;
 } // End of onload
 
 
