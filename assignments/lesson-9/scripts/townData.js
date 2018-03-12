@@ -15,7 +15,6 @@ townObject.onload = function () {
     document.getElementById('gPop').innerHTML = townInfo.towns["1"].currentPopulation;
     document.getElementById('gFound').innerHTML = townInfo.towns["1"].yearFounded;
 
-
     document.getElementById('sPop').innerHTML = townInfo.towns["3"].currentPopulation;
     document.getElementById('sFound').innerHTML = townInfo.towns["3"].yearFounded;
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Franklin | WeatherBud</title>
+    <title id="title">Franklin | WeatherBud</title>
     <meta name="author" content="Jeff Ledbetter">
     <meta name="description" content="Franklin's local weather forecast page.">
     <!-- external style references in the proper cascading order -->
@@ -50,21 +50,19 @@
 
     <section>
         <h2 class="forecastSum">Weather Summary</h2>
-            <div class="forecast-details">
-            <p><strong>High:</strong> 90&deg;F</p>
-            <p><strong>Low:</strong> 66&deg;F</p>
-            <picture>
-                <img src="images/franklin/sunny.jpg" alt="sunny icon" width="80px">
-            </picture>
-            <em><strong> ~ Sunny</strong></em>
-            <p><strong>Precipitation:</strong> 0%</p>
-            <p><strong>Wind Speed:</strong> 5mph SW</p>
-            <div id="windchill"></div>
-            </div>
+            <p><span id="location">Franklin, MN</span></p>
+            <p>Today's High: <span id="todayHigh"></span>&deg;</p>
+            <p>Today's Low: <span id="todayLow"></span>&deg;</p>
+            <p>Current Temp: <span id="currentTemp"></span>&deg;</p>
+            <p><span id="currentConditions"></span></p>
+            <img id="w_icon" alt="current weather">
+
+            <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
+            <p>Wind Chill: <span id="windChill"></span>&deg;</p>
     </section>
 
     <section class="forecast">
-        <h3>10 Day Forecast</h3>
+        <h3>4 Day Forecast</h3>
         <table>
             <thead>
             <tr>
@@ -72,26 +70,14 @@
                 <th>Day 2</th>
                 <th>Day 3</th>
                 <th>Day 4</th>
-                <th>Day 5</th>
-                <th>Day 6</th>
-                <th>Day 7</th>
-                <th>Day 8</th>
-                <th>Day 9</th>
-                <th>Day 10</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>89&deg;F</td>
-                <td>87&deg;F</td>
-                <td>78&deg;F</td>
-                <td>75&deg;F</td>
-                <td>72&deg;F</td>
-                <td>72&deg;F</td>
-                <td>79&deg;F</td>
-                <td>83&deg;F</td>
-                <td>85&deg;F</td>
-                <td>89&deg;F</td>
+                <td><span id="day1"></span>&deg;F</td>
+                <td><span id="day2"></span>&deg;F</td>
+                <td><span id="day3"></span>&deg;F</td>
+                <td><span id="day4"></span>&deg;F</td>
             </tr>
             </tbody>
         </table>
@@ -149,11 +135,9 @@
     <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp WeatherBug &nbsp | &nbsp <span id="fCurrentDate">Current Date Placeholder</span></p>
 
 </footer>
-    <script src="scripts/wu-weather.js"></script>
+    <!--<script src="scripts/wu-weather.js"></script>-->
     <script src="scripts/fData.js"></script>
-    <script src="scripts/gData.js"></script>
-    <script src="scripts/sData.js"></script>
-    <script src="scripts/townData.js"></script>
+    <!--<script src="scripts/townData.js"></script>-->
     <script src="scripts/hamburger.js"></script>
 </body>
 </html>
