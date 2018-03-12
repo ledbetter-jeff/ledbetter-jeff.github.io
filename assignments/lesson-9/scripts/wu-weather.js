@@ -1,14 +1,14 @@
 
 
-var cWeatherObject = new XMLHttpRequest();
+var fWeatherObject = new XMLHttpRequest();
 
-cWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
+fWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
 
-cWeatherObject.send();
+fWeatherObject.send();
 
-cWeatherObject.onload = function () {
+fWeatherObject.onload = function () {
 
-    var fWeatherInfo = JSON.parse(cWeatherObject.responseText);
+    var fWeatherInfo = JSON.parse(fWeatherObject.responseText);
     console.log(fWeatherInfo);
 
 
