@@ -15,12 +15,9 @@
     <!-- https://ledbetter-jeff.github.io/assignments/lesson-9/index.html   -->
 </head>
 
-<!--
-<body onload="doWC()">
--->
-
+<body>
 <header>
-    <img id="siteIcon" src="images/franklin/sunnyicon.jpg" alt="The site logo" width="80px">
+    <img id="siteIcon" src="images/franklin/sunny-icon.jpg" alt="The site logo">
     <h1>Home | WeatherBud</h1>
     <div class="subheading">WeatherBud. Truly local weather.</div>
 </header>
@@ -72,7 +69,7 @@
             <p>Motto: <span id="fMotto"></span></p>
             <p>Average Annual Rainfall: <span id="fRain"></span> in.</p>
             <p>Current Temp: <span id="fTemp"></span>&deg; F</p>
-            <img id="fw_icon" alt="current weather">
+            <img id="fw_icon" src="" alt="current weather">
             <h3>Town Events:</h3>
             <ul>
                 <li><span id="fE1"></span></li>
@@ -87,7 +84,7 @@
             <p>Motto: <span id="gMotto"></span></p>
             <p>Average Annual Rainfall: <span id="gRain"></span> in.</p>
             <p>Current Temp: <span id="gTemp"></span>&deg; F</p>
-            <img id="gw_icon" alt="current weather">
+            <img id="gw_icon" src="" alt="current weather">
             <h3>Town Events:</h3>
             <ul>
                 <li><span id="gE1"></span></li>
@@ -103,7 +100,7 @@
             <p>Motto: <span id="sMotto"></span></p>
             <p>Average Annual Rainfall: <span id="sRain"></span> in.</p>
             <p>Current Temp: <span id="sTemp"></span>&deg; F</p>
-            <img id="sw_icon" alt="current weather">
+            <img id="sw_icon" src=""  alt="current weather">
             <h3>Town Events:</h3>
             <ul>
                 <li><span id="sE1"></span></li>
@@ -122,6 +119,7 @@
     <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp WeatherBug &nbsp | &nbsp <span id="fCurrentDate">Current Date Placeholder</span></p>
 
 </footer>
+<script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
     <script src="scripts/wu-weather.js"></script>
     <!--<script src="scripts/fData.js"></script>-->
     <!--<script src="scripts/gData.js"></script>-->
