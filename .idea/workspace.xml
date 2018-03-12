@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/franklin-9.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/franklin-9.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/gallery-9.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/gallery-9.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/greenville-9.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/greenville-9.html" />
       <change beforePath="$PROJECT_DIR$/assignments/lesson-9/index.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/index.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/fData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/fData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/gData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/gData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/sData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/sData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/townData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/townData.js" />
       <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/springfield-9.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/springfield-9.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/stormcenter-9.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/stormcenter-9.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/thanks.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/thanks.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/styles/large-9.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/styles/large-9.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,80 +16,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46398306">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
-                  <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#3321#3326#0" expanded="true" />
-                    <element signature="e#3662#3667#0" expanded="true" />
-                    <element signature="e#4004#4009#0" expanded="true" />
-                    <element signature="e#4300#4306#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="franklin-9.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/franklin-9.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-232">
-                  <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#2594#2599#1" expanded="true" />
-                    <element signature="e#2659#2664#1" expanded="true" />
-                    <element signature="e#2728#2733#1" expanded="true" />
-                    <element signature="e#2966#2971#1" expanded="true" />
-                    <element signature="e#3351#3356#0" expanded="true" />
-                    <element signature="e#3406#3411#0" expanded="true" />
-                    <element signature="e#3461#3466#0" expanded="true" />
-                    <element signature="e#3516#3521#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="wu-weather.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fData.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/fData.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="533">
-                  <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="townData.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/townData.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1336">
+              <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+              <folding>
+                <element signature="e#3446#3451#0" expanded="true" />
+                <element signature="e#4126#4131#0" expanded="true" />
+                <element signature="e#4855#4860#0" expanded="true" />
+                <element signature="e#5365#5371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-9.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="100" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="large-9.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/large-9.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medium-9.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="franklin-9.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/franklin-9.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-232">
+              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+              <folding>
+                <element signature="e#2594#2599#1" expanded="true" />
+                <element signature="e#2659#2664#1" expanded="true" />
+                <element signature="e#2728#2733#1" expanded="true" />
+                <element signature="e#2966#2971#1" expanded="true" />
+                <element signature="e#3351#3356#0" expanded="true" />
+                <element signature="e#3406#3411#0" expanded="true" />
+                <element signature="e#3461#3466#0" expanded="true" />
+                <element signature="e#3516#3521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/lesson-7/styles/main-7.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-7/franklin-7.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/formbuild/index.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/formbuild/css/phone-default.css" />
@@ -166,8 +149,6 @@
         <option value="$PROJECT_DIR$/assignments/lesson-9/superheroes.json" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/styles/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/wu-weather.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/favorite-players.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/jsonPractice.json" />
@@ -184,10 +165,13 @@
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/sData.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/gData.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/townData.js" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/index.html" />
-        <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/fData.js" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/franklin-9.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/index.html" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/large-9.css" />
+        <option value="$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css" />
       </list>
     </option>
   </component>
@@ -264,6 +248,13 @@
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="lesson-9" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-9" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,12 +450,12 @@
       <workItem from="1520624686935" duration="183000" />
       <workItem from="1520650723861" duration="186000" />
       <workItem from="1520691404579" duration="21615000" />
-      <workItem from="1520801256045" duration="13397000" />
+      <workItem from="1520801256045" duration="15338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170541000" />
+    <option name="totallyTimeSpent" value="172482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -537,13 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/formbuild/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="130" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-8/formbuild/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -686,32 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/large-9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="7" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -883,10 +845,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="89" column="76" lean-forward="false" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/fData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="346">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -899,24 +869,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="1336">
+          <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
           <folding>
-            <element signature="e#3321#3326#0" expanded="true" />
-            <element signature="e#3662#3667#0" expanded="true" />
-            <element signature="e#4004#4009#0" expanded="true" />
-            <element signature="e#4300#4306#0" expanded="true" />
+            <element signature="e#3446#3451#0" expanded="true" />
+            <element signature="e#4126#4131#0" expanded="true" />
+            <element signature="e#4855#4860#0" expanded="true" />
+            <element signature="e#5365#5371#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="100" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/large-9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

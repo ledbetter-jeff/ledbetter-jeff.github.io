@@ -95,8 +95,9 @@ img:hover {
 
 .wrapper {
     display: grid;
-    grid-row-gap: .2rem;
-    padding: 1rem 0;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    padding: 1em;
 }
 
 body {
@@ -119,16 +120,16 @@ main {
     margin: 2rem 0 0 0;
 }
 
-.franklin-div {
+
+.franklin-div, .greenville-div, .springfield-div {
     background-color: grey;
+    padding: 1em;
 }
 
 .greenville-div {
-    background-color: grey;
 }
 
 .springfield-div {
-    background-color: grey;
 }
 
 header {
