@@ -1,6 +1,7 @@
 
+//test
 
-var franlinkWeatherObject = new XMLHttpRequest();
+var franklinWeatherObject = new XMLHttpRequest();
 
 franklinWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
 
@@ -8,7 +9,7 @@ franklinWeatherObject.send();
 
 franklinWeatherObject.onload = function () {
 
-    var franklinWeatherInfo = JSON.parse(franklinkWeatherObject.responseText);
+    var franklinWeatherInfo = JSON.parse(franklinWeatherObject.responseText);
     console.log(franklinWeatherInfo);
 
 
@@ -17,7 +18,7 @@ franklinWeatherObject.onload = function () {
     document.getElementById('fw_icon').src = franklinWeatherInfo.current_observation.icon_url;
     document.getElementById('fCurrentDate').innerHTML = franklinWeatherInfo.current_observation.local_time_rfc822;
 
-} // End of onload
+}; // End of onload
 
 var greenWeatherObject = new XMLHttpRequest();
 
@@ -34,7 +35,7 @@ greenWeatherObject.onload = function () {
     document.getElementById('gTemp').innerHTML = greenWeatherInfo.current_observation.temp_f;
     document.getElementById('gw_icon').src = greenWeatherInfo.current_observation.icon_url;
 
-} // End of onload
+}; // End of onload
 
 var springWeatherObject = new XMLHttpRequest();
 
@@ -50,7 +51,7 @@ springWeatherObject.onload = function () {
     document.getElementById('sPlace').innerHTML = springWeatherInfo.current_observation.display_location.full;
     document.getElementById('sTemp').innerHTML = springWeatherInfo.current_observation.temp_f;
     document.getElementById('sw_icon').src = springWeatherInfo.current_observation.icon_url;
-} // End of onload
+}; // End of onload
 
 
 
@@ -89,4 +90,4 @@ townObject.onload = function () {
     document.getElementById('sE2').innerHTML = townInfo.towns["3"].events["1"];
     document.getElementById('sE3').innerHTML = townInfo.towns["3"].events["2"];
 
-} // End of onload
+}; // End of onload

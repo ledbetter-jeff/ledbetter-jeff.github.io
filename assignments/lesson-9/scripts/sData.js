@@ -12,4 +12,4 @@ sWeatherObject.onload = function () {
     document.getElementById('sPlace').innerHTML = sWeatherInfo.current_observation.display_location.full;
     document.getElementById('sTemp').innerHTML = sWeatherInfo.current_observation.temp_f;
     document.getElementById('sw_icon').src = sWeatherInfo.current_observation.icon_url;
-} // End of onload
+}; // End of onload

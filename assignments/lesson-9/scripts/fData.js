@@ -19,7 +19,7 @@ cWeatherObject.onload = function () {
 
 
 
-} // End of onload
+}; // End of onload
 
 var fWeatherObject = new XMLHttpRequest();
 
@@ -40,7 +40,7 @@ fWeatherObject.onload = function () {
     document.getElementById('day3').innerHTML = fWeatherInfo.forecast.simpleforecast.forecastday["2"].high.fahrenheit;
     document.getElementById('day4').innerHTML = fWeatherInfo.forecast.simpleforecast.forecastday["3"].high.fahrenheit;
 
-} // End of onload
+}; // End of onload
 
 
 /*
