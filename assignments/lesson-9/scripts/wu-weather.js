@@ -2,7 +2,7 @@
 
 var franlinkWeatherObject = new XMLHttpRequest();
 
-franklinWeatherObject.open('GET','https://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
+franklinWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MN/Franklin.json',true);
 
 franklinWeatherObject.send();
 
@@ -21,7 +21,7 @@ franklinWeatherObject.onload = function () {
 
 var greenWeatherObject = new XMLHttpRequest();
 
-greenWeatherObject.open('GET','https://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/AL/Greenville.json',true);
+greenWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/AL/Greenville.json',true);
 
 greenWeatherObject.send();
 
@@ -38,7 +38,7 @@ greenWeatherObject.onload = function () {
 
 var springWeatherObject = new XMLHttpRequest();
 
-springWeatherObject.open('GET','https://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MO/Springfield.json',true);
+springWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MO/Springfield.json',true);
 
 springWeatherObject.send();
 
