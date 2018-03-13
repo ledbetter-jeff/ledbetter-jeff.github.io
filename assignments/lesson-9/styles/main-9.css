@@ -10,6 +10,10 @@ html, body {
     box-sizing: border-box;
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
+#siteIcon{
+    width: 20%;
+}
+
 
 .container {
     display: flex;
