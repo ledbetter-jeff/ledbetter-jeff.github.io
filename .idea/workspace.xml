@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="wu-weather.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="116" lean-forward="false" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
+            <state relative-caret-position="561">
+              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -222,7 +221,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
+    <option name="x" value="580" />
     <option name="y" value="22" />
     <option name="width" value="1099" />
     <option name="height" value="941" />
@@ -492,7 +491,7 @@
       <workItem from="1520801256045" duration="15872000" />
       <workItem from="1520855504083" duration="1380000" />
       <workItem from="1520881308141" duration="1711000" />
-      <workItem from="1520895947605" duration="3876000" />
+      <workItem from="1520895947605" duration="4251000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -522,14 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520900448110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed site icon">
+      <created>1520900666697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520900666697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179983000" />
+    <option name="totallyTimeSpent" value="180358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="22" width="1099" height="941" extended-state="0" />
+    <frame x="580" y="22" width="1099" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -937,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="116" lean-forward="false" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
+        <state relative-caret-position="561">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
