@@ -1,0 +1,276 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+#siteIcon{
+    width: 12%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caption {
+    text-align: match-parent;
+}
+
+.flexItem {
+
+}
+
+form button {
+    padding: 1% 2%;
+
+}
+
+.push   {
+    padding: 0 0 60% 0;
+}
+
+
+
+main form label {
+    display: block;
+    margin: 1em 0;
+}
+
+#ratingvalue {
+    display: inline;
+}
+
+#dropdown {
+    margin: .2em 0;
+}
+
+main form span {
+    display: block;
+}
+
+label textarea {
+    margin: .2em 0;
+}
+
+#comments {
+    margin: 2em  0;
+}
+
+fieldset {
+    margin: 2em 0;
+    background-color: gainsboro;
+}
+
+form legend {
+    font-size: 20px;
+    border: darkgray solid 1px;
+    padding: 1%;
+    background-color: white;
+}
+
+
+
+
+
+.radioIndent {
+    margin-left: 1em;
+}
+
+.radioIndent span {
+    display: inline;
+}
+
+img:hover {
+    box-shadow: 5px 5px 10px gray;
+}
+
+#toggleNav {
+
+}
+
+.wrapper {
+    display: grid;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    padding: 1em;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    min-width:250px;
+    overflow: auto;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+main {
+    margin: 0 1rem;
+}
+
+.forecastSum {
+    margin: 2rem 0 0 0;
+}
+
+
+.franklin-div, .greenville-div, .springfield-div {
+    background-color: grey;
+    padding: 1em;
+}
+
+.greenville-div {
+}
+
+.springfield-div {
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent; border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav {
+    background-color: #ccc;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    min-height:40px;
+    position: relative;
+    border:0px solid transparent;
+}
+
+nav ul li a {
+    display: flex;
+    padding: .8rem 2%;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul li#active a {
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.4);
+}
+
+table {
+    border: black solid 1px;
+}
+
+table, th, td {
+    border: black solid 2px;
+}
+
+th, td {
+    text-align: center;
+    padding: .1rem .3rem;
+}
+
+th {
+    background: dodgerblue;
+    color: white;
+    font-size: 17px;
+}
+
+td {
+    background: deepskyblue;
+    color: white;
+}
+
+.forecast-details {
+    margin-left: 2rem;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.forecast {
+    display: none;
+}
+
+section {}
+
+
+
+article picture {  /* This structure refers to img elements that are the posterity of paragraph elements within article elements */
+    /* fill the page in the small/phone view */
+    margin: 1rem 1rem;
+    float: right;
+}
+
+article h3 {
+    margin: 1.5rem 1rem .3rem 0;
+}
+
+.town-article {
+    margin: 0 1rem 1rem 2rem;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: .5rem .5rem;
+    width: 100%;
+}
+
+.contact-info {
+    text-align: center;
+    margin:  .5rem 1rem 1rem 1rem;
+}
+
+.footer-bar {
+    text-align: center;
+    margin: 0 1rem 1rem 1rem;
+}
+
+footer {
+    position: absolute;
+}
+
+
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
