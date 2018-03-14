@@ -1,72 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="fixed site icon">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/gallery.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-original.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-original.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/sunny.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/sunnyicon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/lake-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/mountain-top-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/spooky-tree-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/stars-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/tree-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/turbines-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/winter-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/lake-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/mountain-top-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/spooky-tree-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/stars-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/tree-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/turbines-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/winter-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/lake.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/mountain-top.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/spooky-tree.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/stars.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/tree.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/turbines.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/winter.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/lake-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/mountain-top-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/spooky-tree-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/stars-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/tree-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/turbines-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/winter-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/currentDate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/rating.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/sData.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/large.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/medium.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/normalize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/thanks.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" />
+    <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/lesson-7/gallery-7.html" afterPath="$PROJECT_DIR$/assignments/lesson-7/gallery-7.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="franklin.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="franklin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="68" column="66" lean-forward="true" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+            <state relative-caret-position="340">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -107,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="78" selection-end-column="14" />
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -338,39 +274,6 @@
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -575,7 +478,7 @@
       <workItem from="1520902976794" duration="232000" />
       <workItem from="1520903585256" duration="43000" />
       <workItem from="1520986685725" duration="33000" />
-      <workItem from="1520986756697" duration="7400000" />
+      <workItem from="1520986756697" duration="7790000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -619,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520901054380</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed site icon">
+      <created>1520994305055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520994305055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188405000" />
+    <option name="totallyTimeSpent" value="188795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="339" y="22" width="1340" height="941" extended-state="0" />
@@ -1031,14 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="78" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -1057,8 +959,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="68" column="66" lean-forward="true" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+        <state relative-caret-position="340">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
