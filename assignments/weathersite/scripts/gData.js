@@ -1,6 +1,6 @@
 var gWeatherObject = new XMLHttpRequest();
 
-gWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/forecast/q/AL/Greenville.json',true);
+gWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/forecast/q/TX/Greenville.json',true);
 
 gWeatherObject.send();
 

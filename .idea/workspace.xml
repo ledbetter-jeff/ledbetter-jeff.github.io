@@ -2,68 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/franklin.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/franklin.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/gallery.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/gallery.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/greenville.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/greenville.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/franklin-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/franklin-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-original.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/franklin-original.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/franklin-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/franklin-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/hotday-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/hotday-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-original.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/hotday-original.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/hotday-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/sunny.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/sunny.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/sunnyicon.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/franklin/sunnyicon.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/lake-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/lake-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/mountain-top-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/mountain-top-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/spooky-tree-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/spooky-tree-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/stars-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/stars-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/tree-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/tree-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/turbines-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/turbines-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/large/winter-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/large/winter-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/lake-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/lake-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/mountain-top-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/mountain-top-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/spooky-tree-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/spooky-tree-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/stars-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/stars-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/tree-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/tree-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/turbines-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/turbines-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/medium/winter-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/medium/winter-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/lake.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/lake.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/mountain-top.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/mountain-top.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/spooky-tree.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/spooky-tree.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/stars.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/stars.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/tree.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/tree.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/turbines.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/turbines.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/original/winter.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/original/winter.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/lake-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/lake-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/mountain-top-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/mountain-top-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/spooky-tree-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/spooky-tree-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/stars-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/stars-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/tree-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/tree-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/turbines-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/turbines-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/gallery/small/winter-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/gallery/small/winter-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert-large.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/home-page/desert-large.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert-medium.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/home-page/desert-medium.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert-small.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/home-page/desert-small.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/home-page/desert.jpg" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/images/home-page/desert.jpg" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/index.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/index.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/currentDate.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/currentDate.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/fData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/gData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/hamburger.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/jquery-3.3.1.min.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/rating.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/rating.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/sData.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/sData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/wu-weather.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/springfield.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/springfield.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/stormcenter.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/large.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/styles/large.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/styles/main.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/medium.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/styles/medium.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/normalize.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/styles/normalize.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/style.css" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/styles/style.css" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/thanks.html" afterPath="$PROJECT_DIR$/assignments/lesson-9/weathersite/thanks.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/franklin.html" afterPath="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/greenville.html" afterPath="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/springfield.html" afterPath="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,100 +21,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="franklin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/franklin.html">
+        <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="321">
+              <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="greenville.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/greenville.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2109">
-              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+            <state relative-caret-position="521">
+              <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wu-weather.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/wu-weather.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="springfield.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/springfield.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1946">
-              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/sData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="44" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/fData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stormcenter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/stormcenter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/thanks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -255,19 +131,19 @@
         <option value="$PROJECT_DIR$/assignments/lesson-9/franklin-9.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/scripts/wu-weather.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/currentDate.js" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/townData.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/sData.js" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/gallery.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/index.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/thanks.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
       </list>
     </option>
   </component>
@@ -278,9 +154,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="339" />
+    <option name="x" value="214" />
     <option name="y" value="22" />
-    <option name="width" value="1340" />
+    <option name="width" value="1465" />
     <option name="height" value="941" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -320,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -339,13 +213,29 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-9" type="462c0819:PsiDirectoryNode" />
+              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,11 +255,11 @@
       <recent name="$PROJECT_DIR$/assignments/lesson-8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments" />
       <recent name="$PROJECT_DIR$/assignments/lesson-9" />
       <recent name="$PROJECT_DIR$/assignments/lesson-9/images/franklin" />
       <recent name="$PROJECT_DIR$/assignments/lesson-9/scripts" />
       <recent name="$PROJECT_DIR$/assignments/lesson-9/images/home-page" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-9/JSON Learning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -545,7 +435,9 @@
       <workItem from="1520902976794" duration="232000" />
       <workItem from="1520903585256" duration="43000" />
       <workItem from="1520986685725" duration="33000" />
-      <workItem from="1520986756697" duration="8101000" />
+      <workItem from="1520986756697" duration="8236000" />
+      <workItem from="1521054037520" duration="1580000" />
+      <workItem from="1521160530986" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -600,14 +492,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189106000" />
+    <option name="totallyTimeSpent" value="192473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="339" y="22" width="1340" height="941" extended-state="0" />
+    <frame x="214" y="22" width="1465" height="941" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -618,9 +510,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18798152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23330991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -631,7 +522,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,27 +806,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/townData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/currentDate.js">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/townData.js" />
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/currentDate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -951,90 +818,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/gData.js">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
+        <state relative-caret-position="2057">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/stormcenter.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/stormcenter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="1700">
           <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/thanks.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/thanks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="680">
           <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/greenville.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/springfield.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        <state relative-caret-position="554">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/sData.js">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="44" selection-end-column="79" />
+        <state relative-caret-position="374">
+          <caret line="22" column="95" lean-forward="false" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/springfield.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/sData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1946">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/wu-weather.js">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/fData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="375">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/scripts/fData.js">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/greenville.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="460">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/franklin.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/gData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="476">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/weathersite/index.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
           <folding />
         </state>
       </provider>

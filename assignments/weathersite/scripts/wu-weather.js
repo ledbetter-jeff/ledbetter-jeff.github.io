@@ -20,7 +20,7 @@ franklinWeatherObject.onload = function () {
 
 var greenWeatherObject = new XMLHttpRequest();
 
-greenWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/AL/Greenville.json', true);
+greenWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/TX/Greenville.json', true);
 greenWeatherObject.send();
 greenWeatherObject.onload = function () {
 
