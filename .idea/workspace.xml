@@ -4,11 +4,7 @@
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/assignments/weathersite/franklin.html" afterPath="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/greenville.html" afterPath="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/springfield.html" afterPath="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" />
       <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,21 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="franklin.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="franklin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+            <state relative-caret-position="589">
+              <caret line="47" column="82" lean-forward="true" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+            <state relative-caret-position="430">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hamburger.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -93,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/lesson-8/tablebuild.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/styles/table.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/franklin-8.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/home-8.html" />
@@ -138,12 +143,13 @@
         <option value="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/gData.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/fData.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
       </list>
     </option>
   </component>
@@ -437,7 +443,7 @@
       <workItem from="1520986685725" duration="33000" />
       <workItem from="1520986756697" duration="8236000" />
       <workItem from="1521054037520" duration="1580000" />
-      <workItem from="1521160530986" duration="1652000" />
+      <workItem from="1521160530986" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -488,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520994305055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="css changes and reformatted css file to be more readable.">
+      <created>1521162219274</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1521162219274</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192473000" />
+    <option name="totallyTimeSpent" value="194527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="214" y="22" width="1465" height="941" extended-state="0" />
@@ -593,20 +606,14 @@
     <MESSAGE value="added jquery file." />
     <MESSAGE value="added jquery file. and fixed missing body element head..." />
     <MESSAGE value="fixed site icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed site icon" />
+    <MESSAGE value="css changes and reformatted css file to be more readable." />
+    <option name="LAST_COMMIT_MESSAGE" value="css changes and reformatted css file to be more readable." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-8/thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-8/tablebuild.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -898,18 +905,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="430">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="47" column="82" lean-forward="true" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
           <folding />
         </state>
       </provider>
