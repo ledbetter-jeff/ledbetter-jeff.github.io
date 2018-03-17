@@ -12,6 +12,8 @@
     <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    <link href="styles/largest.css" rel="stylesheet">   <!-- largest/very wide/desktop views -->
+
     <!-- https://ledbetter-jeff.github.io/assignments/weathersite/index.html   -->
 </head>
 
@@ -19,7 +21,7 @@
 <header>
     <img id="siteIcon" src="images/franklin/sunnyicon.jpg" alt="The site logo">
     <h1>Home | WeatherBud</h1>
-    <div class="subheading">WeatherBud. Truly local weather.</div>
+    <span class="subheading">WeatherBud. Truly local weather.</span>
 </header>
 
 <!-- site navigation use placeholder references -->
@@ -39,15 +41,11 @@
     <article class="clearfix">
         <h3>WeatherBud Article</h3>
 
-        <picture>
-            <source media="(max-width: 37.5em)"
-                    srcset="images/home-page/desert-small.jpg 1100w">
-            <source media="(max-width: 60em)"
-                    srcset="images/home-page/desert-medium.jpg 1800w">
-            <source media="(max-width: 200em)"
-                    srcset="images/home-page/desert-large.jpg 2500w">
-            <img src="images/home-page/desert.jpg" alt="record scorching day">
-        </picture>
+        <figure class="img">
+            <picture class="greenville-img">
+                <img src="images/home-page/desert.jpg" srcset="images/home-page/desert-small.jpg 1000w, images/home-page/desert-medium.jpg 1000w, images/home-page/desert-large.jpg 2000w" alt="cracking desert landscape">
+            </picture>
+        </figure>
         <div class="town-article">
             <p>
                 Excepteur sint occaecat cupidatat non proident,

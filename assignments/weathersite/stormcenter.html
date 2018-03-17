@@ -38,6 +38,8 @@
 <main>
         <!-- <p>Progress:<progress value="1" max="4"></progress></p> -->
         <form action="thanks.html" method="post" enctype="multipart/form-data" name="weathershare" id="stormchaser">
+            <div class="wrapper">
+
             <fieldset>
                 <legend><span>Personal Information</span></legend>
                 <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="John Smith" pattern="[a-zA-Z -._]{5, 30}" required></label>
@@ -60,11 +62,9 @@
                         <option value="Tornado"></option>
                     </datalist>
                 </label>
-
                 <label for="rating">Storm Severity: <span id="ratingvalue">5</span></label>
 
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-
 
                 <label>
                     <span>Storm Region: </span>
@@ -75,6 +75,11 @@
                             <label><option value="Springfield">Springfield</option></label>
                         </select>
                 </label>
+
+            </fieldset>
+
+                <fieldset>
+                    <legend><span>Additional Information</span></legend>
                 <label>
                     <span id="">User In-Danger Level:</span>
                             <label class="radioIndent"><input type="radio" name="yes" value="yes"><span> Yes</span></label>
@@ -88,6 +93,8 @@
                 </label>
                 <button type="submit" value="Submit">Submit</button>
             </fieldset>
+
+            </div>
         </form>
 </main>
 
