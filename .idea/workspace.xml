@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/new-franklin/mn-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/new-franklin/mn-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/new-franklin/mn-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/new-franklin/mn.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/greenville/txg-large.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/greenville/txg-medium.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/greenville/txg-small.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/greenville/txg.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/springfield/or-large.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/springfield/or-medium.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/springfield/or-small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/springfield/or.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/largest.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/assignments/weathersite/franklin.html" afterPath="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/gallery.html" afterPath="$PROJECT_DIR$/assignments/weathersite/gallery.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/greenville.html" afterPath="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/index.html" afterPath="$PROJECT_DIR$/assignments/weathersite/index.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" afterPath="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/springfield.html" afterPath="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" afterPath="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-large.jpg" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-large.jpg" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-medium.jpg" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-medium.jpg" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-small.jpg" afterPath="$PROJECT_DIR$/assignments/weathersite/images/franklin/hotday-small.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +23,8 @@
           <file leaf-file-name="franklin.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="653">
-                  <caret line="108" column="81" lean-forward="true" selection-start-line="108" selection-start-column="81" selection-end-line="108" selection-end-column="81" />
+                <state relative-caret-position="376">
+                  <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -50,7 +33,7 @@
           <file leaf-file-name="greenville.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/greenville.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3">
+                <state relative-caret-position="-28">
                   <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding />
                 </state>
@@ -101,7 +84,7 @@
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="349">
-                  <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+                  <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -356,18 +339,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/weathersite/images/franklin" />
       <recent name="$PROJECT_DIR$/assignments/weathersite/images/springfield" />
       <recent name="$PROJECT_DIR$/assignments/weathersite/images/greenville" />
       <recent name="$PROJECT_DIR$/assignments/weathersite/images/franklin/new-franklin" />
       <recent name="$PROJECT_DIR$/assignments" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-9" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignments/lesson-5/images" />
       <recent name="$PROJECT_DIR$/assignments/weathersite/styles" />
       <recent name="$PROJECT_DIR$/assignments/weathersite" />
       <recent name="$PROJECT_DIR$/assignments/lesson-8/images/franklin" />
       <recent name="$PROJECT_DIR$/assignments/lesson-9" />
-      <recent name="$PROJECT_DIR$/assignments/lesson-8/styles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -546,7 +529,7 @@
       <workItem from="1520986756697" duration="8236000" />
       <workItem from="1521054037520" duration="1580000" />
       <workItem from="1521160530986" duration="6253000" />
-      <workItem from="1521296473825" duration="15510000" />
+      <workItem from="1521296473825" duration="16068000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -615,7 +598,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212584000" />
+    <option name="totallyTimeSpent" value="213142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -725,7 +708,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/jsonPractice.html" />
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/favPlayers.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1032,22 +1014,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/greenville.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/springfield.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -1070,10 +1036,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-5/images/hotday.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/greenville.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="108" column="81" lean-forward="true" selection-start-line="108" selection-start-column="81" selection-end-line="108" selection-end-column="81" />
+        <state relative-caret-position="376">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
           <folding />
         </state>
       </provider>
