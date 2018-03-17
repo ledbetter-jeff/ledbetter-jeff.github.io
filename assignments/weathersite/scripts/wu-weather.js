@@ -33,6 +33,21 @@ greenWeatherObject.onload = function () {
 
 }; // End of onload
 
+var placerWeatherObject = new XMLHttpRequest();
+
+placerWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/CA/Placerville.json', true);
+placerWeatherObject.send();
+placerWeatherObject.onload = function () {
+
+    var placerWeatherInfo = JSON.parse(placerWeatherObject.responseText);
+    console.log(placerWeatherInfo);
+
+    // document.getElementById('pPlace').innerHTML = placerWeatherInfo.current_observation.display_location.full;
+    document.getElementById('pTemp').innerHTML = placerWeatherInfo.current_observation.temp_f;
+    document.getElementById('pw_icon').src = placerWeatherInfo.current_observation.icon_url;
+
+}; // End of onload
+
 var springWeatherObject = new XMLHttpRequest();
 
 springWeatherObject.open('GET','http://api.wunderground.com/api/a4a4356fb4e85dd7/conditions/q/MO/Springfield.json', true);
@@ -75,6 +90,13 @@ townObject.onload = function () {
     document.getElementById('gE2').innerHTML = townInfo.towns["1"].events["1"];
     document.getElementById('gE3').innerHTML = townInfo.towns["1"].events["2"];
     document.getElementById('gE4').innerHTML = townInfo.towns["1"].events["3"];
+
+    document.getElementById('pPop').innerHTML = townInfo.towns["2"].currentPopulation;
+    document.getElementById('pFound').innerHTML = townInfo.towns["2"].yearFounded;
+    document.getElementById('pMotto').innerHTML = townInfo.towns["2"].motto;
+    document.getElementById('pRain').innerHTML = townInfo.towns["2"].averageRainfall;
+    document.getElementById('pE1').innerHTML = townInfo.towns["2"].events["0"];
+    document.getElementById('pE2').innerHTML = townInfo.towns["2"].events["1"];
 
     document.getElementById('sPop').innerHTML = townInfo.towns["3"].currentPopulation;
     document.getElementById('sFound').innerHTML = townInfo.towns["3"].yearFounded;
