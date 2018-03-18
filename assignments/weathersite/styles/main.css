@@ -47,9 +47,9 @@ footer { background-color: dodgerblue;color: white;padding: .5rem .5rem;width: 1
 .container { display: flex; flex-direction: column;}
 
 
-nav button {margin: .2rem 2%;background-color: transparent; border: none;font-size: 1.6rem;color: #555;}
+nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
 
-nav {background-color: #ccc;font-family: Verdana, sans-serif;}
+nav {background-color: #cccccc;font-family: Verdana, sans-serif;}
 
 nav ul {list-style-type: none;padding: 0;margin: 0;}
 
@@ -58,9 +58,10 @@ nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px s
 
 nav ul li a {display: flex;padding: .8rem 2%;background-color: #dddddd;text-decoration: none;color: #000;border-top: 1px solid rgba(0,0,0,.3);}
 
-nav ul li#active a {background-color: rgba(0,0,0,.2);color: #fff;}
+nav ul li#active a {background-color: rgba(0,0,0,.4);color: #fff;}
 
-nav ul li a:hover {background-color: rgba(0,0,0,.4);}
+nav ul li a:hover {
+    color: white; background-color: rgba(0,0,0,.2);}
 
 nav ul.hide { display: none;}
 
