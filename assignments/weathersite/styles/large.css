@@ -10,6 +10,6 @@
         grid-column-gap: 1em;
     }
 
-    nav button { display:none; }
+    button { display:none; }
 
 }

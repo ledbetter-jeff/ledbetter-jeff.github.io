@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/greenville/Greenville.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assignments/weathersite/images/springfield/road.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/franklin.html" afterPath="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/greenville.html" afterPath="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
       <change beforePath="$PROJECT_DIR$/assignments/weathersite/index.html" afterPath="$PROJECT_DIR$/assignments/weathersite/index.html" />
-      <change beforePath="$PROJECT_DIR$/assignments/weathersite/springfield.html" afterPath="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/large.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/large.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/largest.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/largest.css" />
       <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
+      <change beforePath="$PROJECT_DIR$/assignments/weathersite/styles/medium.css" afterPath="$PROJECT_DIR$/assignments/weathersite/styles/medium.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +17,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49745455">
+    <splitter split-orientation="horizontal" split-proportion="0.44383395">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="104" column="10" lean-forward="false" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
+                <state relative-caret-position="1694">
+                  <caret line="104" column="10" lean-forward="true" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
                   <folding>
                     <element signature="e#2300#2305#0" expanded="true" />
                     <element signature="e#2987#2992#0" expanded="true" />
                     <element signature="e#3712#3717#0" expanded="true" />
                     <element signature="e#4354#4359#0" expanded="true" />
-                    <element signature="e#5931#5937#0" expanded="true" />
+                    <element signature="e#5930#5936#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -58,10 +56,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="springfield.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="springfield.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/springfield.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
+                <state relative-caret-position="1377">
                   <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
                   <folding />
                 </state>
@@ -85,8 +83,18 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="694">
-                  <caret line="147" column="18" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+                <state relative-caret-position="264">
+                  <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main-9.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="134">
+                  <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="185" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -95,8 +103,28 @@
           <file leaf-file-name="medium.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/medium.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="680">
-                  <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="medium-9.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hamburger.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -105,8 +133,8 @@
           <file leaf-file-name="large.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/large.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -115,8 +143,8 @@
           <file leaf-file-name="largest.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/largest.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -172,8 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/lesson-8/franklin-8.html" />
-        <option value="$PROJECT_DIR$/assignments/lesson-8/home-8.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/stormcenter-8.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-8/styles/main-8.css" />
@@ -216,13 +242,15 @@
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/wu-weather.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js" />
         <option value="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/styles/largest.css" />
         <option value="$PROJECT_DIR$/assignments/weathersite/gallery.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/index.html" />
-        <option value="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/index.html" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/styles/large.css" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/styles/largest.css" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/styles/medium.css" />
+        <option value="$PROJECT_DIR$/assignments/weathersite/styles/main.css" />
       </list>
     </option>
   </component>
@@ -290,6 +318,19 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson-9" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="weathersite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,6 +363,13 @@
               <item name="weathersite" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="home-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="weathersite" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -539,7 +587,7 @@
       <workItem from="1520986756697" duration="8236000" />
       <workItem from="1521054037520" duration="1580000" />
       <workItem from="1521160530986" duration="6253000" />
-      <workItem from="1521296473825" duration="18807000" />
+      <workItem from="1521296473825" duration="22236000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -608,7 +656,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215881000" />
+    <option name="totallyTimeSpent" value="219310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -900,14 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/stormcenter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -916,26 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/largest.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-8/styles/medium-8.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -956,14 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3258">
-          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-7/styles/medium-7.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -976,14 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/large.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1021,41 +1029,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/medium.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="147" column="18" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/franklin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="104" column="10" lean-forward="false" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
-          <folding>
-            <element signature="e#2300#2305#0" expanded="true" />
-            <element signature="e#2987#2992#0" expanded="true" />
-            <element signature="e#3712#3717#0" expanded="true" />
-            <element signature="e#4354#4359#0" expanded="true" />
-            <element signature="e#5931#5937#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,8 +1047,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/weathersite/springfield.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="1377">
           <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="104" column="10" lean-forward="true" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
+          <folding>
+            <element signature="e#2300#2305#0" expanded="true" />
+            <element signature="e#2987#2992#0" expanded="true" />
+            <element signature="e#3712#3717#0" expanded="true" />
+            <element signature="e#4354#4359#0" expanded="true" />
+            <element signature="e#5930#5936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/largest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/large.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/scripts/hamburger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/medium-9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/medium.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/styles/main-9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="185" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/weathersite/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
