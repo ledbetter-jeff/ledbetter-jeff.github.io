@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html id='sp🚧' lang='en'>
+<head>
+<link href='/manifest.json' rel='manifest'>
+<meta charset='utf-8'>
+<meta content='SitePoint: Learn web development and design from the masters.' name='description'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='581754' name='sp:user'>
+<meta content='581754' name='sp:user:id'>
+<meta content='true' name='sp:user:member'>
+<title>Work with the DOM with jQuery - Lesson 1, Step 1: What is jQuery?
+ - SitePoint Premium</title>
+<link href='/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon'>
+<link href='/apple-touch-icon-57x57-precomposed.png' rel='apple-touch-icon-precomposed'>
+<link href='/apple-touch-icon-72x72-precomposed.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+<link href='/apple-touch-icon-114x114-precomposed.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+<link href='/apple-touch-icon-144x144-precomposed.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link as='font' href='https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic,900,900italic' rel='preload'>
+<link href="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/styles-ba747f51c6a0d7e09a9358373a93222d24c293ada4a56e697ca61890a7a230ee.css" media="screen" rel="stylesheet" />
+<link href="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/dynamic-5df85fd2dc76207a23b0d7199c47960d85d72eea5a7113eb36fd6283661da534.css" media="screen" rel="stylesheet" />
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="VNUbjA9rqDWf17e2+gEhcgkyE0w6R7ArDlvugRXf4a4=" name="csrf-token" />
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/html5shiv-50b4798dc290f9ad0e16a62ea7500606f569133edc284090ca1e068f66e5d506.js"></script>
+<![endif]-->
+<!-- / We should strive to load only the bare essential Javascript in head, please use javascript_body -->
+<script async src='https://cdn.onesignal.com/sdks/OneSignalSDK.js' type='text/javascript'></script>
+<script async id='stripe-js' src='https://js.stripe.com/v3/' type='text/javascript'></script>
+<script>
+  window.x = window.x || {};
+  var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "65189cfb-a985-4bd7-a41b-c2666081e811",
+      safari_web_id: 'web.onesignal.auto.49d2239d-a04e-422a-89e0-14dbda97fb4d',
+      autoRegister: false,
+      persistNotification: true,
+    }]);
+</script>
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/modules/loader-e029e91c9de1b68193ab23944aba3a36a3842b97bdf127f0735f1702966a2faa.js"></script>
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/deps/video-d56760839a3f2e41f4c4cb2b9367b27e5d75ab44de5b0a01a2fb804bff15b0a4.js"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+ga('create', "UA-30131-1", ".sitepoint.com", {
+  'allowLinker': true
+});
+ga('require', 'eventTracker', {
+  attributePrefix: "data-ga-",
+  events: ["click", "submit"]
+});
+ga('require', 'outboundLinkTracker');
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'SitePointPlugin');
+ga('send', 'pageview');
+
+(function() {
+  var ga = window[window['GoogleAnalyticsObject'] || 'ga'];
+
+  var providePlugin = function(pluginName, pluginConstructor) {
+    if (ga) {
+      ga('provide', pluginName, pluginConstructor);
+    }
+  };
+
+  var SitePointPlugin = function(tracker) {
+    this.tracker = tracker;
+    var originalSendHitTask = this.tracker.get('sendHitTask');
+    this.tracker.set('sendHitTask', function(model) {
+      originalSendHitTask(model);
+      if (model.get('eventCategory') !== 'Demandbase') return;
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'https://' + location.hostname + '/premium/api/v1/demand-base-visit?' + model.get('hitPayload'), true);
+      xhr.send();
+    });
+  };
+  providePlugin('SitePointPlugin', SitePointPlugin);
+})();
+
+</script>
+<script async='' src='https://www.google-analytics.com/analytics.js'></script>
+<script>
+  window['_fs_debug'] = false;
+  window['_fs_host'] = 'fullstory.com';
+  window['_fs_org'] = '79Z3E';
+  window['_fs_namespace'] = 'FS';
+  (function(m,n,e,t,l,o,g,y){
+      if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+      g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+      o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+      y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+      g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+      g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+      g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+      d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+      ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+  })(window,document,window['_fs_namespace'],'script','user');
+</script>
+<script>
+  FS.identify('581754', {
+    username: 'led10003',
+    email: 'led10003@byui.edu',
+  });
+</script>
+
+<!-- Proof | useproof.com -->
+<script id='proof-script'>
+!function(){function b(){var a=(new Date).getTime(),b=document.createElement('script');b.type='text/javascript',b.async=!0,b.src='https://cdn.getmoreproof.com/embed/latest/proof.js?'+a;var c=document.getElementsByTagName('script')[0];c.parentNode.insertBefore(b,c)}var a=window;a.attachEvent?a.attachEvent('onload',b):a.addEventListener('load',b,!1),window.proof_config={acc:'XcxyVcoqnCSIaetTnKKEAdQ1OoV2', v:'1.1'}}()
+</script>
+<!-- End Proof -->
+
+<meta content='https://www.sitepoint.com/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/1' property='og:url'>
+<meta content='What is jQuery? - Work with the DOM with jQuery on SitePoint' property='og:title'>
+<meta content='Get started with jQuery' property='og:description'>
+<meta content='https://d2sis3lil8ndrq.cloudfront.net/courses/5d17e74b-b326-46cd-8b01-f845b720c016.jpg' property='og:image'>
+<meta content='SitePoint Premium' property='og:site_name'>
+<meta content='videos.other' property='og:type'>
+<meta content='summary' property='twitter:card'>
+<meta content='@sitepointdotcom' property='twitter:site'>
+<meta content='What is jQuery? - Work with the DOM with jQuery on SitePoint' property='twitter:title'>
+<meta content='Get started with jQuery' property='twitter:description'>
+<meta content='https://d2sis3lil8ndrq.cloudfront.net/courses/5d17e74b-b326-46cd-8b01-f845b720c016.jpg' property='twitter:image:src'>
+
+
+<link href="https://www.sitepoint.com/premium/courses/introduction-to-jquery-2884/lesson/1/step/1" rel="canonical" />
+</head>
+<body>
+<nav class='NavBar l-d-f l-p-fix  l-w-100 t-bg-grey-500'>
+<div class='l-d-f l-w-100 l-w-3col--3col l-w-4col--4col l-jc-sb l-mh-auto l-ph2'>
+<section class='l-d-f l-ai-str l-jc-sta'>
+<sidebar-nav email='led10003@byui.edu' fullname='Jeff Ledbetter' member></sidebar-nav>
+<a class="l-d-n l-d-f--3col l-as-cen l-b-n" href="/"><svg class='sp-logo' viewbox='0 0 123 27'>
+<g fill-rule='evenodd'>
+<path d='M31.36,16.75 C31.56,17.07 31.82,17.31 32.14,17.50 C32.46,17.68 32.82,17.82 33.23,17.89 C33.63,17.97 34.05,18.01 34.48,18.01 C34.81,18.01 35.16,17.99 35.52,17.94 C35.89,17.89 36.22,17.81 36.53,17.68 C36.83,17.55 37.08,17.36 37.28,17.11 C37.48,16.87 37.58,16.55 37.58,16.17 C37.58,15.64 37.37,15.24 36.96,14.97 C36.55,14.69 36.03,14.47 35.41,14.31 C34.79,14.14 34.12,13.99 33.39,13.85 C32.66,13.71 31.99,13.52 31.37,13.27 C30.75,13.03 30.23,12.68 29.82,12.23 C29.41,11.78 29.20,11.16 29.20,10.36 C29.20,9.73 29.34,9.20 29.63,8.75 C29.92,8.30 30.30,7.94 30.75,7.66 C31.20,7.38 31.72,7.17 32.29,7.03 C32.86,6.90 33.42,6.83 33.99,6.83 C34.71,6.83 35.38,6.89 35.99,7.01 C36.61,7.13 37.15,7.34 37.62,7.63 C38.09,7.93 38.46,8.33 38.75,8.83 C39.03,9.34 39.19,9.96 39.24,10.72 L37.13,10.72 C37.10,10.32 36.99,9.98 36.81,9.72 C36.63,9.46 36.40,9.25 36.12,9.08 C35.84,8.92 35.53,8.81 35.19,8.74 C34.85,8.66 34.51,8.63 34.16,8.63 C33.84,8.63 33.53,8.65 33.20,8.70 C32.88,8.75 32.59,8.83 32.32,8.95 C32.06,9.07 31.84,9.23 31.68,9.43 C31.51,9.63 31.43,9.89 31.43,10.21 C31.43,10.56 31.56,10.86 31.82,11.09 C32.07,11.32 32.40,11.51 32.80,11.66 C33.19,11.82 33.64,11.95 34.13,12.05 C34.63,12.15 35.13,12.26 35.62,12.37 C36.15,12.49 36.67,12.62 37.17,12.78 C37.67,12.94 38.12,13.15 38.51,13.42 C38.90,13.68 39.21,14.01 39.45,14.41 C39.69,14.81 39.81,15.31 39.81,15.90 C39.81,16.66 39.65,17.28 39.33,17.77 C39.01,18.27 38.58,18.67 38.06,18.98 C37.54,19.28 36.96,19.49 36.30,19.61 C35.65,19.73 35.00,19.79 34.36,19.79 C33.65,19.79 32.97,19.72 32.32,19.58 C31.68,19.43 31.11,19.20 30.61,18.87 C30.12,18.54 29.72,18.11 29.42,17.57 C29.13,17.03 28.96,16.38 28.93,15.61 L31.03,15.61 C31.05,16.06 31.16,16.44 31.36,16.75' id='Fill-1'></path>
+<path d='M42.27,7.12 L44.37,7.12 L44.37,19.53 L42.27,19.53 L42.27,7.12 Z' id='Fill-2'></path>
+<path d='M53.13,7.12 L53.13,8.92 L50.57,8.92 L50.57,16.62 C50.57,16.86 50.59,17.05 50.63,17.20 C50.67,17.34 50.75,17.46 50.87,17.54 C50.99,17.62 51.15,17.67 51.35,17.69 C51.56,17.71 51.83,17.73 52.16,17.73 L53.13,17.73 L53.13,19.53 L51.51,19.53 C50.97,19.53 50.50,19.49 50.11,19.42 C49.72,19.35 49.41,19.22 49.17,19.02 C48.93,18.83 48.75,18.56 48.64,18.21 C48.52,17.86 48.46,17.39 48.46,16.81 L48.46,8.92 L46.28,8.92 L46.28,7.12 L48.46,7.12 L48.46,3.39 L50.57,3.39 L50.57,7.12 L53.13,7.12' id='Fill-3'></path>
+<path d='M64.53,18.73 C63.57,19.44 62.36,19.79 60.91,19.79 C59.89,19.79 59.00,19.63 58.25,19.31 C57.49,18.99 56.86,18.54 56.35,17.97 C55.84,17.39 55.45,16.70 55.20,15.90 C54.94,15.10 54.80,14.23 54.76,13.29 C54.76,12.34 54.91,11.48 55.21,10.69 C55.51,9.91 55.92,9.23 56.46,8.65 C57.00,8.08 57.63,7.63 58.37,7.31 C59.11,6.99 59.91,6.83 60.79,6.83 C61.93,6.83 62.87,7.05 63.63,7.51 C64.38,7.97 64.98,8.55 65.44,9.25 C65.89,9.96 66.20,10.73 66.38,11.56 C66.55,12.39 66.62,13.18 66.59,13.93 L56.99,13.93 C56.98,14.48 57.04,14.99 57.19,15.48 C57.34,15.97 57.58,16.40 57.91,16.78 C58.24,17.16 58.66,17.46 59.18,17.68 C59.69,17.90 60.29,18.01 60.98,18.01 C61.88,18.01 62.61,17.82 63.18,17.41 C63.75,17.02 64.13,16.41 64.31,15.59 L66.39,15.59 C66.11,16.98 65.49,18.03 64.53,18.73 L64.53,18.73 Z M64.02,10.76 C63.83,10.33 63.58,9.96 63.25,9.65 C62.93,9.34 62.55,9.09 62.11,8.90 C61.68,8.72 61.19,8.63 60.66,8.63 C60.12,8.63 59.62,8.72 59.19,8.90 C58.75,9.09 58.37,9.34 58.06,9.66 C57.75,9.98 57.50,10.35 57.32,10.78 C57.13,11.20 57.03,11.65 56.99,12.13 L64.36,12.13 C64.32,11.65 64.21,11.20 64.02,10.76 L64.02,10.76 Z' id='Fill-4'></path>
+<path d='M70.95,7.12 L70.95,8.80 L71.00,8.80 C71.35,8.11 71.89,7.61 72.64,7.30 C73.38,6.98 74.20,6.83 75.09,6.83 C76.09,6.83 76.95,7.00 77.68,7.36 C78.42,7.71 79.03,8.18 79.52,8.78 C80.01,9.38 80.37,10.08 80.62,10.86 C80.87,11.65 80.99,12.48 80.99,13.36 C80.99,14.24 80.87,15.07 80.63,15.85 C80.39,16.64 80.03,17.32 79.54,17.91 C79.06,18.49 78.44,18.95 77.71,19.29 C76.97,19.62 76.12,19.79 75.14,19.79 C74.83,19.79 74.48,19.76 74.09,19.70 C73.70,19.63 73.32,19.53 72.94,19.38 C72.56,19.24 72.20,19.04 71.86,18.79 C71.52,18.55 71.23,18.24 71.00,17.87 L70.95,17.87 L70.95,24.26 L68.84,24.26 L68.84,7.12 L70.95,7.12 L70.95,7.12 Z M78.53,11.52 C78.37,10.97 78.13,10.48 77.81,10.04 C77.49,9.61 77.07,9.27 76.57,9.01 C76.06,8.76 75.47,8.63 74.79,8.63 C74.08,8.63 73.48,8.76 72.98,9.04 C72.49,9.31 72.08,9.67 71.77,10.10 C71.46,10.55 71.23,11.05 71.09,11.60 C70.95,12.17 70.88,12.73 70.88,13.31 C70.88,13.92 70.95,14.51 71.10,15.07 C71.25,15.64 71.48,16.14 71.81,16.57 C72.13,17.01 72.55,17.35 73.06,17.62 C73.57,17.88 74.19,18.01 74.92,18.01 C75.65,18.01 76.25,17.88 76.74,17.61 C77.23,17.34 77.62,16.98 77.92,16.53 C78.22,16.08 78.43,15.57 78.56,14.99 C78.70,14.41 78.76,13.82 78.76,13.21 C78.76,12.64 78.68,12.07 78.53,11.52 L78.53,11.52 Z' id='Fill-5'></path>
+<path d='M83.17,10.78 C83.44,9.98 83.84,9.30 84.36,8.71 C84.89,8.13 85.55,7.67 86.33,7.33 C87.10,7.00 87.99,6.83 89.00,6.83 C90.03,6.83 90.92,7.00 91.69,7.33 C92.46,7.67 93.11,8.13 93.64,8.71 C94.17,9.30 94.56,9.98 94.83,10.78 C95.09,11.57 95.23,12.42 95.23,13.33 C95.23,14.25 95.09,15.09 94.83,15.88 C94.56,16.66 94.17,17.35 93.64,17.93 C93.11,18.52 92.46,18.97 91.69,19.30 C90.92,19.63 90.03,19.79 89.00,19.79 C87.99,19.79 87.10,19.63 86.33,19.30 C85.55,18.97 84.89,18.52 84.36,17.93 C83.84,17.35 83.44,16.66 83.17,15.88 C82.91,15.09 82.78,14.25 82.78,13.33 C82.78,12.42 82.91,11.57 83.17,10.78 L83.17,10.78 Z M85.32,15.34 C85.53,15.92 85.81,16.41 86.18,16.80 C86.54,17.19 86.96,17.49 87.45,17.70 C87.94,17.91 88.46,18.01 89.00,18.01 C89.55,18.01 90.06,17.91 90.55,17.70 C91.04,17.49 91.46,17.19 91.83,16.80 C92.19,16.41 92.48,15.92 92.68,15.34 C92.89,14.75 92.99,14.09 92.99,13.33 C92.99,12.58 92.89,11.91 92.68,11.33 C92.48,10.75 92.19,10.25 91.83,9.85 C91.46,9.45 91.04,9.15 90.55,8.94 C90.06,8.73 89.55,8.63 89.00,8.63 C88.46,8.63 87.94,8.73 87.45,8.94 C86.96,9.15 86.54,9.45 86.18,9.85 C85.81,10.25 85.53,10.75 85.32,11.33 C85.11,11.91 85.01,12.58 85.01,13.33 C85.01,14.09 85.11,14.75 85.32,15.34 L85.32,15.34 Z' id='Fill-6'></path>
+<path d='M97.83,7.12 L99.94,7.12 L99.94,19.53 L97.83,19.53 L97.83,7.12 Z' id='Fill-7'></path>
+<path d='M105.19,7.12 L105.19,9.08 L105.24,9.08 C106.12,7.58 107.51,6.83 109.41,6.83 C110.25,6.83 110.95,6.94 111.51,7.16 C112.08,7.39 112.53,7.70 112.88,8.10 C113.23,8.50 113.47,8.98 113.61,9.53 C113.75,10.08 113.82,10.69 113.82,11.36 L113.82,19.53 L111.71,19.53 L111.71,11.12 C111.71,10.36 111.48,9.75 111.02,9.30 C110.56,8.85 109.92,8.63 109.11,8.63 C108.46,8.63 107.91,8.72 107.43,8.92 C106.96,9.11 106.57,9.38 106.26,9.73 C105.94,10.08 105.71,10.50 105.55,10.97 C105.39,11.44 105.32,11.96 105.32,12.52 L105.32,19.53 L103.21,19.53 L103.21,7.12 L105.19,7.12' id='Fill-8'></path>
+<path d='M122.47,7.12 L122.47,8.92 L119.92,8.92 L119.92,16.62 C119.92,16.86 119.94,17.05 119.98,17.20 C120.02,17.34 120.10,17.46 120.22,17.54 C120.33,17.62 120.49,17.67 120.70,17.69 C120.91,17.71 121.18,17.73 121.50,17.73 L122.47,17.73 L122.47,19.53 L120.86,19.53 C120.32,19.53 119.85,19.49 119.46,19.42 C119.07,19.35 118.76,19.22 118.52,19.02 C118.28,18.83 118.10,18.56 117.99,18.21 C117.87,17.86 117.81,17.39 117.81,16.81 L117.81,8.92 L115.63,8.92 L115.63,7.12 L117.81,7.12 L117.81,3.39 L119.92,3.39 L119.92,7.12 L122.47,7.12' id='Fill-9'></path>
+<path d='M0.67,11.87 L2.62,13.76 L8.76,19.50 L11.41,16.94 C11.65,16.61 11.64,16.16 11.36,15.84 L8.94,13.72 L8.95,13.72 L6.34,11.19 C6.04,10.84 6.04,10.32 6.37,9.99 L13.38,3.21 L10.20,0.12 L0.68,9.31 C-0.05,10.02 -0.05,11.17 0.67,11.87' id='Fill-10'></path>
+<path d='M21.60,15.15 L19.66,13.27 L13.51,7.53 L10.86,10.08 C10.62,10.42 10.64,10.87 10.91,11.19 L13.33,13.31 L13.33,13.31 L15.93,15.84 C16.24,16.19 16.23,16.70 15.91,17.04 L8.89,23.82 L12.08,26.91 L19.65,19.60 L21.60,17.71 C22.33,17.01 22.33,15.86 21.60,15.15' id='Fill-11'></path>
+<path d='M44.55,4.58 C44.55,5.24 44.00,5.77 43.32,5.77 C42.64,5.77 42.09,5.24 42.09,4.58 C42.09,3.93 42.64,3.39 43.32,3.39 C44.00,3.39 44.55,3.93 44.55,4.58' id='Fill-12'></path>
+<path d='M100.11,4.58 C100.11,5.24 99.56,5.77 98.88,5.77 C98.20,5.77 97.65,5.24 97.65,4.58 C97.65,3.93 98.20,3.39 98.88,3.39 C99.56,3.39 100.11,3.93 100.11,4.58' id='Fill-13'></path>
+</g>
+</svg>
+</a>
+<a class="l-d-f l-d-n--3col l-ma0 l-as-cen l-b-n" href="/"><svg class='sp-logo' viewbox='0 0 79 90'>
+<g fill-rule='evenodd'>
+<path class='logo-1' d='M70.07,42.97 L48.89,23.22 L39.76,32.02 C38.92,33.17 38.98,34.73 39.94,35.81 L48.27,43.12 L57.23,51.82 C58.29,53.02 58.26,54.79 57.14,55.95 L32.96,79.27 L43.95,89.92 L70.04,64.75 L76.76,58.28 C79.28,55.85 79.29,51.90 76.77,49.47 L70.07,42.97 Z'></path>
+<path class='logo-2' d='M2.29,40.45 L8.99,46.95 L30.17,66.69 L39.30,57.89 C40.13,56.75 40.08,55.19 39.12,54.10 L30.78,46.80 L30.81,46.80 L21.83,38.09 C20.78,36.90 20.80,35.12 21.91,33.97 L46.10,10.64 L35.11,0.00 L2.30,31.64 C-0.21,34.07 -0.22,38.02 2.29,40.45'></path>
+</g>
+</svg>
+</a>
+</section>
+<section class='l-d-f l-w-100 l-ai-str l-jc-fe'>
+<sp-notification-dot class='l-p-rel l-ai-str l-d-n l-d-f--3col l-ai-cen l-ml3 l-ph2 f-small f-light f-c-white NavBar_item' icon='diamond' link_text='Deals' nav_location='topNav' notification_text='9' storage_key='DealsPage' url='/premium/deals?ref_source=premium&amp;ref_medium=topnav'>
+<a class="f-small f-light f-c-white NavBar_item l-d-f l-ai-cen" href="/premium/deals?ref_source=premium&amp;ref_medium=topnav"><i class='l-mr2 f-medium fa fa-diamond'></i>
+<span>
+Deals
+</span>
+</a>
+</sp-notification-dot>
+<a class='l-d-n l-d-f--3col l-ai-cen l-ml3 l-ml4--4col l-pa2 f-small f-light f-c-white NavBar_item' href='/premium/paths?ref_source=premium&amp;ref_medium=topnav'>
+<i class='l-mr2 f-medium fa fa-map-marker'></i>
+Learning Paths
+</a>
+<sp-notification-dot class='l-p-rel l-ai-str l-d-n l-d-f--3col l-ai-cen l-ml3 l-ph2 f-small f-light f-c-white NavBar_item' icon='book' link_text='Books &amp; Courses' nav_location='topNav' notification_text='2' storage_key='BooksCourses' url='/premium/topics/all?q=&amp;limit=400&amp;offset=0&amp;page1'>
+<a class="l-d-n l-d-f--3col l-ai-cen l-ml3 l-ml4--4col l-pa2 f-small f-light f-c-white NavBar_item" href="/premium/topics/all?q=&amp;limit=400&amp;offset=0&amp;page1"><i class='l-mr2 f-medium fa fa-book'></i>
+<span>
+Books & Courses
+</span>
+</a>
+</sp-notification-dot>
+<div class='NavBar_dropdown l-p-rel l-d-f l-ai-cen l-ml3 l-ml4--4col'>
+<a class='l-d-n l-d-f--3col l-ai-cen l-pa2 f-small f-light f-c-white NavBar_item' href='/premium/dashboard' style='border-width: 1px;'>
+<i class='l-mr2 f-medium fa fa-dashboard'></i>
+Dashboard
+<i class='l-ml2 f-medium fa fa-angle-down'></i>
+</a>
+<div class='l-w-col l-fd-col t-bg-white-a95 NavBar_dropdownInner'>
+<a class='l-w-100 l-d-f l-ai-cen l-pa3 t-t f-small f-left f-light f-lh-title m-link' href='/premium/account'>
+<i class='l-mr2 l-s3 f-medium fa fa-cog'></i>
+Profile & Settings
+</a>
+<a class='l-w-100 l-d-f l-ai-cen l-pa3 t-t f-small f-left f-light f-lh-title m-link' href='/premium/account/membership'>
+<i class='l-mr2 l-s3 f-medium fa fa-rocket'></i>
+Membership
+</a>
+<a class='l-w-100 l-d-f l-ai-cen l-pa3 t-t f-small f-left f-light f-lh-title m-link' href='/premium/account/payments'>
+<i class='l-mr2 l-s3 f-medium fa fa-shopping-cart'></i>
+Payment History
+</a>
+</div>
+</div>
+</section>
+</div>
+</nav>
+<div class='l-d-b  NavBar_offsetSpacer'></div>
+<script>
+  localStorage.removeItem('SP_campaign');
+  localStorage.removeItem('SP_content');
+</script>
+<script>
+  OneSignal.push(function() {
+        OneSignal.sendTags({
+          "member": "true",
+        });
+      });
+</script>
+
+
+
+
+<div class='row flash-messages'>
+</div>
+
+<div class='ProductLesson'>
+<div>
+<div>
+<h1 class='l-mt3'>
+Work with the DOM with jQuery
+</h1>
+<h2 class='l-pa3 l-ma0 f-c-grey-300'>
+Lesson 1, Step 1: What is jQuery?
+</h2>
+</div>
+</div>
+<div class='Product_body'>
+<script>
+  var sources = [];
+  sources.push({file: "https://d3rj1gznkm47xj.cloudfront.net/a69dc7f3fdca23899312ece21453e470.mp4", label: "SD"});
+  sources.push({file: "https://d3rj1gznkm47xj.cloudfront.net/3853a5e29dd7d6cc0458c7aeb54e0dc8.mp4", label: "HD"});
+  
+  var jwplayerOpts = {
+    sources: sources,
+    image: "https://d3rj1gznkm47xj.cloudfront.net/0805fe51-cfa7-4267-8088-4228ddd8ac19.png",
+    width: "100%",
+    height: "480px",
+    primary: "html5",
+    tracks: [{
+      file: "/premium/captions/1107.srt",
+      kind: "captions",
+      "default": true
+    },
+    {
+      file:"/premium/videos/4636/chapters.vtt",
+      kind:"chapters",
+      "default": true,
+    }],
+    advertising: "",
+    aspectratio: "16:9",
+    autostart: "",
+    fallback: true,
+    url_virtual_pageview: false,
+    flashplayer: "https://d39ayi7b6b3haj.cloudfront.net/premium/assets/jwplayer/jwplayer.flash-02bfbbd2bf76b065a46c04e01a2532e49b61d9d2425d892f94aa2288bfbf175f.swf",
+    streaming: false,
+    key: "TK+9J9k7uw5aY1V2Mmeio/c2F0vfWezMuas6MyK7G5o=",
+    captions: {
+      fontSize: 12
+    },
+    skin: {
+      name: "vapor"
+    },
+    autostart: ("true" === "true" && "/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/2" !== "") ? true : false
+  };
+  
+  window.addEventListener("load", function() {
+    jwplayer("video-4636").setup(jwplayerOpts);
+  
+    // Next step auto play
+    jwplayer().on('complete', function() {
+      if (jwplayerOpts.autostart && "/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/2" !== "last_step") window.location.href = "/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/2";
+    });
+  
+    // JWPlayer speed options and rewind option
+    jwplayer().on("ready", function() {
+      if (jwplayer().getRenderingMode() === "flash") {
+        return;
+      }
+  
+      jwplayerInstance = document.querySelector("video");
+      jwplayerInstance.defaultPlaybackRate = 1.0;
+      jwplayerInstance.playBackRate = 1.0;
+  
+      jwplayer().addButton("https://d39ayi7b6b3haj.cloudfront.net/premium/assets/icons/twospeed-2eb8579e7e5b92c7e0f3c85ebb0b18887e1bb33d1fde608bdca18401aa52c43f.png", "2x Speed", function() {
+        jwplayer().seek(jwplayer().getPosition());
+        jwplayerInstance.playbackRate = 2;
+      }, "high");
+  
+      jwplayer().addButton("https://d39ayi7b6b3haj.cloudfront.net/premium/assets/icons/halfspeed-d66333019b800704b1658c60e5ac329f9bdacaf2b9f8a6cbe584d8d32bdbe1e9.png", "1.5x Speed", function() {
+        jwplayer().seek(jwplayer().getPosition());
+        jwplayerInstance.playbackRate = 1.5;
+      }, "medium");
+  
+      jwplayer().addButton("https://d39ayi7b6b3haj.cloudfront.net/premium/assets/icons/onespeed-222b22b16e2e5bb1f10cfce58b34f726a93f46b9210eff078c60caab3e85bd2e.png", "Normal Speed", function() {
+        jwplayer().seek(jwplayer().getPosition());
+        jwplayerInstance.playbackRate = 1;
+      }, "normal");
+    });
+  });
+</script>
+<div class='VideoPlayer' itemscope='itemscope' itemtype='http://schema.org/VideoObject'>
+<meta content='Lesson 1, Step 1: What is jQuery?' itemprop='name'>
+<meta content="Hi, my name is Sachin Bhatnagar andI welcome you to this introductory course on jQuery.Thank you so much for joining in.Let's begin by the first and obvious question." itemprop='description'>
+<meta content='https://d3rj1gznkm47xj.cloudfront.net/0805fe51-cfa7-4267-8088-4228ddd8ac19.png' itemprop='thumbnailURL'>
+<meta content='https://d3rj1gznkm47xj.cloudfront.net/3853a5e29dd7d6cc0458c7aeb54e0dc8.mp4' itemprop='contentURL'>
+<meta content='404' itemprop='duration'>
+<meta content='2014-11-10 12:28:45 +1100' itemprop='uploadDate'>
+<div id='video-4636'></div>
+</div>
+
+<script>
+  window.addEventListener("load", function() {
+    var duration = Math.max(404, 60);
+  
+    var track = _.throttle(function(e) {
+      var rate = 1;
+  
+      if(this.getRenderingMode() == "html5") {
+        rate = this.getContainer()
+          .querySelector("video")
+          .playbackRate || 1;
+      }
+  
+      $.post('/premium/api/v1/video_playback_event', {
+        gid: "Z2lkOi8vbGVhcm5hYmxlL1ZpZGVvLzQ2MzY",
+        position: e.position,
+        rate: rate,
+      });
+    }, Math.round(duration / 4 * 1000));
+  
+    jwplayer("video-4636").onTime(track);
+  });
+</script>
+
+
+
+<div class='Lesson_nav'>
+<a class='Button u-disabled'>Previous</a>
+<div class='Lesson_download'>
+</div>
+<a class="Button" data-next-video="true" href="/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/2">Next
+<i class='fa fa-angle-right'></i>
+</a></div>
+
+<div class='section-container tabs' data-options='deep_linking: true' data-section='tabs'>
+<section class='section contents-listing active'>
+<div class='title'>
+<a href='#contents'>Contents</a>
+</div>
+<div class='content' data-section-content='true' data-slug='contents'>
+<div class='Contents'>
+<div class='Contents_header'>
+Lesson 1: Introduction to jQuery
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/1' title='What is jQuery?'></a>
+<span class='Contents_status'>
+<span class='fa fa-check'></span>
+</span>
+<span class='Contents_title'>
+What is jQuery?
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/a69dc7f3fdca23899312ece21453e470.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 1, Step 1&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/3853a5e29dd7d6cc0458c7aeb54e0dc8.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 1, Step 1&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+6:44
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/2' title='Why Should You Learn and Use jQuery?'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Why Should You Learn and Use jQuery?
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/1abf749f1c02b11d94b73a05e53b6fad.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 1, Step 2&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/a3a1dc7f2318706d1517f82c3272443d.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 1, Step 2&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+3:31
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/1/step/3' title='Quiz'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Quiz
+</span>
+<span class='Contents_actions'>
+</span>
+<span class='Contents_type'>
+<i class='fa fa-file'></i>
+</span>
+<span class='Contents_length'>
+
+</span>
+</div>
+<div class='Contents_header'>
+Lesson 2: Getting started
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/2/step/1' title='Downloading and including the jQuery Script File'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Downloading and including the jQuery Script File
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/3448e406774a56b1a5eb79cf7a8fb95d.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 2, Step 1&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/c6b4db8aa31a927bf359001cf26077f1.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 2, Step 1&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+4:19
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/2/step/2' title='Using jQuery from a Content Delivery Network (CDN)'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Using jQuery from a Content Delivery Network (CDN)
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/2c7eb939c73d8024604dfac71810e51e.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 2, Step 2&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/09267d139600a8a68a78b602298d8924.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 2, Step 2&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+4:16
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/2/step/3' title='The jQuery Ready Method'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+The jQuery Ready Method
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/da71fa633b3c50b1aa309125dfd46c62.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 2, Step 3&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/b3636142a32e313802c63a44b58d0cf3.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 2, Step 3&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+2:45
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/2/step/4' title='Quiz'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Quiz
+</span>
+<span class='Contents_actions'>
+</span>
+<span class='Contents_type'>
+<i class='fa fa-file'></i>
+</span>
+<span class='Contents_length'>
+
+</span>
+</div>
+<div class='Contents_header'>
+Lesson 3: Selectors
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/1' title='Introduction to Selectors'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Introduction to Selectors
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/9c9e9cc2140d8eddc4872d7b8ed9d4a9.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 1&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/d3c0409a72323f8b5ba894ecc0c5b695.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 1&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+13:44
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/2' title='Introduction to Basic jQuery Selectors: IDs and Classes'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Introduction to Basic jQuery Selectors: IDs and Classes
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/5e6f4427fb6b5bee203cc9f2e9acd880.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 2&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/5a8555f125cca47d4deed8ad72a876a8.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 2&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+3:55
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/3' title='Selecting by Element Type and Attribute Value'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Selecting by Element Type and Attribute Value
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/3792cf2bf81334e3652ebb92ac482ce1.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 3&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/36aa18de3cafbac6f95e0520c27bd78a.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 3&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+7:33
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/4' title='Using Selection Filters: Basic Filters'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Using Selection Filters: Basic Filters
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/02540ef003b0eb9a7ccd712c2b7ef052.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 4&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/269c05fea986a3b7e63b44ae35c44e5f.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 4&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+5:58
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/5' title='Using Selection Filters: Child &amp; Content Filters '></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Using Selection Filters: Child &amp; Content Filters 
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/d322763e2a269d46e54364d4e5bf8889.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 5&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/ea8e47474f5c5122ba188bc42d1bff20.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 5&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+8:54
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/6' title='Hierarchically Traversing the DOM'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Hierarchically Traversing the DOM
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/53cb039b9e378b74cd357bdec9afdde4.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 6&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/3d428f78de0222eeae8a75dfd731ac5d.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 3, Step 6&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+9:56
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/3/step/7' title='Quiz'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Quiz
+</span>
+<span class='Contents_actions'>
+</span>
+<span class='Contents_type'>
+<i class='fa fa-file'></i>
+</span>
+<span class='Contents_length'>
+
+</span>
+</div>
+<div class='Contents_header'>
+Lesson 4: DOM Manipulation
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/4/step/1' title='Playing with Styles'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Playing with Styles
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/76005ddae497f5f3719a8f94de774fce.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 1&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/97a27a5249276f7b09af141ae7a9371d.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 1&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+6:49
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/4/step/2' title='Inserting Content'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Inserting Content
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/a134d8d8837267ac345d0031926cda47.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 2&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/7943a5e95d6c11ac0ad178d1e9ec0c9e.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 2&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+12:02
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/4/step/3' title='Playing with Classes'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Playing with Classes
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/1f1c0b8891726067da229332691f2e06.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 3&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/4cbea6b0e4ac92ea3c9b3095ac2d954a.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 3&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+10:16
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/4/step/4' title='Slide Effects'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Slide Effects
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/ebb66439218cf5e3d6fa30a355e66636.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 4&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/57c20d64c45f0d28c2566ae565772b60.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 4&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+4:56
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/4/step/5' title='Iterating Over Collections'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Iterating Over Collections
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/8ae54541674170b334eeadddf63f7385.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 5&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/2a82f3e484a903ad4b7a96fc84c5b69d.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 4, Step 5&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+4:47
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/4/step/6' title='Quiz'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Quiz
+</span>
+<span class='Contents_actions'>
+</span>
+<span class='Contents_type'>
+<i class='fa fa-file'></i>
+</span>
+<span class='Contents_length'>
+
+</span>
+</div>
+<div class='Contents_header'>
+Lesson 5: Event Listeners
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/5/step/1' title='Introduction to Event Listeners'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Introduction to Event Listeners
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/a80463f73b7a2ca9fc23482afebc2f70.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 1&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/4b0ad6fbd4a58525adf2a0c1473af5ce.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 1&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+7:42
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/5/step/2' title='Mouse Events'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Mouse Events
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/c936a35e67b6d19c30e43573dfde2a84.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 2&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/0eb0b291fd3577cd01c425de2d0c72f1.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 2&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+21:14
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/5/step/3' title='Keyboard Events'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Keyboard Events
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/f4cc955e943a5568ca54cdced3532b51.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 3&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/5f46c041c72ea434e2b383eb08c24b0f.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 3&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+10:46
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/5/step/4' title='Form Events'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Form Events
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/105e03f01d1c39a92d7696d52a02108c.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 4&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/92d5d872ed2739d79275e4f47cab4b57.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 4&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+6:31
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/5/step/5' title='Best Practices'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Best Practices
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/f36b39ea4bf1983bcb7fc6b6447f17db.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 5&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/1a9084bea066a9342f2070848ce06a7a.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 5, Step 5&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+10:26
+</span>
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/5/step/6' title='Quiz'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Quiz
+</span>
+<span class='Contents_actions'>
+</span>
+<span class='Contents_type'>
+<i class='fa fa-file'></i>
+</span>
+<span class='Contents_length'>
+
+</span>
+</div>
+<div class='Contents_header'>
+Lesson 6: Course Conclusion
+</div>
+<div class='Contents_row '>
+<a class='Contents_link' href='/premium/courses/work-with-the-dom-with-jquery-2884/lesson/6/step/1' title='Conclusion'></a>
+<span class='Contents_status'>
+</span>
+<span class='Contents_title'>
+Conclusion
+</span>
+<span class='Contents_actions'>
+<a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/8ffea30e8768292f787b07fd11a5f9b5.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 6, Step 1&#39;, &#39;&#39;);" target="_blank">SD
+<span class='fa fa-arrow-down'></span>
+</a><a class="Contents_button" href="https://d3rj1gznkm47xj.cloudfront.net/4571e5acd5b9e5196b4ea06b8ae9c46d.mp4" onClick="ga(&#39;send&#39;, &#39;event&#39;, &#39;CourseVideoDownload&#39;, &#39;Work with the DOM with jQuery, Lesson 6, Step 1&#39;, &#39;&#39;);" target="_blank">HD
+<span class='fa fa-arrow-down'></span>
+</a></span>
+<span class='Contents_type'>
+<i class='fa fa-play-circle'></i>
+</span>
+<span class='Contents_length'>
+0:34
+</span>
+</div>
+</div>
+
+<div class='ProductTableDownloads'>
+</div>
+</div>
+</section>
+
+<section class='section'>
+<div class='title'>
+<a href="#discussion">Discussion
+<span id='discussion-count'></span>
+</a></div>
+<div class='content l-o-h' data-section-content='true' data-slug='discussion'>
+<div class='title-unit'></div>
+<script>
+  var stammer = {}
+</script>
+<script>
+  stammer.user = {
+    learnable_user_id: 581754,
+    username: "Jeff Ledbetter",
+    is_admin: false,
+    avatar: "<img alt=\"avatar\" class=\"avatar-large\" src=\"https://d39ayi7b6b3haj.cloudfront.net/premium/assets/the86/default-avatar-64x-83119d8b6e34c424cbc88305b0fd2d2146d3c5f79e5bdd289d4d55ed35db72d6.png\" />",
+    the86_user_id: 188545
+  };
+</script>
+<script>
+  stammer.settings = {
+    default_avatar: "<img alt=\"avatar\" class=\"avatar-large\" src=\"https://d39ayi7b6b3haj.cloudfront.net/premium/assets/the86/default-avatar-64x-83119d8b6e34c424cbc88305b0fd2d2146d3c5f79e5bdd289d4d55ed35db72d6.png\" />",
+    metadata: {"origin":"course-consumption","course_id":2884,"lesson_id":3809,"step_id":10737,"topic":["javascript","all","jquery"]}
+  };
+  
+  loader.push(function() {
+    stammer.app = new Stammer(stammer.user, stammer.settings);
+  });
+</script>
+
+<script id='new-thread-textarea' type='text/x-moustache'>
+<div class='thread-starter' data-stammer-section='thread'>
+<div class='Discussion_contribution'>
+<div class='Discussion_lightText Discussion_signedin'>
+You're signed in as
+<a href="/premium/account">led10003</a>
+</div>
+<div class='Discussion_textarea'>
+<textarea data-stammer-text rows='4'></textarea>
+<div class='Discussion_lightText'>
+Markdown is supported, no worries.
+</div>
+</div>
+<div class='Discussion_action'>
+<a class='Button' data-stammer-submit href='#'>
+Publish
+</a>
+</div>
+</div>
+</div>
+
+</script>
+<script id='new-thread' type='text/x-moustache'>
+<div class='thread' data-id='{{id}}' data-updated-at='{{updated_at}}'>
+<ul class='Discussion_comments'>
+<li class='Discussion_commentContainer' data-author='Jeff Ledbetter' data-id='{{post_id}}' data-learnable-user-id='{{learnable_user_id}}' data-user-id='{{user_id}}'>
+<div class='Discussion_avatar'>
+<img alt="avatar" class="avatar-medium" src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/the86/default-avatar-48x-37a3bd7bc7328f0ead2c0f6f635dddf60615e676e6b4ddf964144012e529de45.png" />
+</div>
+<div class='Discussion_title'>
+Jeff Ledbetter
+</div>
+<div class='Discussion_lightText'>
+<time class='timeago' datetime='2018-03-18 21:02:03 +0000'></time>
+</div>
+<div class='Discussion_comment'>
+<div>
+{{{content}}}
+</div>
+</div>
+</li>
+</ul>
+</div>
+</script>
+<script id='new-reply-textarea' type='text/x-moustache'>
+<div class='comment-inline' data-stammer-section='reply'>
+<div class='Discussion_contribution u-reply'>
+<div class='Discussion_avatar'>
+<a class='avatar-link' href='/premium/account'>
+<img alt="avatar" class="avatar-medium" src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/the86/default-avatar-48x-37a3bd7bc7328f0ead2c0f6f635dddf60615e676e6b4ddf964144012e529de45.png" />
+</a>
+</div>
+<div class='Discussion_reply'>
+<div class='Discussion_lightText Discussion_signedin'>
+You're signed in as
+<a href="/premium/account">led10003</a>
+</div>
+<div class='Discussion_textarea u-reply'>
+<textarea data-stammer-text rows='4'></textarea>
+<div class='Discussion_lightText'>
+Markdown is supported, no worries.
+</div>
+</div>
+<div class='Discussion_action'>
+<a class='Button' data-stammer-submit href='#'>
+Reply
+</a>
+</div>
+</div>
+</div>
+</div>
+
+</script>
+<script id='new-reply' type='text/x-moustache'>
+<li class='Discussion_commentContainer' data-author='Jeff Ledbetter' data-id='{{post_id}}' data-learnable-user-id='{{learnable_user_id}}' data-user-id='{{user_id}}'>
+<div class='Discussion_avatar'>
+<img alt="avatar" class="avatar-medium" src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/the86/default-avatar-48x-37a3bd7bc7328f0ead2c0f6f635dddf60615e676e6b4ddf964144012e529de45.png" />
+</div>
+<div class='Discussion_title'>
+Jeff Ledbetter
+</div>
+<div class='Discussion_lightText'>
+<time class='timeago' datetime='2018-03-18 21:02:03 +0000'></time>
+</div>
+<div class='Discussion_comment'>
+<div>
+{{{content}}}
+</div>
+</div>
+</li>
+</script>
+<script id='stammer-error-notification' type='text/x-moustache'>
+<div class='alert-box alert radius' data-alert id='new-posts-notification'>
+{{{message}}}
+<a class='close' href=''>×</a>
+</div>
+</script>
+<script id='stammer-notification' type='text/x-moustache'>
+<div class='alert-box radius' data-alert id='new-posts-notification'>
+<a onclick='location.reload();'>{{{message}}}</a>
+<a class='close' href=''>×</a>
+</div>
+</script>
+
+<script>
+  loader.push(function() {
+    discussion.init("/premium/discussion/conversations_only", {"origin":"course-consumption","course_id":2884,"lesson_id":3809,"step_id":10737}, {"badge":false,"limit":10,"cta":"generic"});
+    discussion.loadFaqs("/premium/discussion/faq_conversations", '#conversation-faqs');
+    discussion.loadConversations('#conversation-loader');
+  });
+</script>
+<div class='notifications' data-stammer-placeholder='notifications'></div>
+<div class='Discussion_contribution'>
+<div class='Discussion_avatar'>
+<a class='avatar-link' href='/premium/account'>
+<img alt="avatar" class="avatar-medium" src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/the86/default-avatar-48x-37a3bd7bc7328f0ead2c0f6f635dddf60615e676e6b4ddf964144012e529de45.png" />
+</a>
+</div>
+<div class='thread-starter' data-stammer-section='thread'>
+<div class='Discussion_contribution'>
+<div class='Discussion_lightText Discussion_signedin'>
+You're signed in as
+<a href="/premium/account">led10003</a>
+</div>
+<div class='Discussion_textarea'>
+<textarea data-stammer-text rows='4'></textarea>
+<div class='Discussion_lightText'>
+Markdown is supported, no worries.
+</div>
+</div>
+<div class='Discussion_action'>
+<a class='Button' data-stammer-submit href='#'>
+Publish
+</a>
+</div>
+</div>
+</div>
+
+</div>
+<div class='new-conversations' data-stammer-placeholder='conversations'></div>
+<div id='conversation-faqs'></div>
+<div id='conversation-loader'>
+Loading...
+</div>
+
+</div>
+</section>
+
+</div>
+</div>
+</div>
+
+
+
+<footer role='contentinfo'>
+<div class='l-w-100 l-d-f Footer-bg'>
+<div class='l-d-f l-fw-w l-mh-auto'>
+<div class='l-d-f l-fw-w l-mt4 l-w-100 l-pa3 l-w-3col--4col l-jc-sb l-jc-sa--4col'>
+<ul>
+<li class='t-ls-n'>
+<div class='f-c-white f-large f-bold l-mb2'>
+Stuff We Do
+</div>
+</li>
+<li class='l-ml3 f-c-grey-300 l-mb2 Footer-points'><a class="Footer-link f-small" href="/">SitePoint Home</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/versioning/">Versioning</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/themes/">Themes</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/community/">Forums</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/html-css/css/">References</a></li>
+</ul>
+<ul>
+<li class='t-ls-n'>
+<div class='f-c-white f-large f-bold l-mb2'>
+About
+</div>
+</li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/about-us/">Our Story</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/press/">Press Room</a></li>
+</ul>
+<ul>
+<li class='t-ls-n'>
+<div class='f-c-white f-large f-bold l-mb2'>
+Contact
+</div>
+</li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/contact-us/">Contact Us</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="https://sitepoint.zendesk.com/hc/en-us">FAQ</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/write-for-us/">Write for Us</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/advertise/">Advertise</a></li>
+</ul>
+<ul>
+<li class='t-ls-n'>
+<div class='f-c-white f-large f-bold l-mb2'>
+Legals
+</div>
+</li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/premium/legals">Terms of Use</a></li>
+<li class='l-ml3 f-c-grey-300 l-mb2'><a class="Footer-link f-small" href="/premium/privacy-policy">Privacy Policy</a></li>
+</ul>
+</div>
+<div class='l-d-n l-d-b--4col l-as-cen Footer-hr'></div>
+<div class='l-mt4 l-pa3 l-w-1col--4col'>
+<ul class='t-ls-n l-d-f l-fw-w l-d-b--3col'>
+<li>
+<div class='f-c-white f-large f-bold l-mb2 l-mr3'>
+Connect
+</div>
+</li>
+<li class='f-center'>
+<a class="f-c-grey-300" href="https://www.facebook.com/sitepoint" rel="noopener" target="_blank"><i class='fa fa-facebook-square l-i4'></i>
+</a><a class="l-pl3 f-c-grey-300" href="https://twitter.com/sitepointdotcom" rel="noopener" target="_blank"><i class='fa fa-twitter-square l-i4'></i>
+</a><a class="l-pl3 f-c-grey-300" href="/versioning" target="_blank"><i class='fa fa-envelope-square l-i4'></i>
+</a><a class="l-pl3 f-c-grey-300" href="/feed" target="_blank"><i class='fa fa-rss-square l-i4'></i>
+</a><a class="l-pl3 f-c-grey-300" href="https://plus.google.com/+sitepoint" rel="noopener" target="_blank"><i class='fa fa-google-plus-square l-i4'></i>
+</a></li>
+<p class='f-c-grey-300 l-mh-auto l-ml3--2col l-ml0--3col l-mv3--4col f-small f-center'>
+&copy; 2000 –
+2018
+SitePoint Pty. Ltd.
+</p>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- / post_footer: (used for modals etc so that their positioning is unaffected by the content) -->
+<div aria-labelledby='Download' class='reveal-modal small modal--standard modal--download' id='modal-download' role='dialog' tabindex='-1'>
+<a aria-hidden='true' class='close-reveal-modal' data-dismiss='modal' type='button'>×</a>
+<div class='content'></div>
+</div>
+
+
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/React/app-f3a07309bf735193d9a1355afdfa7534b3bdbbae17126de9e1c5ac9af0d6da67.js"></script>
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/application-db795952042ca7594569b67e0d6b1b758b005ba7e019213fef5bfd9ae5e917f9.js"></script>
+
+<!-- / JS included in javascript_body provides functions and frameworks -->
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/content-7fea567e4c3a091e1443b253a905ea4cb8cdf7cbfe71a315c099256185518296.js"></script>
+<script src="https://d39ayi7b6b3haj.cloudfront.net/premium/assets/modules/download-1bda39edfec2a7d491506188298f407524e53c6c2b04fad6871ceb263d603ffa.js"></script>
+
+<!-- / JS included javascript_app_data is directly executed by the page -->
+
+<!-- / loader.exec: any delayed JS from a page body is now run -->
+<script>
+  loader.exec();
+</script>
+<!-- / until respond.js is working in production (where styles are served cross-domain), make the top bar menu icon clicks work when window is larger than breakpoint (see foundation.topbar.js breakpoint()) -->
+<!--[if lt IE 9]>
+<script> $('html').addClass('lt-ie9')</script>
+<![endif]-->
+<script type="text/javascript">
+  adroll_adv_id = "DJI3I3WGJBGL7PDJEDAYHV";
+  adroll_pix_id = "4RKMV6N56FGA7ANPGL4FQW";
+  (function () {
+    var _onload = function(){
+      if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+      if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+      var scr = document.createElement("script");
+      var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+      scr.setAttribute('async', 'true');
+      scr.type = "text/javascript";
+      scr.src = host + "/j/roundtrip.js";
+      ((document.getElementsByTagName('head') || [null])[0] ||
+          document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+    };
+    if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+    else {window.attachEvent('onload', _onload)}
+  }());
+</script>
+
+<script>
+(function(d,b,a,s,e){ var t = b.createElement(a),
+  fs = b.getElementsByTagName(a)[0]; t.async=1; t.id=e; t.src=s;
+  fs.parentNode.insertBefore(t, fs); })
+(window,document,'script','https://scripts.demandbase.com/IM2QfEma.min.js','demandbase_js_lib');
+</script>
+
+</body>
+</html>
