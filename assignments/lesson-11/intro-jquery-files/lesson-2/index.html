@@ -1,61 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery-2.2.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
 	<script>
-	$(function(){
-		// jQuery Code goes here
-
-		var nameVal = $('input[name="nameVal"]');
-
-		function FillEmpty(){
-		    if( nameVal.val() == ''){
-		        nameVal.val( 'JohnDoe' );
-			}
-		}
-		$('#ReqAQuoteBtn').click( FillEmpty );
-
-	})
-
-
-    // $(function(){
-    //     // jQuery Code goes here
-    //
-    //     $('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
-    //
-    //     $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");
-    //
-    // })
-
-
-    // $(function(){
-    //     // jQuery Code goes here
-    //
-    //     var toggleStyle = function() {
-    //
-    //         var inputFields = $('input[type="text"]');
-    //
-    //         if( inputFields.css('background-color') === 'rgb(255, 0, 0)' ) {
-    //             // Set background color to white
-    //             inputFields.css('background-color', 'rgb(255, 255, 255)');
-    //         } else {
-    //             inputFields.css('background-color', 'rgb(255, 0, 0)');
-    //         }
-    //     };
-    //     $('#ReqAQuoteBtn').click( toggleStyle );
-    // })
-
+		$(function () {
+			// All jQuery code goes here
+			alert('Hello jQuery!');
+				
+            });
 	</script>
 </head>
+
 <body>
-<!-- Master Container Div -->
+	<!-- Master Container Div -->
 	<div class="container">
-	<!-- Header Div containing the Logo & Navigation Links -->
+		<!-- Header Div containing the Logo & Navigation Links -->
 		<div class="header">
-			<div class="logo" id="alcoveLogo"></div>
+			<div class="logo"></div>
 			<div class="navbar">
 				<ul class="navigation">
 					<li><a href="#">About Us</a></li>
@@ -76,23 +41,37 @@
 					<img class="ReqAQuoteImg" src="img/quote.png" alt="">
 					<br>
 					<div class="FormFieldHolder">
-						<div class="labelHolder"><label>Full Name</label></div>
-						<div class="FieldHolder"><input type="text" name="nameVal"></div>
+						<div class="labelHolder">
+							<label>Full Name</label>
+						</div>
+						<div class="FieldHolder">
+							<input type="text">
+						</div>
 					</div>
 
 					<div class="FormFieldHolder">
-						<div class="labelHolder"><label>E-Mail</label></div>
-						<div class="FieldHolder"><input type="text" name="emailVal"></div>
+						<div class="labelHolder">
+							<label>E-Mail</label>
+						</div>
+						<div class="FieldHolder">
+							<input type="text">
+						</div>
 					</div>
 
 					<div class="FormFieldHolder">
-						<div class="labelHolder"><label>Phone</label></div>
-						<div class="FieldHolder"><input type="text" name="phoneNum"></div>
+						<div class="labelHolder">
+							<label>Phone</label>
+						</div>
+						<div class="FieldHolder">
+							<input type="text">
+						</div>
 					</div>
 
 					<div class="FormFieldHolder">
 						<div class="labelHolder"></div>
-						<div class="FieldHolder"><button type="button" id="ReqAQuoteBtn" data-code="028">Request A Quote !</button></div>
+						<div class="FieldHolder">
+							<button id="ReqAQuoteBtn">Request A Quote !</button>
+						</div>
 					</div>
 				</form>
 			</div>
@@ -102,8 +81,13 @@
 				<div class="boxes box1">
 					<h2>The Values that Drive Us</h2>
 					<hr>
-					<p>Alcove adopts various driving factors of corporate philosophy in our day to day activities that ultimately lead to success. We strive to achieve our value guidelines by incorporating our principles into each relationship with our clients to obtain long lasting customers. <br><br>Our core values : <br><br></p>
-					<ul class="coreValues">
+					<p>Alcove adopts various driving factors of corporate philosophy in our day to day activities that ultimately lead to success. We strive to achieve our value guidelines by incorporating our principles into each relationship with our clients to obtain long lasting customers.
+						<br>
+						<br>Our core values :
+						<br>
+						<br>
+					</p>
+					<ul>
 						<li>Innovative Ideas</li>
 						<li>Ownership</li>
 						<li>Frugality</li>
@@ -115,7 +99,10 @@
 				<div class="boxes box2">
 					<h2>What we do</h2>
 					<hr>
-					<p>Innovation is the key to success. Alcove's expertise covers a wide range of services, technologies, tools and platforms. Here are some of the things we're really good at :<br><br></p>
+					<p>Innovation is the key to success. Alcove's expertise covers a wide range of services, technologies, tools and platforms. Here are some of the things we're really good at :
+						<br>
+						<br>
+					</p>
 					<ul>
 						<li><a href="#" class="servicesBtn">Web Design & Development</a></li>
 						<li><a href="#" class="servicesBtn">Web Application Development</a></li>
@@ -128,8 +115,8 @@
 					<h2>Our Work</h2>
 					<hr>
 					<a href="#" class="showcaseBtn"><img src="img/websites.jpg" alt=""></a>
-					<a href="#" class="showcaseBtn"><img src="img/mobileapps.jpg" alt=""></a>
-					<a href="#" class="showcaseBtn"><img src="img/webapps.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="img/mobile-apps.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="img/web-apps.jpg" alt=""></a>
 					<select name="showcaseOthers" id="showcaseOthers">
 						<option value="01">UI/UX Design</option>
 						<option value="02">Big Data Implementation</option>
@@ -145,4 +132,5 @@
 		</div>
 	</div>
 </body>
+
 </html>
