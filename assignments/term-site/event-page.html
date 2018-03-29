@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery | WeatherBud</title>
+    <meta name="author" content="Jeff Ledbetter">
+    <meta name="description" content="Area's best weather photos.">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">  <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    <!-- https://ledbetter-jeff.github.io/assignments/weathersite/gallery.html   -->
+</head>
+
+<body>
+<header>
+    <img id="siteIcon" src="images/franklin/sunnyicon.jpg" alt="The site logo">
+    <h1>Gallery | WeatherBud</h1>
+    <div class="subheading">WeatherBud. Truly local weather.</div>
+</header>
+
+<!-- site navigation use placeholder references -->
+<nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="toggleNav" class="hide container">
+        <li class="flexItem"><a href="index.html">Home</a></li>
+        <li class="flexItem"><a href="adventure-tours-page.html">Franklin</a></li>
+        <li class="flexItem"><a href="sales-page.html">Greenville</a></li>
+        <li class="flexItem"><a href="service-page.html">Springfield</a></li>
+        <li class="flexItem"><a href="contact-page.html">Storm Center</a></li>
+        <li class="flexItem" id="active"><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<div class="wrapper">
+    <div>
+        <picture class="mountain-top-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/mountain-top-small.jpg 450w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/mountain-top-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/mountain-top-large.jpg 2400w">
+            <img src="images/gallery/original/mountain-top.jpg" alt="Franklin woods">
+            <span class="caption">Lorem ipsum dolor.</span>
+        </picture>
+    </div>
+    <div>
+        <picture class="lake-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/lake-small.jpg 450w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/lake-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/lake-large.jpg 2400w">
+            <img src="images/gallery/original/lake.jpg" alt="scenic lake view">
+            <span class="caption">Lorem dolor.</span>
+        </picture>
+    </div>
+    <div>
+        <picture class="stars-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/stars-small.jpg 450w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/stars-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/stars-large.jpg 2400w">
+            <img src="images/gallery/original/stars.jpg" alt="man star-gazing on swing">
+            <span class="caption">Lorem ipsum dolor.</span>
+        </picture>
+    </div>
+    <div>
+        <picture class="tree-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/tree-small.jpg 450w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/tree-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/tree-large.jpg 2400w">
+            <img src="images/gallery/original/tree.jpg" alt="tree in a field">
+            <span class="caption">Lorem ipsum.</span>
+        </picture>
+    </div>
+    <div>
+        <picture class="turbines-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/turbines-small.jpg 450w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/turbines-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/turbines-large.jpg 2400w">
+            <img src="images/gallery/original/turbines.jpg" alt="wind turbines">
+            <span class="caption">Lorem ipsum dolor.</span>
+        </picture>
+    </div>
+    <div>
+        <picture class="winter-img">
+            <source media="(max-width: 37.5em)"
+                    srcset="images/gallery/small/winter-small.jpg 450w">
+            <source media="(max-width: 64em)"
+                    srcset="images/gallery/medium/winter-medium.jpg 1050w">
+            <source media="(max-width: 200em)"
+                    srcset="images/gallery/large/winter-large.jpg 2400w">
+            <img src="images/gallery/original/winter.jpg" alt="snow covered trees">
+            <span class="caption">Ipsum dolor.</span>
+        </picture>
+    </div>
+</div>
+</main>
+
+<footer>
+    <aside>
+        <p class="contact-info">Weather Bud <br> 123 Main St. <br> Franklin, MN 55333 <br> 999-999-9999 <br> gallery@weatherbud.com</p>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp WeatherBud &nbsp | &nbsp <span id="fCurrentDate">Current Date Placeholder</span></p>
+
+</footer>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+
+</body>
+</html>

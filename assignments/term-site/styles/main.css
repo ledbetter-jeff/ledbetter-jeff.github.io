@@ -1,0 +1,157 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }  /* This wildcard applies to all elements ensuring a box layout model */
+
+
+/*******************      Main Elements Styling      ******************/
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */}
+
+header {  background-color: dodgerblue;color: white; padding: 1rem 1rem;}
+
+html, body { height: 100%; margin: 0;}
+
+main { margin: 0 1rem; }
+
+body { font-family: 'Nunito', sans-serif;font-size: 16px;min-width:250px;}
+
+footer { background-color: dodgerblue;color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
+
+.footer-bar { text-align: center;margin: 0 1rem 1rem 1rem;}
+
+.contact-info { text-align: center;margin:  .5rem 1rem 1rem 1rem;}
+
+.franklin-div {
+    max-width: 30em;
+    padding-left: 2em;
+}
+
+.greenville-div {
+    max-width: 30em;
+}
+
+.springfield-div {
+    max-width: 30em;
+}
+
+.f-wrapper {  grid-template-columns: 1fr 1fr;
+    display: grid; grid-row-gap: 1em; grid-column-gap: 1em; padding: .5em;}
+
+
+/*******************      Nav Styling     ******************/
+
+#dropdown { margin: .2em 0;}
+
+.flexItem { flex-grow: initial;}
+
+.container { display: flex; flex-direction: column;}
+
+
+nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
+
+nav {background-color: #cccccc;font-family: Verdana, sans-serif;}
+
+nav ul {list-style-type: none;padding: 0;margin: 0;}
+
+
+nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;}
+
+nav ul li a {display: flex;padding: .8rem 2%;background-color: #dddddd;text-decoration: none;color: #000;border-top: 1px solid rgba(0,0,0,.3);}
+
+nav ul li#active a {background-color: rgba(0,0,0,.4);color: #fff;}
+
+nav ul li a:hover {
+    color: white; background-color: rgba(0,0,0,.2);}
+
+nav ul.hide { display: none;}
+
+body main div   {
+    margin: 1em 0 0 0;
+}
+
+
+
+/*******************      Img Styling      ******************/
+
+.wrapper {display: grid; grid-row-gap: 1em; grid-column-gap: 1em; padding: .5em;}
+
+img:hover { box-shadow: 5px 5px 10px gray;}
+
+#siteIcon{width: 100px; outline: 0 !important; }
+
+#greenville-img {
+}
+
+
+/*******************      Form Styling       ******************/
+
+fieldset {padding-left: 1.5em; min-height: 24em; width: content-box; margin: 1em 0;background-color: gainsboro;}
+
+form legend { width: 11em; text-align: center; font-size: 22px;border: darkgray solid 1px;padding: 1%;background-color: white;}
+
+main form label { display: block; margin: 1em 0; font-size: 18px;}
+
+main form span { display: block;}
+
+.radioIndent { margin-left: 1em;}
+
+.radioIndent span { display: inline;}
+
+#ratingvalue { display: inline;}
+
+#comments { margin: 2em  0;}
+
+label textarea { margin: .2em 0; width: 13em;}
+
+form button { padding: 1% 2%;}
+
+.push { padding: 0 0 60% 0;}
+
+
+
+
+/*******************      JSON Input Styling       ******************/
+
+.franklin-div, .greenville-div, .placerton-div, .springfield-div { background-color: #cccccc;padding: 1em; margin-left: 40px}
+
+#location { font-weight: bold; font-size: 22px;}
+
+
+
+/*******************      Article Styling       ******************/
+
+.town-article { margin: 0 1rem 1rem 2rem;}
+
+article h3 { margin: 1.5rem 1rem .3rem 0;}
+
+article picture { margin: 1rem 1rem;float: right;}
+
+.caption { text-align: match-parent;}
+
+
+
+
+/*******************      Forecast Styling       ******************/
+
+table { border: black solid 1px;}
+
+table, th, td { border: black solid 2px;}
+
+th, td { text-align: center;padding: .1rem .3rem;}
+
+th { background: dodgerblue;color: white;font-size: 17px;}
+
+td { background: deepskyblue;color: white;}
+
+.forecast { display: none;}
+
+.forecast-details { margin-left: 2rem;}
+
+.forecastSum { margin-left: 40px 0 0 0; }
+
+
+main section {margin-left: 40px;}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {content: "";display: table;clear: both;}

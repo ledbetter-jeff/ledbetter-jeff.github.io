@@ -1,0 +1,13 @@
+@media only screen and (min-width: 85em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: .2em;
+        grid-column-gap: 1em;
+    }
+
+    button { display:none; }
+
+}
