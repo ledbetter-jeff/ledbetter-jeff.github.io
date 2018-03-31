@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/home-page/ms-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/contact-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/contact-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/event-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/event-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/franklin-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/franklin-medium.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-medium.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/franklin-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-original.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/franklin-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/hotday-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/hotday-medium.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-medium.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/hotday-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-original.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/hotday-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/hotday.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/new-franklin/mn-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn-large.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/new-franklin/mn-medium.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn-medium.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/new-franklin/mn-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn-small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/new-franklin/mn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/sunny.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/sunny.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/franklin/sunnyicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/sunnyicon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/sales-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/sales-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/service-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/service-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/thanks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#5927#5933#0" expanded="true" />
               </folding>
@@ -108,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            <state relative-caret-position="259">
+              <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -205,7 +182,6 @@
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/toggle-button-begin.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/medium.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/contact-page.html" />
@@ -214,6 +190,7 @@
         <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
       </list>
     </option>
   </component>
@@ -488,7 +465,7 @@
       <workItem from="1522436142792" duration="257000" />
       <workItem from="1522436473714" duration="11000" />
       <workItem from="1522436506579" duration="173000" />
-      <workItem from="1522509806644" duration="5480000" />
+      <workItem from="1522509806644" duration="6017000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -557,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239108000" />
+    <option name="totallyTimeSpent" value="239645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/currentDate.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -888,11 +858,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#5927#5933#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
         </state>
       </provider>
     </entry>
