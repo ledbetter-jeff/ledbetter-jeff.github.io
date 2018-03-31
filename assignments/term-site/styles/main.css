@@ -7,7 +7,7 @@
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */}
 
-header {  background-color: dodgerblue;color: white; padding: 1rem 1rem;}
+header {  background-color: #266107 ;color: white; padding: 1rem 1rem;}
 
 html, body { height: 100%; margin: 0;}
 
@@ -15,7 +15,7 @@ main { margin: 0 1rem; }
 
 body { font-family: 'Nunito', sans-serif;font-size: 16px;min-width:250px;}
 
-footer { background-color: dodgerblue;color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
+footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
 
 .footer-bar { text-align: center;margin: 0 1rem 1rem 1rem;}
 
@@ -49,16 +49,17 @@ footer { background-color: dodgerblue;color: white;padding: .5rem .5rem;width: 1
 
 nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
 
-nav {background-color: #cccccc;font-family: Verdana, sans-serif;}
+nav {background-color: #794A18 !important; font-family: Verdana, sans-serif;}
 
 nav ul {list-style-type: none;padding: 0;margin: 0;}
 
 
-nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;}
+nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;
+    background-color: #794A18;}
 
-nav ul li a {display: flex;padding: .8rem 2%;background-color: #dddddd;text-decoration: none;color: #000;border-top: 1px solid rgba(0,0,0,.3);}
+nav ul li a {display: flex;padding: .8rem 2%;background-color: #794A18;text-decoration: none;color: #000;border-top: 1px solid rgba(0,0,0,.3);}
 
-nav ul li#active a {background-color: rgba(0,0,0,.4);color: #fff;}
+nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}
 
 nav ul li a:hover {
     color: white; background-color: rgba(0,0,0,.2);}
