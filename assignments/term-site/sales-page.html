@@ -36,100 +36,81 @@
 </nav>
 
 <main>
-    <h2>The City of Greenville</h2>
-    <figure class="img">
-            <picture class="greenville-img">
-                <img src="images/greenville/txg.jpeg" srcset="images/greenville/txg-small.jpeg 1000w, images/greenville/txg-medium.jpeg 1000w, images/greenville/txg-large.jpeg 2000w" alt="Franklin woods">
+
+    <div class="wrapper">
+        <div>
+            <picture class="mountain-top-img">
+                <source media="(max-width: 37.5em)"
+                        srcset="images/gallery/small/mountain-top-small.jpg 450w">
+                <source media="(max-width: 64em)"
+                        srcset="images/gallery/medium/mountain-top-medium.jpg 1050w">
+                <source media="(max-width: 200em)"
+                        srcset="images/gallery/large/mountain-top-large.jpg 2400w">
+                <img src="images/gallery/original/mountain-top.jpg" alt="Franklin woods">
+                <span class="caption">Lorem ipsum dolor.</span>
             </picture>
-        </figure>
-
-    <div class="greenville-div">
-        <p><span id="location">Greenville, TX</span></p>
-        <p>Year Founded: <span id="gFound"></span></p>
-        <p>Population: <span id="gPop"></span></p>
-        <p>Motto: <span id="gMotto"></span></p>
-        <p>Average Annual Rainfall: <span id="gRain"></span> in.</p>
-        <h3>Town Events:</h3>
-        <ul>
-            <li><span id="gE1"></span></li>
-            <li><span id="gE2"></span></li>
-            <li><span id="gE3"></span></li>
-            <li><span id="gE4"></span></li>
-        </ul>
-    </div>
-
-    <h2 class="forecastSum">Weather Summary</h2>
-    <section>
-        <p>Current Temp: <span id="currentTemp"></span>&deg; F</p>
-        <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
-        <p><span id="currentConditions"></span></p>
-        <img id="w_icon" src="" alt="current weather">
-        <p>Today's High: <span id="todayHigh"></span>&deg; F</p>
-        <p>Today's Low: <span id="todayLow"></span>&deg; F</p>
-        <!--<p>Wind Chill: <span id="windChill"></span>&deg; F</p>-->
-    </section>
-
-    <section class="forecast">
-        <h3>4 Day Forecast</h3>
-        <table>
-            <thead>
-            <tr>
-                <th>Day 1</th>
-                <th>Day 2</th>
-                <th>Day 3</th>
-                <th>Day 4</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span id="day1"></span>&deg;F</td>
-                <td><span id="day2"></span>&deg;F</td>
-                <td><span id="day3"></span>&deg;F</td>
-                <td><span id="day4"></span>&deg;F</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <article class="clearfix">
-        <h3>Greenville Article</h3>
-
-        <figure class="img">
-            <picture class="greenville-img">
-                <img src="images/greenville/Greenville.jpg" srcset="images/greenville/Greenville.jpg 3000w" alt="Historic map found in archives">
-            </picture>
-        </figure>
-        <div class="town-article">
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
         </div>
-    </article>
-
+        <div>
+            <picture class="lake-img">
+                <source media="(max-width: 37.5em)"
+                        srcset="images/gallery/small/lake-small.jpg 450w">
+                <source media="(max-width: 64em)"
+                        srcset="images/gallery/medium/lake-medium.jpg 1050w">
+                <source media="(max-width: 200em)"
+                        srcset="images/gallery/large/lake-large.jpg 2400w">
+                <img src="images/gallery/original/lake.jpg" alt="scenic lake view">
+                <span class="caption">Lorem dolor.</span>
+            </picture>
+        </div>
+        <div>
+            <picture class="stars-img">
+                <source media="(max-width: 37.5em)"
+                        srcset="images/gallery/small/stars-small.jpg 450w">
+                <source media="(max-width: 64em)"
+                        srcset="images/gallery/medium/stars-medium.jpg 1050w">
+                <source media="(max-width: 200em)"
+                        srcset="images/gallery/large/stars-large.jpg 2400w">
+                <img src="images/gallery/original/stars.jpg" alt="man star-gazing on swing">
+                <span class="caption">Lorem ipsum dolor.</span>
+            </picture>
+        </div>
+        <div>
+            <picture class="tree-img">
+                <source media="(max-width: 37.5em)"
+                        srcset="images/gallery/small/tree-small.jpg 450w">
+                <source media="(max-width: 64em)"
+                        srcset="images/gallery/medium/tree-medium.jpg 1050w">
+                <source media="(max-width: 200em)"
+                        srcset="images/gallery/large/tree-large.jpg 2400w">
+                <img src="images/gallery/original/tree.jpg" alt="tree in a field">
+                <span class="caption">Lorem ipsum.</span>
+            </picture>
+        </div>
+        <div>
+            <picture class="turbines-img">
+                <source media="(max-width: 37.5em)"
+                        srcset="images/gallery/small/turbines-small.jpg 450w">
+                <source media="(max-width: 64em)"
+                        srcset="images/gallery/medium/turbines-medium.jpg 1050w">
+                <source media="(max-width: 200em)"
+                        srcset="images/gallery/large/turbines-large.jpg 2400w">
+                <img src="images/gallery/original/turbines.jpg" alt="wind turbines">
+                <span class="caption">Lorem ipsum dolor.</span>
+            </picture>
+        </div>
+        <div>
+            <picture class="winter-img">
+                <source media="(max-width: 37.5em)"
+                        srcset="images/gallery/small/winter-small.jpg 450w">
+                <source media="(max-width: 64em)"
+                        srcset="images/gallery/medium/winter-medium.jpg 1050w">
+                <source media="(max-width: 200em)"
+                        srcset="images/gallery/large/winter-large.jpg 2400w">
+                <img src="images/gallery/original/winter.jpg" alt="snow covered trees">
+                <span class="caption">Ipsum dolor.</span>
+            </picture>
+        </div>
+    </div>
 </main>
 
 <footer>

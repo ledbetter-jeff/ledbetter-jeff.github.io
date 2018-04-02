@@ -36,66 +36,99 @@
 </nav>
 
 <main>
-        <!-- <p>Progress:<progress value="1" max="4"></progress></p> -->
-        <form action="thanks.html" method="post" enctype="multipart/form-data" name="weathershare" id="stormchaser">
-            <div class="wrapper">
+    <h2>The City of Springfield</h2>
+    <figure class="img">
+        <picture class="greenville-img">
+            <img src="images/springfield/or.jpg" srcset="images/springfield/or-small.jpg 1000w, images/springfield/or-medium.jpg 1000w, images/springfield/or-large.jpg 2000w" alt="Franklin woods">
+        </picture>
+    </figure>
 
-            <fieldset>
-                <legend><span>Personal Information</span></legend>
-                <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="John Smith" pattern="[a-zA-Z -._]{5, 30}" required></label>
-                <label><span>Email: </span><input name="email" type="email" value="" placeholder="john@aol.com" required></label>
-                <label><span>Phone: </span><input name="phone" type="tel" value="" placeholder="5552237164" pattern="[0-9]{10, 20}" required></label>
-                <label><span>Zip Code: </span><input name="zipcode" type="number" value="" placeholder="50265" required></label>
-            </fieldset>
+    <div class="springfield-div">
+        <p><span id="location">Springfield, OR</span></p>
+        <p>Year Founded: <span id="sFound"></span></p>
+        <p>Population: <span id="sPop"></span></p>
+        <p>Motto: <span id="sMotto"></span></p>
+        <p>Average Annual Rainfall: <span id="sRain"></span> in.</p>
+        <h3>Town Events:</h3>
+        <ul>
+            <li><span id="sE1"></span></li>
+            <li><span id="sE2"></span></li>
+            <li><span id="sE3"></span></li>
+        </ul>
+    </div>
 
-            <fieldset>
-                <legend><span>Storm Information</span></legend>
-                <label><span>Storm Date: </span><input name="stormdate" type="date" value="" placeholder=""></label>
-                <label>
-                    <span>Storm Type: </span>
-                    <input type="datalist" name="stormtype" list="sTypes">
-                    <datalist id="sTypes">
-                        <option value="Flash Flood"></option>
-                        <option value="Hail"></option>
-                        <option value="Hurricane"></option>
-                        <option value="Thunderstorm"></option>
-                        <option value="Tornado"></option>
-                    </datalist>
-                </label>
-                <label for="rating">Storm Severity: <span id="ratingvalue">5</span></label>
+    <h2 class="forecastSum">Weather Summary</h2>
+    <section>
+        <p>Current Temp: <span id="currentTemp"></span>&deg; F</p>
+        <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
+        <p><span id="currentConditions"></span></p>
+        <img id="w_icon" src="" alt="current weather">
+        <p>Today's High: <span id="todayHigh"></span>&deg; F</p>
+        <p>Today's Low: <span id="todayLow"></span>&deg; F</p>
+        <!--<p>Wind Chill: <span id="windChill"></span>&deg; F</p>-->
+    </section>
 
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+    <section class="forecast">
+        <h3>4 Day Forecast</h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Day 1</th>
+                <th>Day 2</th>
+                <th>Day 3</th>
+                <th>Day 4</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span id="day1"></span>&deg;F</td>
+                <td><span id="day2"></span>&deg;F</td>
+                <td><span id="day3"></span>&deg;F</td>
+                <td><span id="day4"></span>&deg;F</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
 
-                <label>
-                    <span>Storm Region: </span>
-                        <select id="dropdown" name="dropdown">
-                            <label><option value="Select Region" disabled="disabled">Select Region</option></label>
-                            <label><option value="Franklin" >Franklin</option></label>
-                            <label><option value="Greenville">Greenville</option></label>
-                            <label><option value="Springfield">Springfield</option></label>
-                        </select>
-                </label>
+    <article class="clearfix">
+        <h3>Springfield Article</h3>
 
-            </fieldset>
+        <figure class="img">
+            <picture class="greenville-img">
+                <img src="images/springfield/road.jpg" srcset="images/springfield/road.jpg 2500w" alt="Oregon road in summer">
+            </picture>
+        </figure>
+        <div class="town-article">
+            <p>
+                Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+                Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+                Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+    </article>
 
-                <fieldset>
-                    <legend><span>Additional Information</span></legend>
-                <label>
-                    <span id="">User In-Danger Level:</span>
-                            <label class="radioIndent"><input type="radio" name="yes" value="yes"><span> Yes</span></label>
-                            <label class="radioIndent"><input type="radio" name="no" value="no"><span> No</span></label>
-                            <label class="radioIndent"><input type="radio" name="maybe" value="maybe"> <span> Maybe</span></label>
-                        </label>
-                <label id="comments">
-                    <span>Additional Comments: </span>
-                    <textarea rows="4" cols="40">
-                    </textarea>
-                </label>
-                <button type="submit" value="Submit">Submit</button>
-            </fieldset>
-
-            </div>
-        </form>
 </main>
 
 <footer>
