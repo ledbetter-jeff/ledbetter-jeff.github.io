@@ -38,65 +38,7 @@
 
 <main>
     <!-- <p>Progress:<progress value="1" max="4"></progress></p> -->
-    <form action="thanks.html" method="post" enctype="multipart/form-data" name="weathershare" id="stormchaser">
-        <div class="wrapper">
 
-            <fieldset>
-                <legend><span>Personal Information</span></legend>
-                <label><span>Full Name: </span><input name="fullname" type="text" value="" placeholder="John Smith" pattern="[a-zA-Z -._]{5, 30}" required></label>
-                <label><span>Email: </span><input name="email" type="email" value="" placeholder="john@aol.com" required></label>
-                <label><span>Phone: </span><input name="phone" type="tel" value="" placeholder="5552237164" pattern="[0-9]{10, 20}" required></label>
-                <label><span>Zip Code: </span><input name="zipcode" type="number" value="" placeholder="50265" required></label>
-            </fieldset>
-
-            <fieldset>
-                <legend><span>Storm Information</span></legend>
-                <label><span>Storm Date: </span><input name="stormdate" type="date" value="" placeholder=""></label>
-                <label>
-                    <span>Storm Type: </span>
-                    <input type="datalist" name="stormtype" list="sTypes">
-                    <datalist id="sTypes">
-                        <option value="Flash Flood"></option>
-                        <option value="Hail"></option>
-                        <option value="Hurricane"></option>
-                        <option value="Thunderstorm"></option>
-                        <option value="Tornado"></option>
-                    </datalist>
-                </label>
-                <label for="rating">Storm Severity: <span id="ratingvalue">5</span></label>
-
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-
-                <label>
-                    <span>Storm Region: </span>
-                    <select id="dropdown" name="dropdown">
-                        <label><option value="Select Region" disabled="disabled">Select Region</option></label>
-                        <label><option value="Franklin" >Franklin</option></label>
-                        <label><option value="Greenville">Greenville</option></label>
-                        <label><option value="Springfield">Springfield</option></label>
-                    </select>
-                </label>
-
-            </fieldset>
-
-            <fieldset>
-                <legend><span>Additional Information</span></legend>
-                <label>
-                    <span id="">User In-Danger Level:</span>
-                    <label class="radioIndent"><input type="radio" name="yes" value="yes"><span> Yes</span></label>
-                    <label class="radioIndent"><input type="radio" name="no" value="no"><span> No</span></label>
-                    <label class="radioIndent"><input type="radio" name="maybe" value="maybe"> <span> Maybe</span></label>
-                </label>
-                <label id="comments">
-                    <span>Additional Comments: </span>
-                    <textarea rows="4" cols="40">
-                    </textarea>
-                </label>
-                <button type="submit" value="Submit">Submit</button>
-            </fieldset>
-
-        </div>
-    </form>
 </main>
 
 

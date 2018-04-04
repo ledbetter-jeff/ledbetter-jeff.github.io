@@ -12,6 +12,15 @@
     <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $(' .dropdownMenu > li').click(function(){
+                $(this).children("ul").slideToggle(200);
+                $(this).css("list-style-type", "none");
+            })
+        })
+    </script>
     <!-- https://ledbetter-jeff.github.io/assignments/weathersite/greenville.html   -->
 </head>
 
@@ -37,8 +46,6 @@
 
 <main>
 
-    <div>
-
         <figure>
             <picture class="bike 1">
                 <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
@@ -51,8 +58,21 @@
                         images/sales-page/medium/bike-1-med.jpg 3x">
                 <img src="images/sales-page/original/bike-1.jpg" alt="Franklin woods">
             </picture>
-            <figcaption>Lorem ipsum dolor.</figcaption>
+            <figcaption>
+                <ul class="dropdownMenu">
+                <li><h2>Green Lightning</h2>
+                <ul>
+                    <li>Suspension: Front</li>
+                    <li>Color: Green and Black</li>
+                    <li>Weight: 15lbs</li>
+                    <li>Cost: $299</li>
+                </ul>
+                </li>
+            </ul>
+            </figcaption>
         </figure>
+
+
 
         <figure>
             <picture class="bike 2">
@@ -66,8 +86,21 @@
                         images/sales-page/medium/bike-2-med.jpg 3x">
                 <img src="images/sales-page/original/bike-2.jpg" alt="Franklin woods">
             </picture>
-            <figcaption>Lorem ipsum dolor.</figcaption>
+            <figcaption>
+                <ul class="dropdownMenu">
+                    <li><h2>Brutus</h2>
+                        <ul>
+                            <li>Suspension: Front</li>
+                            <li>Color: Black</li>
+                            <li>Weight: 30lbs</li>
+                            <li>Cost: $199</li>
+                        </ul>
+                    </li>
+                </ul>
+            </figcaption>
         </figure>
+
+
 
         <figure>
             <picture class="bike 3">
@@ -81,11 +114,22 @@
                         images/sales-page/medium/bike-3-med.jpg 3x">
                 <img src="images/sales-page/original/bike-3.jpg" alt="Franklin woods">
             </picture>
-            <figcaption>Lorem ipsum dolor.</figcaption>
+            <figcaption>
+                <ul class="dropdownMenu">
+                    <li><h2>Red Raider</h2>
+                        <ul>
+                            <li>Suspension: Front</li>
+                            <li>Color: Reg</li>
+                            <li>Weight: 20lbs</li>
+                            <li>Cost: $129</li>
+                        </ul>
+                    </li>
+                </ul>
+            </figcaption>
         </figure>
-        </div>
 
-    </div>
+
+
 </main>
 
 <footer>

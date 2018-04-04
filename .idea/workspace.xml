@@ -2,78 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/large/tour-map-large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/medium/tour-map-medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/small/tour-map-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/events-page/large/gdt-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/events-page/medium/gdt-medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/events-page/original/gdt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/term-site/images/events-page/small/gdt-small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/contact-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/contact-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/event-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/event-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-original.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/franklin-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-original.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/hotday.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/new-franklin/mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/sunny.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/adventure-tours/sunnyicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/greenville/Greenville.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/greenville/txg-large.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/greenville/txg-medium.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/greenville/txg-small.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/greenville/txg.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/desert-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/desert-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/desert-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/desert.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/lake-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/mountain-top-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/spooky-tree-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/stars-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/tree-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/turbines-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/large/winter-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/lake-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/mountain-top-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/spooky-tree-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/stars-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/tree-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/turbines-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/medium/winter-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/lake.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/mountain-top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/spooky-tree.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/stars.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/tree.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/turbines.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/original/winter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/lake-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/mountain-top-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/spooky-tree-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/stars-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/tree-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/turbines-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/sales-page/small/winter-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/springfield/or-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/springfield/or-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/springfield/or-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/springfield/or.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/springfield/road.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/sales-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/sales-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/service-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/service-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,8 +18,8 @@
       <file leaf-file-name="adventure-tours-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="-392">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,8 +36,26 @@
       <file leaf-file-name="event-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+            <state relative-caret-position="503">
+              <caret line="146" column="11" lean-forward="true" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -201,12 +150,12 @@
         <option value="$PROJECT_DIR$/assignments/term-site/styles/medium.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/service-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/contact-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/drop-down-menu-begin.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/service-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
       </list>
     </option>
@@ -501,7 +450,7 @@
       <workItem from="1522694754279" duration="919000" />
       <workItem from="1522782140372" duration="1664000" />
       <workItem from="1522799514413" duration="164000" />
-      <workItem from="1522851440956" duration="13515000" />
+      <workItem from="1522851440956" duration="17176000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -570,7 +519,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255955000" />
+    <option name="totallyTimeSpent" value="259616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,7 +547,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21670191" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2166509" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -733,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
           <caret line="109" column="57" lean-forward="true" selection-start-line="109" selection-start-column="57" selection-end-line="109" selection-end-column="57" />
-          <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,25 +926,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/images/adventure-tours/original/tour-map.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="41" selection-start-line="41" selection-end-line="54" selection-end-column="17" />
-          <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -1033,15 +959,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="-392">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+        <state relative-caret-position="503">
+          <caret line="146" column="11" lean-forward="true" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
         </state>
       </provider>
     </entry>
