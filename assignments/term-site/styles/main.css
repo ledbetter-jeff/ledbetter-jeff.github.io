@@ -133,15 +133,15 @@ article picture { margin: 1rem 1rem;float: right;}
 
 /*******************      Forecast Styling       ******************/
 
-table { border: black solid 1px;}
+table { border: black solid 1px; margin: 5em 5em 4em 5em;}
 
 table, th, td { border: black solid 2px;}
 
-th, td { text-align: center;padding: .1rem .3rem;}
+th, td { text-align: center;padding: .4rem .7rem;}
 
-th { background: dodgerblue;color: white;font-size: 17px;}
+th { background: forestgreen;color: black;font-size: 24px;}
 
-td { background: deepskyblue;color: white;}
+td { background: navajowhite;color: black;font-size: 22px}
 
 .forecast { display: none;}
 
