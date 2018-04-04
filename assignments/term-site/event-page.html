@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gallery | WeatherBud</title>
+    <title>Event Page | WeatherBud</title>
     <meta name="author" content="Jeff Ledbetter">
     <meta name="description" content="Area's best weather photos.">
     <!-- external style references in the proper cascading order -->
@@ -36,104 +36,99 @@
 </nav>
 
 <main>
-    <h2>The City of Greenville</h2>
-    <figure class="img">
-        <picture class="greenville-img">
-            <img src="images/greenville/txg.jpeg" srcset="images/greenville/txg-small.jpeg 1000w, images/greenville/txg-medium.jpeg 1000w, images/greenville/txg-large.jpeg 2000w" alt="Franklin woods">
+    <h2>Cycle the Continental Divide</h2>
+
+    <figure>
+        <picture class="gdt map">
+            <source media="(max-width: 37.5em)" sizes=" (max-width: 37.5em) 50vw, 10vw"
+                    srcset="images/events-page/small/gdt-small.jpg .5x,
+                        images/events-page/small/gdt-small.jpg .8x,
+                        images/events-page/small/gdt-small.jpg 1x">
+            <source media="(max-width: 64em)"  sizes=" (max-width: 64em) 100vw, 30vw"
+                    srcset="images/events-page/medium/gdt-medium.jpg .5x,
+                        images/events-page/medium/gdt-medium.jpg .8x,
+                        images/events-page/medium/gdt-medium.jpg 1x">
+            <img src="images/events-page/large/gdt-large.jpg" alt="topographical map of trail rides.">
         </picture>
+        <figcaption>Adventure Tour Map</figcaption>
     </figure>
 
-    <div class="greenville-div">
-        <p><span id="location">Greenville, TX</span></p>
-        <p>Year Founded: <span id="gFound"></span></p>
-        <p>Population: <span id="gPop"></span></p>
-        <p>Motto: <span id="gMotto"></span></p>
-        <p>Average Annual Rainfall: <span id="gRain"></span> in.</p>
-        <h3>Town Events:</h3>
-        <ul>
-            <li><span id="gE1"></span></li>
-            <li><span id="gE2"></span></li>
-            <li><span id="gE3"></span></li>
-            <li><span id="gE4"></span></li>
-        </ul>
-    </div>
+    <p>Timeline: 30-60 Days </p>
+    <ul>Route:
+        <li>1. Roosville, MT to Polaris, MT (542.3 mi.)</li>
+        <li>2. Polaris, MT to South Pass City, WY (510.4 mi.)</li>
+        <li>3. South Pass City, WY to Silverthorne, CO (403.9 mi.)</li>
+        <li>4. Silverthorne, CO to Platoro, CO (316.5 mi.)</li>
+        <li>5. Platoro, CO to Pie Town, NM (430.1 mi.)</li>
+        <li>6. Pie Town, NM to Antelope Wells, NM (307.8 mi.)</li>
+    </ul>
+    <p>Costs: $2500-6000 per person</p>
 
-    <h2 class="forecastSum">Weather Summary</h2>
-    <section>
-        <p>Current Temp: <span id="currentTemp"></span>&deg; F</p>
-        <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
-        <p><span id="currentConditions"></span></p>
-        <img id="w_icon" src="" alt="current weather">
-        <p>Today's High: <span id="todayHigh"></span>&deg; F</p>
-        <p>Today's Low: <span id="todayLow"></span>&deg; F</p>
-        <!--<p>Wind Chill: <span id="windChill"></span>&deg; F</p>-->
-    </section>
+    <ul>Basic Requirements
+        <li>Backpack</li>
+            <ul>
+                <li>Comfortable Backpack</li>
+                <li>Pack Liner</li>
+            </ul>
+        <li>Shelter</li>
+            <ul>
+                <li>Light Packing Tent</li>
+                <li>Tarp</li>
+            </ul>
+        <li>Sleeping</li>
+            <ul>
+                <li>Sleeping Pad</li>
+                <li>Quilt</li>
+                <li>Sheet</li>
+            </ul>
+        <li>Eating</li>
+            <ul>
+                <li>Tupperware container</li>
+                <li>plastic spoon</li>
+                <li>knife</li>
+            </ul>
+        <li>Clothing</li>
+            <ul>
+                <li>Jacket</li>
+                <li>Long Sleeve Shirt</li>
+                <li>Short Sleeve Shirt</li>
+                <li>Socks</li>
+                <li>Hat</li>
+                <li>Gloves</li>
+                <li>Long Johns</li>
+            </ul>
+        <li>Footwear</li>
+            <ul>
+                <li>Comfortable biking shoes</li>
+                <li>flip flops</li>
+            </ul>
+        <li>Hygiene/First Aid</li>
+            <ul>
+                <li>Ibuprofen</li>
+                <li>Hand Sanitizer</li>
+                <li>Soap</li>
+                <li>Bandages</li>
+                <li>Toothbrush</li>
+                <li>Floss</li>
+            </ul>
+        <li>Other</li>
+            <ul>
+                <li>Ziploc Baggies</li>
+                <li>ID</li>
+                <li>Debit Card</li>
+                <li>Phone with sturdy case</li>
+                <li>Charging cord and battery pack</li>
+                <li>Mini Lighter</li>
+                <li>Sun Screen</li>
+                <li>DEET</li>
+                <li>Maps</li>
+                <li>Head Lamp</li>
+            </ul>
+    </ul>
 
-    <section class="forecast">
-        <h3>4 Day Forecast</h3>
-        <table>
-            <thead>
-            <tr>
-                <th>Day 1</th>
-                <th>Day 2</th>
-                <th>Day 3</th>
-                <th>Day 4</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span id="day1"></span>&deg;F</td>
-                <td><span id="day2"></span>&deg;F</td>
-                <td><span id="day3"></span>&deg;F</td>
-                <td><span id="day4"></span>&deg;F</td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
 
-    <article class="clearfix">
-        <h3>Greenville Article</h3>
-
-        <figure class="img">
-            <picture class="greenville-img">
-                <img src="images/greenville/Greenville.jpg" srcset="images/greenville/Greenville.jpg 3000w" alt="Historic map found in archives">
-            </picture>
-        </figure>
-        <div class="town-article">
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <p>
-                Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-        </div>
-    </article>
 
 </main>
-
-
-
 
 <footer>
     <aside>
