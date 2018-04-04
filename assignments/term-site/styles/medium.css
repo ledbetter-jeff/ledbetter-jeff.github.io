@@ -9,7 +9,7 @@
     button { display:none; }  /* hamburger button does not need to be shown */
 
     nav ul {
-        margin-left: 2%;
+        margin-left: 0;
     }
     nav ul li {
         float: left;
