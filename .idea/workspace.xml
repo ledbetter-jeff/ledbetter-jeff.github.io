@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assignments/term-site/resource-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/medium.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/medium.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,17 +18,35 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="731">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="110" column="52" selection-start-line="110" selection-end-line="111" />
+            <state relative-caret-position="-802">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-end-line="52" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource-page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/resource-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -39,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/medium.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -93,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/lesson-9/stormcenter-9.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/springfield-9.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/greenville-9.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-9/gallery-9.html" />
@@ -144,6 +159,7 @@
         <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/medium.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
+        <option value="$PROJECT_DIR$/assignments/term-site/resource-page.html" />
       </list>
     </option>
   </component>
@@ -160,10 +176,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
+    <option name="x" value="645" />
     <option name="y" value="22" />
-    <option name="width" value="1450" />
-    <option name="height" value="1027" />
+    <option name="width" value="874" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,6 +208,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,12 +222,6 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -236,6 +249,14 @@
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="term-site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="term-site" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,9 +270,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,7 +461,8 @@
       <workItem from="1522694754279" duration="919000" />
       <workItem from="1522782140372" duration="1664000" />
       <workItem from="1522799514413" duration="164000" />
-      <workItem from="1522851440956" duration="24531000" />
+      <workItem from="1522851440956" duration="24587000" />
+      <workItem from="1522953618234" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -512,7 +531,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266971000" />
+    <option name="totallyTimeSpent" value="267600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,8 +543,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="22" width="1450" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="55" y="22" width="874" height="973" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
@@ -540,7 +558,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16832386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28846154" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -558,31 +576,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32685298" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32914045" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32806805" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21625888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32685298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
-      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32914045" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32806805" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -629,6 +647,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="menu button work" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/medium.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/medium.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -853,12 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/large.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/images/adventure-tours/original/tour-map.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -894,9 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-9/scripts/rating.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-9/stormcenter-9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -918,20 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,7 +971,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="731">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
@@ -966,14 +979,28 @@
     <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/medium.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="110" column="52" selection-start-line="110" selection-end-line="111" />
+        <state relative-caret-position="-802">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/resource-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
