@@ -7,7 +7,7 @@
     <meta name="author" content="Jeff Ledbetter">
     <meta name="description" content="Franklin's local weather forecast page.">
     <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">  <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
     <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
@@ -26,7 +26,7 @@
 <body>
 <header>
     <img id="siteIcon" src="images/home-page/ms-logo.png" alt="The site logo">
-    <h1>Adventure Tours | The Mountain Spoke</h1>
+    <p>Adventure Tours | The Mountain Spoke</p>
     <span class="subheading">Mountain Spoke. Ride the earth!</span>
 </header>
 
@@ -48,13 +48,13 @@
     <figure>
         <picture class="tour map">
             <source media="(max-width: 37.5em)" sizes=" (max-width: 37.5em) 50vw, 10vw"
-                    srcset="images/adventure-tours/small/tour-map-small.png 2x,
-                        images/adventure-tours/small/tour-map-small.png 3x,
-                        images/adventure-tours/small/tour-map-small.png 5x">
+                    srcset="images/adventure-tours/small/tour-map-small.png .7x,
+                        images/adventure-tours/small/tour-map-small.png 1x,
+                        images/adventure-tours/small/tour-map-small.png 1.2x">
             <source media="(max-width: 64em)"  sizes=" (max-width: 64em) 100vw, 30vw"
-                    srcset="images/adventure-tours/medium/tour-map-medium.png 2x,
-                        images/adventure-tours/medium/tour-map-medium.png 3x,
-                        images/adventure-tours/medium/tour-map-medium.png 5x">
+                    srcset="images/adventure-tours/medium/tour-map-medium.png .7x,
+                        images/adventure-tours/medium/tour-map-medium.png 1x,
+                        images/adventure-tours/medium/tour-map-medium.png 1.2x">
             <img src="images/adventure-tours/large/tour-map-large.png" alt="topographical map of trail rides.">
         </picture>
         <figcaption>Adventure Tour Map</figcaption>
