@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/contact-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/contact-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/event-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/event-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/large/10-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/medium/10-medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/small/10-small.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/resource-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/resource-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/sales-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/sales-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/service-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/service-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/thanks.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="289">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -37,8 +26,8 @@
       <file leaf-file-name="adventure-tours-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="493">
+              <caret line="29" column="31" selection-start-line="29" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -70,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="487">
@@ -88,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="404">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -154,9 +143,9 @@
       <find>button</find>
       <find>margin</find>
       <find>padd</find>
-      <find>3x</find>
       <find>&lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; rel=&quot;stylesheet&quot;&gt;  &lt;!-- Google API font reference --&gt;</find>
       <find>5x</find>
+      <find>3x</find>
     </findStrings>
     <replaceStrings>
       <replace>Roboto</replace>
@@ -165,8 +154,8 @@
       <replace>15</replace>
       <replace>14</replace>
       <replace>13</replace>
-      <replace>1x</replace>
       <replace>1.2x</replace>
+      <replace>1x</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -217,8 +206,6 @@
         <option value="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/medium.css" />
-        <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/contact-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
@@ -226,6 +213,8 @@
         <option value="$PROJECT_DIR$/assignments/term-site/resource-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
       </list>
     </option>
   </component>
@@ -556,7 +545,7 @@
       <workItem from="1522799514413" duration="164000" />
       <workItem from="1522851440956" duration="24587000" />
       <workItem from="1522953618234" duration="678000" />
-      <workItem from="1523041383321" duration="1541000" />
+      <workItem from="1523041383321" duration="1861000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -625,7 +614,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269246000" />
+    <option name="totallyTimeSpent" value="269566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1036,24 +1025,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -1064,13 +1039,6 @@
           <folding>
             <element signature="e#2170#2176#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1099,6 +1067,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
