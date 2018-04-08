@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/sales-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/sales-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/scripts/toggle.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +64,8 @@
       <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            <state relative-caret-position="537">
+              <caret line="59" column="32" selection-start-line="59" selection-end-line="60" />
               <folding>
                 <element signature="e#6137#6143#0" expanded="true" />
               </folding>
@@ -240,8 +238,8 @@
         <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/toggle.js" />
+        <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
       </list>
     </option>
   </component>
@@ -579,7 +577,7 @@
       <workItem from="1522851440956" duration="24587000" />
       <workItem from="1522953618234" duration="678000" />
       <workItem from="1523041383321" duration="2004000" />
-      <workItem from="1523133527348" duration="18210000" />
+      <workItem from="1523133527348" duration="18288000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -648,7 +646,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287919000" />
+    <option name="totallyTimeSpent" value="287997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1125,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state relative-caret-position="537">
+          <caret line="59" column="32" selection-start-line="59" selection-end-line="60" />
           <folding>
             <element signature="e#6137#6143#0" expanded="true" />
           </folding>
