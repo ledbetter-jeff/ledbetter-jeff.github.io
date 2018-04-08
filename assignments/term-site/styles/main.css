@@ -121,7 +121,12 @@ img:hover { box-shadow: 5px 5px 10px gray;}
     margin: 1rem;
 }
 
-
+#siteIconMini{
+    height: 40px;
+    box-shadow: none !important;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
 
 /*******************      Form Styling       ******************/
 
