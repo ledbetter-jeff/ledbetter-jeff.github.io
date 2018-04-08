@@ -7,36 +7,47 @@
     <meta name="author" content="Jeff Ledbetter">
     <meta name="description" content="The Mountain Spoke's home page.">
     <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">  &lt;!&ndash; Google API font reference &ndash;&gt;-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Serif|Roboto" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
     <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     <link href="styles/largest.css" rel="stylesheet">   <!-- largest/very wide/desktop views -->
 
-    <!-- https://ledbetter-jeff.github.io/assignments/weathersite/index.html   -->
+    <!-- https://ledbetter-jeff.github.io/assignments/term-site/index.html   -->
 </head>
 
 <body>
 <header>
-    <img id="siteIcon" src="images/home-page/ms-logo.png" alt="The site logo">
-    <p>Home | The Mountain Spoke</p>
-    <span class="subheading">Mountain Spoke. Ride the earth!</span>
+    <nav class="clearfix">
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="toggleNav" class="hide container">
+            <li><img id="siteIcon" src="images/home-page/ms-logo.png" alt="The site logo"></li>
+            <li class="flexItem" id="active"><a href="#">Home</a></li>
+            <li class="flexItem"><a href="adventure-tours-page.html">Adventure Tours</a></li>
+            <li class="flexItem"><a href="event-page.html">Event Page</a></li>
+            <li class="flexItem"><a href="sales-page.html">Sales Page</a></li>
+            <li class="flexItem"><a href="service-page.html">Service Page</a></li>
+            <li class="flexItem"><a href="contact-page.html">Contact Page</a></li>
+        </ul>
+    </nav>
+    <!--<p>Home | The Mountain Spoke</p>-->
+    <!--<span class="subheading">Mountain Spoke. Ride the earth!</span>-->
+
 </header>
 
-<!-- site navigation use placeholder references -->
-<nav class="clearfix">
-    <button onclick="toggleNavMenu()">&#9776;</button>
-    <ul id="toggleNav" class="hide container">
-        <li class="flexItem" id="active"><a href="#">Home</a></li>
-        <li class="flexItem"><a href="adventure-tours-page.html">Adventure Tours</a></li>
-        <li class="flexItem"><a href="event-page.html">Event Page</a></li>
-        <li class="flexItem"><a href="sales-page.html">Sales Page</a></li>
-        <li class="flexItem"><a href="service-page.html">Service Page</a></li>
-        <li class="flexItem"><a href="contact-page.html">Contact Page</a></li>
-    </ul>
-</nav>
+<!--<nav class="clearfix">-->
+    <!--<button onclick="toggleNavMenu()">&#9776;</button>-->
+    <!--<ul id="toggleNav" class="hide container">-->
+        <!--<li class="flexItem" id="active"><a href="#">Home</a></li>-->
+        <!--<li class="flexItem"><a href="adventure-tours-page.html">Adventure Tours</a></li>-->
+        <!--<li class="flexItem"><a href="event-page.html">Event Page</a></li>-->
+        <!--<li><img id="siteIcon" src="images/home-page/ms-logo.png" alt="The site logo"></li>-->
+        <!--<li class="flexItem"><a href="sales-page.html">Sales Page</a></li>-->
+        <!--<li class="flexItem"><a href="service-page.html">Service Page</a></li>-->
+        <!--<li class="flexItem"><a href="contact-page.html">Contact Page</a></li>-->
+    <!--</ul>-->
+<!--</nav>-->
 <main>
 
     <h1>include 3 epic mountain biking pics</h1>
@@ -134,7 +145,6 @@
 </footer>
 <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
 <!--<script src="scripts/currentDate.js"></script>-->
-
     <!--<script src="scripts/wu-weather.js"></script>-->
     <script src="scripts/hamburger.js"></script>
 </body>

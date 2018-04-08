@@ -5,39 +5,42 @@
 
 /*******************      Main Elements Styling      ******************/
 
-header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */}
+
+
+header, footer {}
 
 header {
-    font-family: 'Oswald', 'Droid Serif';
-    font-size: 40px;
-; background-color: #266107 ;color: white;
-    padding:  0 0 0 0;
+    height: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+ background-color: #266107 ;color: white;
+    padding:  11px 0 0 0 !important;
     margin: 0 0 0 0;
 }
 
 .subheading { font-size: 28px}
 
-html, body { height: 100%; margin: 0;}
-
+body header {
+    padding: 0 13px;
+}
 main { margin: 0; }
 
-body {width: 100%; font-family: 'Oswald', 'Sans Serif'; font-size: 16px;min-width:250px;}
+body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
 footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
 
-.footer-bar { text-align: center;margin: 0 1rem 1rem 1rem;}
+.footer-bar { text-align: center;
+    /*margin: 0 1rem 1rem 1rem;*/
+}
 
-.contact-info { text-align: center;margin:  .5rem 1rem 1rem 1rem;}
+.contact-info { text-align: center;
+    /*margin:  .5rem 1rem 1rem 1rem;*/
+}
 
-
-
-.f-wrapper {  grid-template-columns: 1fr 1fr;
-    display: grid; grid-row-gap: 1em; grid-column-gap: 1em; padding: .5em;}
+article { font-family: 'PT Serif', serif;}
 
 
 /*******************      Nav Styling     ******************/
-
-#dropdown { margin: .2em 0;}
 
 .flexItem { flex-grow: initial;}
 
@@ -46,19 +49,24 @@ footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100
 
 nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
 
-nav {background-color: #794A18 !important; font-family: Verdana, sans-serif;}
+nav {background-color: transparent; font-family: Verdana, sans-serif;}
 
 nav ul {list-style-type: none;padding: 0;margin: 0;}
 
 
 nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;
-    background-color: #794A18;}
+    background-color: transparent;
+    color: #794A18;}
 
-nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #794A18;text-decoration: none;border-top: 1px solid rgba(0,0,0,.3);}
+nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: transparent;text-decoration: none;border-top: none}
 
 nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}
 
-nav ul li a:hover {background-color: rgba(0,0,0,.2);}
+nav ul li a:hover {
+    background-color: #794A18;
+
+    /*background-color: rgba(0,0,0,.2);*/
+}
 
 nav ul.hide { display: none;}
 
@@ -67,6 +75,32 @@ body main div   {
 }
 
 
+/*nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}*/
+
+/*nav {background-color: #794A18 !important; font-family: Verdana, sans-serif;}*/
+
+/*nav ul {list-style-type: none;padding: 0;margin: 0;}*/
+
+
+/*nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;*/
+    /*background-color: #794A18;}*/
+
+/*nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #794A18;text-decoration: none;border-top: 1px solid rgba(0,0,0,.3);}*/
+
+/*nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}*/
+
+/*nav ul li a:hover {background-color: rgba(0,0,0,.2);}*/
+
+/*nav ul.hide { display: none;}*/
+
+/*body main div   {*/
+    /*margin: 0 0 0 0;*/
+/*}*/
+
+ul li {
+    list-style-type: none
+}
+
 
 /*******************      Img Styling      ******************/
 
@@ -74,7 +108,11 @@ body main div   {
 
 img:hover { box-shadow: 5px 5px 10px gray;}
 
-#siteIcon{width: 100px; outline: 0 !important; }
+#siteIcon{width: 70px;
+    box-shadow: none !important;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
 
 
 
@@ -107,8 +145,6 @@ form button { padding: 1% 2%;}
 
 
 /*******************      JSON Input Styling       ******************/
-
-.franklin-div, .greenville-div, .placerton-div, .springfield-div { background-color: #cccccc;padding: 1em; margin-left: 40px}
 
 #location { font-weight: bold; font-size: 22px;}
 

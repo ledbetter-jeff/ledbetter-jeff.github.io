@@ -1,0 +1,28 @@
+{
+    "Company Name" : "The Mountain Spoke",
+    "Established" : "1969",
+    "City" : "Bozeman, MT",
+    "active" : true,
+    "Services" : [
+    {
+        "Service" : "Bike Fitting",
+        "Price" : "$20",
+        "Time" : "20 mins"
+    },
+        {
+            "Service" : "Flat Tire",
+            "Price" : "$5",
+            "Time" : "5 mins"
+        },
+        {
+            "Service" : "Tune-Up",
+            "Price" : "$65",
+            "Time" : "48 hours"
+        },
+        {
+            "Service" : "Overhaul",
+            "Price" : "$135",
+            "Time" : "1 week"
+        }
+]
+}

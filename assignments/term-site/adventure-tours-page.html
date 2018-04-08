@@ -7,19 +7,14 @@
     <meta name="author" content="Jeff Ledbetter">
     <meta name="description" content="Franklin's local weather forecast page.">
     <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Serif" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
     <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
-    <script>
-        $(function(){
-            $(' .dropdownMenu > li').click(function(){
-                $(this).children("ul").slideToggle(400);
-            })
-        })
-    </script>
+    <script src="scripts/toggle.js"></script>
+
     <!-- https://ledbetter-jeff.github.io/assignments/weathersite/franklin.html   -->
 </head>
 
@@ -61,7 +56,7 @@
     </figure>
 
 <ul class="dropdownMenu">
-    <li>Bangtail Divide
+    <li class="dropLi">Bangtail Divide
             <ul>
                 <li>Location: Bozeman</li>
                 <li>Skill level: Intermediate</li>
@@ -69,7 +64,7 @@
                 <li>Cost: $50</li>
             </ul>
     </li>
-    <li>Grassy Mountain Top
+    <li class="dropLi">Grassy Mountain Top
             <ul>
                 <li>Location: Bozeman</li>
                 <li>Skill level: Intermediate</li>
