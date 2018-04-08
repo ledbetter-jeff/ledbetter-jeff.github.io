@@ -23,7 +23,7 @@ header {
 body header {
     padding: 0 13px;
 }
-main { margin: 0; }
+body main { margin-left: 2em; }
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
@@ -37,43 +37,20 @@ footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100
     /*margin:  .5rem 1rem 1rem 1rem;*/
 }
 
-article { font-family: 'PT Serif', serif;}
+article { margin: 2em 1em; font-family: 'PT Serif', serif;}
 
+aside {
+    margin: 2em 1em;}
+
+iframe {
+    margin: 3em 1.5em;
+}
 
 /*******************      Nav Styling     ******************/
 
 .flexItem { flex-grow: initial;}
 
 .container { display: flex; flex-direction: column;}
-
-
-/*nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}*/
-
-/*nav {background-color: transparent; font-family: Verdana, sans-serif;}*/
-
-/*nav ul {list-style-type: none;padding: 0;margin: 0;}*/
-
-
-/*nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;*/
-    /*background-color: transparent;*/
-    /*color: #794A18;}*/
-
-/*nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: transparent;text-decoration: none;border-top: none}*/
-
-/*nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}*/
-
-/*nav ul li a:hover {*/
-    /*background-color: #794A18;*/
-
-    /*!*background-color: rgba(0,0,0,.2);*!*/
-/*}*/
-
-/*nav ul.hide { display: none;}*/
-
-/*body main div   {*/
-    /*margin: 0 0 0 0;*/
-/*}*/
-
 
 nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
 
@@ -110,6 +87,9 @@ ul li {
 
 /*******************      Img Styling      ******************/
 
+main figure { margin-top: 2em;
+margin-bottom: 2em}
+
 .wrapper {display: grid; grid-row-gap: 1em; grid-column-gap: 1em; padding: .5em;}
 
 img:hover { box-shadow: 5px 5px 10px gray;}
@@ -130,8 +110,8 @@ img:hover { box-shadow: 5px 5px 10px gray;}
 
 /*******************      Form Styling       ******************/
 
-fieldset {padding-left: 1.5em;
-    height: 100%; width: content-box; margin: 1em 0;background-color: gainsboro;}
+fieldset {padding-left: 1.5em; margin-left:1em; margin-bottom: 2em;
+     width: 20em;background-color: gainsboro;}
 
 form legend { width: 11em; text-align: center; font-size: 22px;border: darkgray solid 1px;padding: 1%;background-color: white;}
 

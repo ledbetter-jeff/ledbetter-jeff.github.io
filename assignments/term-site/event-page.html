@@ -13,6 +13,8 @@
     <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/home-page/favicon-gw-32x32.png">
+    <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+    <script src="scripts/toggle.js"></script>
     <!-- https://ledbetter-jeff.github.io/assignments/weathersite/gallery.html   -->
 </head>
 
@@ -37,9 +39,9 @@
 </nav>
 
 <main>
-    <h2>Cycle the Continental Divide</h2>
 
     <figure>
+        <figcaption><h1>Cycle the Continental Divide</h1></figcaption>
         <picture class="gdt map">
             <source media="(max-width: 37.5em)" sizes=" (max-width: 37.5em) 50vw, 10vw"
                     srcset="images/events-page/small/gdt-small.jpg .5x,
@@ -51,10 +53,9 @@
                         images/events-page/medium/gdt-medium.jpg 1x">
             <img src="images/events-page/large/gdt-large.jpg" alt="topographical map of trail rides.">
         </picture>
-        <figcaption>Adventure Tour Map</figcaption>
     </figure>
 
-    <p>Timeline: 30-60 Days </p>
+    <h2>Timeline: 30-60 Days </h2>
     <ul>Route:
         <li>1. Roosville, MT to Polaris, MT (542.3 mi.)</li>
         <li>2. Polaris, MT to South Pass City, WY (510.4 mi.)</li>
@@ -63,32 +64,36 @@
         <li>5. Platoro, CO to Pie Town, NM (430.1 mi.)</li>
         <li>6. Pie Town, NM to Antelope Wells, NM (307.8 mi.)</li>
     </ul>
-    <p>Costs: $2500-6000 per person</p>
+    <h2>Costs: $2500-6000 per person</h2>
 
-    <ul>Basic Requirements
-        <li>Backpack</li>
+    <ul class="dropdownMenu"><h2>Basic Requirements</h2>
+        <li><h3>Backpack</h3>
             <ul>
                 <li>Comfortable Backpack</li>
                 <li>Pack Liner</li>
             </ul>
-        <li>Shelter</li>
+        </li>
+        <li><h3>Shelter</h3>
             <ul>
                 <li>Light Packing Tent</li>
                 <li>Tarp</li>
             </ul>
-        <li>Sleeping</li>
+        </li>
+        <li><h3>Sleeping</h3>
             <ul>
                 <li>Sleeping Pad</li>
                 <li>Quilt</li>
                 <li>Sheet</li>
             </ul>
-        <li>Eating</li>
+        </li>
+        <li><h3>Eating</h3>
             <ul>
                 <li>Tupperware container</li>
                 <li>plastic spoon</li>
                 <li>knife</li>
             </ul>
-        <li>Clothing</li>
+        </li>
+        <li><h3>Clothing</h3>
             <ul>
                 <li>Jacket</li>
                 <li>Long Sleeve Shirt</li>
@@ -98,12 +103,14 @@
                 <li>Gloves</li>
                 <li>Long Johns</li>
             </ul>
-        <li>Footwear</li>
+        </li>
+        <li><h3>Footwear</h3>
             <ul>
                 <li>Comfortable biking shoes</li>
                 <li>flip flops</li>
             </ul>
-        <li>Hygiene/First Aid</li>
+        </li>
+        <li><h3>Hygiene/First Aid</h3>
             <ul>
                 <li>Ibuprofen</li>
                 <li>Hand Sanitizer</li>
@@ -112,7 +119,8 @@
                 <li>Toothbrush</li>
                 <li>Floss</li>
             </ul>
-        <li>Other</li>
+        </li>
+        <li><h3>Other</h3>
             <ul>
                 <li>Ziploc Baggies</li>
                 <li>ID</li>
@@ -125,6 +133,7 @@
                 <li>Maps</li>
                 <li>Head Lamp</li>
             </ul>
+        </li>
     </ul>
 
     <form action="thanks.html" method="post" enctype="multipart/form-data" name="weathershare" id="stormchaser">
