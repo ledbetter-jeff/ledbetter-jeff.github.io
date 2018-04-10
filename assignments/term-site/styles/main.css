@@ -23,6 +23,10 @@ header {
 body header {
     padding: 0 13px;
 }
+body main h1    {
+    margin-bottom: 0;
+}
+
 body main { margin-left: 2em; }
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
@@ -59,7 +63,8 @@ nav {background-color: #266107 !important; font-family: Verdana, sans-serif;
     padding: 3em 1em 1em 1em;
 }
 
-nav ul {list-style-type: none;padding: 0;margin: 0;}
+nav ul {font-weight: bold;
+    list-style-type: none;padding: 0;margin: 0;}
 
 
 nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;
@@ -68,29 +73,31 @@ nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px s
 nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #266107;text-decoration: none;
     /*border-top: 1px solid rgba(0,0,0,.3);*/
 }
-
 nav ul li a:hover {background-color: #794A18;}
 
 nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}
 
-
-nav ul.hide { display: none;}
-
+main li > ul {
+    /* Hide the Submenus */
+    display:none;
+}
+main ul li ul li {
+    color: #000000;
+}
 body main div   {
     margin: 0 0 0 0;
 }
 
 ul li {
-    list-style-type: none
+    list-style-type: none;
 }
 
 
 /*******************      Img Styling      ******************/
 
-main figure { margin-top: 2em;
-margin-bottom: 2em}
+main figure {margin-bottom: 2em;}
 
-.wrapper {display: grid; grid-row-gap: 1em; grid-column-gap: 1em; padding: .5em;}
+.wrapper {display: grid; grid-row-gap: 1em; grid-column-gap: 1em;}
 
 img:hover { box-shadow: 5px 5px 10px gray;}
 
@@ -111,7 +118,7 @@ img:hover { box-shadow: 5px 5px 10px gray;}
 /*******************      Form Styling       ******************/
 
 fieldset {padding-left: 1.5em; margin-left:1em; margin-bottom: 2em;
-     width: 20em;background-color: gainsboro;}
+     width: 40px;background-color: gainsboro;}
 
 form legend { width: 11em; text-align: center; font-size: 22px;border: darkgray solid 1px;padding: 1%;background-color: white;}
 
@@ -119,22 +126,15 @@ main form label { display: block; margin: 1em 0; font-size: 18px;}
 
 main form span { display: block;}
 
-.radioIndent { margin-left: 1em;}
-
-.radioIndent span { display: inline;}
-
-#ratingvalue { display: inline;}
-
-#comments { margin: 2em  0;}
+#comments { margin: 2em 0 5px 0;}
 
 label textarea { margin: .2em 0; width: 13em;}
 
-form button { padding: 1% 2%;}
+form button {
+    margin: 5px 0;
+    font-size: 18px; padding: 7px 12px}
 
 .push { padding: 0 0 60% 0;}
-
-
-
 
 /*******************      JSON Input Styling       ******************/
 

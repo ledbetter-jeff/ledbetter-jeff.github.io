@@ -7,7 +7,7 @@
     }
 
 
-    button { display:none; }  /* hamburger button does not need to be shown */
+    nav button { display:none; }  /* hamburger button does not need to be shown */
 
     nav ul {
         margin-left: 0;
@@ -49,6 +49,7 @@
     }
 
     .wrapper {
+        flex-grow: inherit;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 1em;
