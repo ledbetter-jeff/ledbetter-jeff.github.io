@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/contact-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/contact-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/event-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/event-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/favicon-g-32x32.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/resource-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/resource-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/sales-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/sales-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/service-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/service-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/thanks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/fData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/gData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/hover-toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/sData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/wu-weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/drop-down-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/largest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,29 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="40" selection-start-line="17" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adventure-tours-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2864">
-              <caret line="177" column="50" selection-start-line="177" selection-start-column="50" selection-end-line="177" selection-end-column="50" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -51,8 +36,8 @@
       <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1974">
-              <caret line="139" column="50" selection-start-line="139" selection-start-column="50" selection-end-line="139" selection-end-column="50" />
+            <state relative-caret-position="2397">
+              <caret line="141" column="3" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -66,6 +51,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="large.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/large.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,7 +69,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thanks.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toggle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/toggle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="516">
@@ -84,14 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resource-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/resource-page.html">
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
-              <folding>
-                <element signature="e#2230#2236#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pricing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/pricing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -108,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>script</find>
       <find>f</find>
       <find>flex</find>
       <find>picture</find>
@@ -136,8 +144,9 @@
       <find>wrapp</find>
       <find>h1</find>
       <find>franklin</find>
-      <find>franklin woods</find>
       <find>th</find>
+      <find>hover</find>
+      <find>franklin woods</find>
     </findStrings>
     <replaceStrings>
       <replace>Roboto</replace>
@@ -202,7 +211,6 @@
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/toggle.js" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/currentDate.js" />
-        <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
@@ -210,6 +218,7 @@
         <option value="$PROJECT_DIR$/assignments/term-site/contact-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/resource-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/thanks.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
       </list>
     </option>
   </component>
@@ -280,19 +289,6 @@
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson-7" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="term-site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,49 +297,6 @@
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="term-site" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="term-site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="events-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="term-site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="term-site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home-page" type="462c0819:PsiDirectoryNode" />
-              <item name="large" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="term-site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home-page" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="term-site" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home-page" type="462c0819:PsiDirectoryNode" />
-              <item name="small" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +513,7 @@
       <workItem from="1523041383321" duration="2004000" />
       <workItem from="1523133527348" duration="18314000" />
       <workItem from="1523318284839" duration="8417000" />
-      <workItem from="1523385887467" duration="1518000" />
+      <workItem from="1523385887467" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -629,7 +582,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297958000" />
+    <option name="totallyTimeSpent" value="298322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,8 +610,9 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115384616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16849817" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -671,7 +625,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32685298" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -746,34 +699,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="menu button work" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/currentDate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -952,20 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/pricing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/medium.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -984,27 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/hover-toggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/large.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/toggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1043,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1061,27 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2864">
           <caret line="177" column="50" selection-start-line="177" selection-start-column="50" selection-end-line="177" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="139" column="50" selection-start-line="139" selection-start-column="50" selection-end-line="139" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="49" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1099,6 +961,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/fData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/rating.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/pricing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/hover-toggle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/toggle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="49" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="3" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/large.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/largest.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
