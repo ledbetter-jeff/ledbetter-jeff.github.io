@@ -88,6 +88,10 @@ body main div   {
     margin: 0 0 0 0;
 }
 
+main div div div ul li ul li{
+    color: #FFF;
+}
+
 ul li {
     list-style-type: none;
 }
@@ -114,6 +118,8 @@ img:hover { box-shadow: 5px 5px 10px gray;}
     padding: 25px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
+
+#sliderDots {text-align: center;}
 
 /*******************      Form Styling       ******************/
 

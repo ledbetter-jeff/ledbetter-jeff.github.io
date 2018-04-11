@@ -16,7 +16,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="images/home-page/favicon-gw-32x32.png">
     <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
-    <script src="scripts/toggle.js"></script>
+    <script src="scripts/productSpecs.js"></script>
     <script src="scripts/slider.js"></script>
 
     <!-- https://ledbetter-jeff.github.io/assignments/term-site/sales-page.html   -->
@@ -44,86 +44,32 @@
 
 <main>
 
+    <h1>Sales Page</h1>
     <!-- Slideshow container -->
     <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
+        <div class="salesSlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="images/sales-page/slider/img1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="images/sales-page/slider/img2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="images/sales-page/slider/img3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-    <h1>Sales Page</h1>
-
-    <div class="wrapper">
-    <div>
-        <figure>
-            <picture class="bike-1">
-                <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
-                srcset="images/sales-page/small/bike-1-small.jpg .5x,
-                        images/sales-page/small/bike-1-small.jpg .8x,
-                        images/sales-page/small/bike-1-small.jpg 1x">
-                <source media=" (max-width: 64em) "  sizes=" (max-width: 1000px) 100vw, 50vw"
-                        srcset="images/sales-page/medium/bike-1-med.jpg .5x,
-                        images/sales-page/medium/bike-1-med.jpg .8x,
-                        images/sales-page/medium/bike-1-med.jpg 1x">
-                <img src="images/sales-page/original/bike-1.jpg" alt="High end Green Lightning">
-            </picture>
-            <figcaption>
+            <img src="images/sales-page/large/bike-1.jpg" style="width:100%" alt="High end Green Lightning">
+            <div class="productSpecs">
                 <ul class="dropdownMenu">
-                <li><h2>Green Lightning</h2>
-                <ul>
-                    <li class="hidden">Suspension: Front</li>
-                    <li class="hidden">Color: Green and Black</li>
-                    <li class="hidden">Weight: 15lbs</li>
-                    <li class="hidden">Cost: $299</li>
+                    <li><h2>Green Lightning</h2>
+                        <ul>
+                            <li class="hidden">Suspension: Front</li>
+                            <li class="hidden">Color: Green and Black</li>
+                            <li class="hidden">Weight: 15lbs</li>
+                            <li class="hidden">Cost: $299</li>
+                        </ul>
+                    </li>
                 </ul>
-                </li>
-            </ul>
-            </figcaption>
-        </figure>
-    </div>
+            </div>
+        </div>
 
-<div>
-        <figure>
-            <picture class="bike-2">
-                <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
-                        srcset="images/sales-page/small/bike-2-small.jpg .5x,
-                        images/sales-page/small/bike-2-small.jpg .8x,
-                        images/sales-page/small/bike-2-small.jpg 1x">
-                <source media=" (max-width: 64em) "  sizes=" (max-width: 1000px) 100vw, 50vw"
-                        srcset="images/sales-page/medium/bike-2-med.jpg .5x,
-                        images/sales-page/medium/bike-2-med.jpg .8x,
-                        images/sales-page/medium/bike-2-med.jpg 1x">
-                <img src="images/sales-page/original/bike-2.jpg" alt="Big bruiser downhill bike">
-            </picture>
-            <figcaption>
+        <div class="salesSlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/sales-page/large/bike-2.jpg" style="width:100%" alt="Big bruiser downhill bike">
+            <div class="productSpecs">
                 <ul class="dropdownMenu">
                     <li><h2>Brutus</h2>
                         <ul>
@@ -134,24 +80,13 @@
                         </ul>
                     </li>
                 </ul>
-            </figcaption>
-        </figure>
-</div>
+            </div>
+        </div>
 
-<div>
-        <figure>
-            <picture class="bike-3">
-                <source media=" (max-width: 37.5em) " sizes=" (max-width: 500px) 50vw, 10vw"
-                        srcset="images/sales-page/small/bike-3-small.jpg .5x,
-                        images/sales-page/small/bike-3-small.jpg .8x,
-                        images/sales-page/small/bike-3-small.jpg 1x">
-                <source media=" (max-width: 64em) " sizes=" (max-width: 1000px) 100vw, 50vw"
-                        srcset="images/sales-page/medium/bike-3-med.jpg .5x,
-                        images/sales-page/medium/bike-3-med.jpg .8x,
-                        images/sales-page/medium/bike-3-med.jpg 1x">
-                <img src="images/sales-page/original/bike-3.jpg" alt="Beginner's mountain bike, red">
-            </picture>
-            <figcaption>
+        <div class="salesSlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/sales-page/large/bike-3.jpg" style="width:100%" alt="Beginner's mountain bike, red">
+            <div class="productSpecs">
                 <ul class="dropdownMenu">
                     <li><h2>Red Raider</h2>
                         <ul>
@@ -162,10 +97,22 @@
                         </ul>
                     </li>
                 </ul>
-            </figcaption>
-        </figure>
-</div>
+            </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="slideButton(-1)">&#8656;</a>
+        <a class="next" onclick="slideButton(1)">&#8658;</a>
     </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div id="sliderDots">
+        <span class="dot" onclick="activeSlide(1)"></span>
+        <span class="dot" onclick="activeSlide(2)"></span>
+        <span class="dot" onclick="activeSlide(3)"></span>
+    </div>
+
 </main>
 
 <footer>
