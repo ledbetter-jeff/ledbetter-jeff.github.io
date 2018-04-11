@@ -1,6 +1,6 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }  /* This wildcard applies to all elements ensuring a box layout model */
+* {}  /* This wildcard applies to all elements ensuring a box layout model */
 
 
 /*******************      Main Elements Styling      ******************/
