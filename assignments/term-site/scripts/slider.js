@@ -1,22 +1,21 @@
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
-function slideButton(n) {
-    showSlides(slideIndex += n);
+function slideButton(g) {
+    showSlides(slideIndex += g);
 }
 
-// Thumbnail image controls
-function activeSlide(n) {
-    showSlides(slideIndex = n);
+function activeSlide(g) {
+    showSlides(slideIndex = g);
 }
 
-function showSlides(n) {
+function showSlides(g) {
     var i;
     var slides = document.getElementsByClassName("salesSlides");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    if (g > slides.length) {slideIndex = 1}
+    if (g < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
