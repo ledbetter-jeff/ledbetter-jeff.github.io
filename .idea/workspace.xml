@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/scripts/slider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +36,7 @@
           <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="514">
+                <state relative-caret-position="1683">
                   <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -122,8 +121,8 @@
           <file leaf-file-name="slider.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/slider.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -581,7 +580,7 @@
       <workItem from="1523407890446" duration="42000" />
       <workItem from="1523407970009" duration="1920000" />
       <workItem from="1523448055524" duration="4513000" />
-      <workItem from="1523553534499" duration="192000" />
+      <workItem from="1523553534499" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -650,7 +649,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305041000" />
+    <option name="totallyTimeSpent" value="305324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1093,7 +1092,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state relative-caret-position="1683">
           <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1106,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
