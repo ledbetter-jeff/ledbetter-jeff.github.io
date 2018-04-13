@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jeffledbetter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/contact-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/contact-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/contact-thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/contact-thanks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/event-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/event-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/large/12-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/large/15-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/medium/12-medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/medium/15-medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/small/12-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/images/home-page/small/15-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/resource-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/reference-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/sales-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/sales-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/term-site/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/scripts/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/service-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/service-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/term-site/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/thanks.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +31,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4837037">
+    <splitter split-orientation="horizontal" split-proportion="0.5701559">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2244">
-                  <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+                <state relative-caret-position="698">
+                  <caret line="99" selection-start-line="99" selection-end-line="99" />
+                  <folding>
+                    <element signature="e#4585#4591#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="reference-page.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assignments/term-site/reference-page.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="699">
+                  <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-end-line="71" />
+                  <folding>
+                    <element signature="e#2143#2149#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -27,22 +61,37 @@
           <file leaf-file-name="adventure-tours-page.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="6" />
+                <state relative-caret-position="715">
+                  <caret line="104" selection-start-line="104" selection-end-line="104" />
+                  <folding>
+                    <element signature="e#4749#4755#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1683">
-                  <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+                <state relative-caret-position="715">
+                  <caret line="122" selection-start-line="122" selection-end-line="122" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#5281#5287#0" expanded="true" />
+                    <element signature="e#5353#5359#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="service-page.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="698">
+                  <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+                  <folding>
+                    <element signature="e#3238#3244#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -51,8 +100,8 @@
           <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                <state relative-caret-position="476">
+                  <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -60,10 +109,22 @@
           <file leaf-file-name="contact-thanks.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-thanks.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
+                <state relative-caret-position="715">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
                   <folding>
                     <element signature="e#2246#2252#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="event-page.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="715">
+                  <caret line="173" selection-start-line="173" selection-end-line="173" />
+                  <folding>
+                    <element signature="e#8090#8096#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -72,8 +133,11 @@
           <file leaf-file-name="contact-page.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1003">
-                  <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+                <state relative-caret-position="715">
+                  <caret line="71" selection-start-line="71" selection-end-line="71" />
+                  <folding>
+                    <element signature="e#3769#3775#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -87,24 +151,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="large.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/large.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1445">
-                  <caret line="85" selection-start-line="85" selection-end-line="85" />
+                <state relative-caret-position="544">
+                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
                 </state>
               </provider>
             </entry>
@@ -112,17 +167,17 @@
           <file leaf-file-name="slider.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/slider.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="25" selection-start-column="25" selection-end-column="25" />
+                <state relative-caret-position="323">
+                  <caret line="19" selection-start-line="18" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="slider.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="slider.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/slider.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
-                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -130,8 +185,8 @@
           <file leaf-file-name="toggle.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/toggle.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="33" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -211,7 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assignments/weathersite/franklin.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/greenville.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/springfield.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/styles/large.css" />
@@ -247,21 +301,22 @@
         <option value="$PROJECT_DIR$/assignments/term-site/styles/drop-down-menu.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/hover-toggle.js" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/currentDate.js" />
-        <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/service-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/resource-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/thanks.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/service-thanks.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/contact-page.html" />
-        <option value="$PROJECT_DIR$/assignments/term-site/contact-thanks.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/toggle.js" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/productSpecs.js" />
-        <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
-        <option value="$PROJECT_DIR$/assignments/term-site/styles/slider.css" />
-        <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
         <option value="$PROJECT_DIR$/assignments/term-site/scripts/slider.js" />
+        <option value="$PROJECT_DIR$/assignments/term-site/styles/slider.css" />
+        <option value="$PROJECT_DIR$/assignments/term-site/thanks.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/resource-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/reference-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
+        <option value="$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/contact-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/contact-thanks.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/event-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/index.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/sales-page.html" />
+        <option value="$PROJECT_DIR$/assignments/term-site/service-page.html" />
       </list>
     </option>
   </component>
@@ -343,6 +398,41 @@
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="term-site" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="term-site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="term-site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+              <item name="large" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="term-site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ledbetter-jeff.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="term-site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+              <item name="small" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ledbetter-jeff.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -580,7 +670,8 @@
       <workItem from="1523407890446" duration="42000" />
       <workItem from="1523407970009" duration="1920000" />
       <workItem from="1523448055524" duration="4513000" />
-      <workItem from="1523553534499" duration="475000" />
+      <workItem from="1523553534499" duration="650000" />
+      <workItem from="1523646194131" duration="3506000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -649,7 +740,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305324000" />
+    <option name="totallyTimeSpent" value="309005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,7 +768,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17582418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17765568" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -695,17 +786,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32685298" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15201466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32914045" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -715,10 +806,10 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32914045" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32685298" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32806805" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -766,13 +857,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="menu button work" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/toggle-button-begin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/insert-HTML-begin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -980,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/resource-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/fData.js" />
     <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/data.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1003,76 +1080,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/hover-toggle.js" />
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="49" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#2246#2252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/large.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/toggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
@@ -1083,30 +1094,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/toggle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/images/home-page/small/14-small.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#4749#4755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#3769#3775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#2246#2252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="e#8090#8096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#4585#4591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        <state relative-caret-position="715">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5281#5287#0" expanded="true" />
+            <element signature="e#5353#5359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/scripts/slider.js">
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/reference-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="699">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-end-line="71" />
+          <folding>
+            <element signature="e#2143#2149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#3238#3244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

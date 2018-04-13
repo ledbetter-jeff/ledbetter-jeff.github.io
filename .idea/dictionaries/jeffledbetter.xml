@@ -5,6 +5,7 @@
       <w>bozeman</w>
       <w>clearfix</w>
       <w>currentdate</w>
+      <w>fogle</w>
       <w>greenville</w>
       <w>hotday</w>
       <w>jsonp</w>
@@ -12,13 +13,16 @@
       <w>mins</w>
       <w>navback</w>
       <w>navbar</w>
+      <w>numbertext</w>
       <w>onload</w>
       <w>placerton</w>
       <w>ratingvalue</w>
       <w>stormcenter</w>
       <w>stormchaser</w>
+      <w>stuadt</w>
       <w>sunnyicon</w>
       <w>useragent</w>
+      <w>walleater</w>
     </words>
   </dictionary>
 </component>
