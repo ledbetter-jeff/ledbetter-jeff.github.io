@@ -176,17 +176,18 @@ form button {
 
 article picture { margin: 1rem 1rem;float: right;}
 
-/*******************      Forecast Styling       ******************/
+/*******************      Pricing Table Styling       ******************/
 
-table { border: black solid 1px; margin: 5em 5em 4em 5em;}
+table { border: black solid 1px; margin: 3em 5em 4em 5em;}
 
 table, th, td { border: black solid 2px;}
 
-th, td { text-align: center;padding: .4rem .7rem;}
+th, td { text-align: center;padding: .4rem .7rem;
+    color: #FFFFFF;}
 
-th { background: forestgreen;color: black;font-size: 24px;}
+th { background: forestgreen;color: black;font-size: 28px;}
 
-td { background: navajowhite;color: black;font-size: 22px}
+td { background: #794A18;color: #FFFFFF ;font-size: 26px}
 
 main section {margin-left: 40px;}
 
