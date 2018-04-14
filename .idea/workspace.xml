@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a6d0f-bcb1-4380-bdeb-234a21f3f0cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/reference-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/reference-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/term-site/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/term-site/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,20 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" selection-start-line="16" selection-end-line="17" />
               <folding>
                 <element signature="e#4700#4706#0" expanded="true" />
               </folding>
@@ -35,98 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/styles/slider.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="84" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adventure-tours-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
-              <folding>
-                <element signature="e#4760#4766#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/event-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <element signature="e#8101#8107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sales-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/sales-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5364#5370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/thanks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="e#2258#2264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reference-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/reference-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-              <folding>
-                <element signature="e#3747#3753#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/service-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-              <folding>
-                <element signature="e#3249#3255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact-thanks.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-thanks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-              <folding>
-                <element signature="e#2297#2303#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="677">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -217,7 +120,6 @@
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/insert-HTML-begin.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/toggle-button-begin.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assignments/lesson-11/intro-jquery-files/lesson-4/drop-down-menu-begin.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/stormcenter.html" />
         <option value="$PROJECT_DIR$/assignments/weathersite/thanks.html" />
@@ -246,6 +148,7 @@
         <option value="$PROJECT_DIR$/assignments/term-site/styles/slider.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/styles/main.css" />
         <option value="$PROJECT_DIR$/assignments/term-site/reference-page.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -601,7 +504,7 @@
       <workItem from="1523448055524" duration="4513000" />
       <workItem from="1523553534499" duration="650000" />
       <workItem from="1523646194131" duration="3542000" />
-      <workItem from="1523663570306" duration="10173000" />
+      <workItem from="1523663570306" duration="10328000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1520883228974</created>
@@ -670,7 +573,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319214000" />
+    <option name="totallyTimeSpent" value="319369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,13 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1064,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="e#4700#4706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/adventure-tours-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -1140,11 +1026,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/term-site/contact-thanks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
+        <state relative-caret-position="748">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <element signature="e#2297#2303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/term-site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="e#4700#4706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
         </state>
       </provider>
     </entry>
