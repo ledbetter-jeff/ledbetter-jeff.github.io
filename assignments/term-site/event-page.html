@@ -72,7 +72,7 @@
 
             <br>
             <br>
-            <!--<button onclick="toggleList()">&#9776;</button>-->
+
             <h2>Basic Requirements</h2>
             <ul class="dropdownMenu">
                 <li><h3>Backpack</h3>
@@ -146,10 +146,10 @@
         </div>
 
         <div>
-            <form action="thanks.html" method="post" enctype="multipart/form-data" name="weathershare" id="stormchaser">
+            <form action="thanks.html" method="post" enctype="multipart/form-data" name="eventReg" id="registrationForm">
                     <fieldset>
                         <legend><span>Registration Form</span></legend>
-                        <label><span>Full Name: </span> <input name="fullname" type="text" value="" placeholder="John Smith" pattern="[a-zA-Z -._]{5, 30}" required></label>
+                        <label><span>Full Name: </span> <input name="fullName" type="text" value="" placeholder="John Smith" pattern="[a-zA-Z -._]{5, 30}" required></label>
                         <label><span>Email: </span> <input name="email" type="email" value="" placeholder="john@aol.com" required></label>
                         <label><span>Phone: </span> <input name="phone" type="tel" value="" placeholder="5552237164" pattern="[0-9]{10, 20}" required></label>
                         <label><span>Home State/Country: </span> <input name="State" type="text" value="" placeholder="Alabama" pattern="[a-zA-Z -._]{5, 30}" required></label>
@@ -167,11 +167,8 @@
 </main>
 
 <footer>
-    <aside>
-        <p class="contact-info">The Mountain Spoke <br> 3950 Valley Commons Drive<br> Bozeman, MT 59715 <br> 999-999-9999 <br> ride@mtnspoke.com</p>
-    </aside>
-    <p class="footer-bar"><a href="reference-page.html" id="refPage">References</a> &nbsp | &nbsp &copy;2018 All Rights Reserved &nbsp | <img id="siteIconMini" src="images/home-page/ms-logo.png" alt="The site logo"> The Mountain Spoke &nbsp | &nbsp <span id="currentDate">Current Date Placeholder</span></p>
-
+    <p class="contact-info"><img id="siteIconMini" src="images/home-page/ms-logo.png" alt="The site logo"> <br>The Mountain Spoke <br> 3950 Valley Commons Drive<br> Bozeman, MT 59715 <br> 999-999-9999 <br> ride@mtnspoke.com</p>
+    <p class="footer-bar">&copy;2018 All Rights Reserved &nbsp | &nbsp <a href="reference-page.html" id="refPage">References Page</a> &nbsp | &nbsp <a href="index.html" id="overviewVid">Overview Video</a> &nbsp | &nbsp <span id="currentDate">Current Date Placeholder</span></p>
 </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentDate.js"></script>

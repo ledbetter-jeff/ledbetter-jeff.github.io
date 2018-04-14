@@ -21,24 +21,14 @@
     }
     
     nav ul li a {
-        /*border-left: 1px  solid white;*/
-        /*border-right: 1px  solid white;*/
         padding: .9rem 1rem;
 
     }
-
-/*rgba(0,0,0,.3)*/
 
     nav ul li#active a {background-color: rgba(0,0,0,.4);color: #fff;}
 
     nav ul li a:hover {
         color: white; background-color: #794A18;}
-
-    .forecast {
-        display: inline-grid;
-    }
-
-    section.forecast { display: inline-block; }  /* show the 10-day forecast with the medium view and up */
 
     article picture {float:right; }  /* responsive images */
 

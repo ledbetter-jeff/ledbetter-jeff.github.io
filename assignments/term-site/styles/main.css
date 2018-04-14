@@ -31,17 +31,32 @@ body main { margin-left: 2em; }
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
+#salesTitle {
+    margin-bottom: 22px;
+}
+
 #refPage {
+    text-decoration: none;
     color: #FFFFFF;}
+
+#refPage:hover {
+    background-color: #794A18;
+   }
+
+#overviewVid {
+    text-decoration: none;
+color: #FFFFFF;}
+
+#overviewVid:hover {
+    background-color: #794A18;
+    }
 
 footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
 
 .footer-bar { text-align: center;
-    /*margin: 0 1rem 1rem 1rem;*/
 }
 
 .contact-info { text-align: center;
-    /*margin:  .5rem 1rem 1rem 1rem;*/
 }
 
 article { margin: 2em 1em; font-family: 'PT Serif', serif;}
@@ -79,6 +94,10 @@ nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #26
 nav ul li a:hover {background-color: #794A18;}
 
 nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}
+
+nav ul.hide {
+    display: none;
+}
 
 main li > ul {
     /* Hide the Submenus */
@@ -118,13 +137,14 @@ img:hover { box-shadow: 5px 5px 10px gray;}
 #siteIconMini{
     height: 40px;
     box-shadow: none !important;
-    padding: 25px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
 
 #sliderDots {text-align: center;}
 
 /*******************      Form Styling       ******************/
+
 
 fieldset {padding-left: 1.5em; margin-left:1em; margin-bottom: 2em;
      width: 40px;background-color: gainsboro;}
@@ -141,7 +161,7 @@ label textarea { margin: .2em 0; width: 13em;}
 
 form button {
     margin: 5px 0;
-    font-size: 18px; padding: 7px 12px}
+    font-size: 18px; padding: 7px 12px;}
 
 .push { padding: 0 0 60% 0;}
 
