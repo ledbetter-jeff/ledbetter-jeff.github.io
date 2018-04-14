@@ -35,7 +35,6 @@
     .container {
         display: inline-flex;
         flex-direction: row;
-
     }
 
     .wrapper {

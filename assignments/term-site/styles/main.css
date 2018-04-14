@@ -51,6 +51,30 @@ color: #FFFFFF;}
     background-color: #794A18;
     }
 
+#salesLink {
+    text-decoration: none;
+    color: #000000;}
+
+#salesLink:hover {
+    color: #00cc00;
+}
+
+#serviceLink {
+    text-decoration: none;
+    color: #000000;}
+
+#serviceLink:hover {
+    color: #00cc00;
+}
+
+#adventureLink {
+    text-decoration: none;
+    color: #000000;}
+
+#adventureLink:hover {
+    color: #00cc00;
+}
+
 footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
 
 .footer-bar { text-align: center;
