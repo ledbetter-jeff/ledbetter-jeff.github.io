@@ -1,96 +1,56 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* {}  /* This wildcard applies to all elements ensuring a box layout model */
+* {box-sizing:border-box;}
+  /* This wildcard applies to all elements ensuring a box layout model */
 
 
 /*******************      Main Elements Styling      ******************/
 
-
-
-header, footer {}
-
-header {
-    height: 70px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
- background-color: #266107 ;color: white;
-    padding:  11px 0 0 0 !important;
-    margin: 0 0 0 0;
-}
+header {height: 70px;font-family: 'Oswald', sans-serif;font-size: 18px;background-color: #266107 ;color: white;padding:  11px 0 0 0 !important;margin: 0 0 0 0;}
 
 .subheading { font-size: 28px}
 
-body header {
-    padding: 0 13px;
-}
-body main h1    {
-    margin-bottom: 0;
-}
+body header {padding: 0 13px;}
+
+body main h1    {margin-bottom: 0;}
 
 body main { margin-left: 2em; }
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;min-width:250px;}
 
-#salesTitle {
-    margin-bottom: 22px;
-}
+#salesTitle {margin-bottom: 22px;}
 
-#refPage {
-    text-decoration: none;
-    color: #FFFFFF;}
+#refPage {text-decoration: none;color: #FFFFFF;}
 
-#refPage:hover {
-    background-color: #794A18;
-   }
+#refPage:hover {background-color: #794A18;}
 
-#overviewVid {
-    text-decoration: none;
-color: #FFFFFF;}
+#overviewVid {text-decoration: none;color: #FFFFFF;}
 
-#overviewVid:hover {
-    background-color: #794A18;
-    }
+#overviewVid:hover {background-color: #794A18;}
 
-#salesLink {
-    text-decoration: none;
-    color: #000000;}
+#salesLink {text-decoration: none;color: #000000;}
 
-#salesLink:hover {
-    color: #00cc00;
-}
+#salesLink:hover {color: #00cc00;}
 
-#serviceLink {
-    text-decoration: none;
-    color: #000000;}
+#serviceLink {text-decoration: none;color: #000000;}
 
-#serviceLink:hover {
-    color: #00cc00;
-}
+#serviceLink:hover {color: #00cc00;}
 
-#adventureLink {
-    text-decoration: none;
-    color: #000000;}
+#adventureLink {text-decoration: none;color: #000000;}
 
-#adventureLink:hover {
-    color: #00cc00;
-}
+#adventureLink:hover {color: #00cc00;}
 
 footer { background-color: #266107; color: white;padding: .5rem .5rem;width: 100%; position: absolute;}
 
-.footer-bar { text-align: center;
-}
+.footer-bar { text-align: center;}
 
-.contact-info { text-align: center;
-}
+.contact-info { text-align: center;}
 
 article { margin: 2em 1em; font-family: 'PT Serif', serif;}
 
-aside {
-    margin: 2em 1em;}
+aside {margin: 2em 1em;}
 
-iframe {
-    margin: 3em 1.5em;
-}
+iframe {margin: 3em 1.5em;}
 
 /*******************      Nav Styling     ******************/
 
@@ -100,47 +60,29 @@ iframe {
 
 nav button {outline: none; margin: .2rem 2%;background-color: transparent; border: none;font-size: 2rem;color: white;}
 
-nav {background-color: #266107 !important; font-family: Verdana, sans-serif;
-    margin: 0;
-    padding: 3em 1em 1em 1em;
-}
+nav {background-color: #266107 !important; font-family: Verdana, sans-serif;margin: 0;padding: 3em 1em 1em 1em;}
 
-nav ul {font-weight: bold;
-    list-style-type: none;padding: 0;margin: 0;}
+nav ul {font-weight: bold;list-style-type: none;padding: 0;margin: 0;}
 
+nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;background-color: #266107;}
 
-nav ul li {list-style-type: none;min-height:40px;position: relative;border:0px solid transparent;
-    background-color: #266107;}
+nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #266107;text-decoration: none;}
 
-nav ul li a {color: white; display: flex;padding: .8rem 2%;background-color: #266107;text-decoration: none;
-    /*border-top: 1px solid rgba(0,0,0,.3);*/
-}
 nav ul li a:hover {background-color: #794A18;}
 
 nav ul li#active a {background-color: rgba(0,0,0,.3); color: #fff;}
 
-nav ul.hide {
-    display: none;
-}
+nav ul.hide {display: none;}
 
-main li > ul {
-    /* Hide the Submenus */
-    display:none;
-}
-main ul li ul li {
-    color: #000000;
-}
-body main div   {
-    margin: 0 0 0 0;
-}
+main li > ul {display:none;}
 
-main div div div ul li ul li{
-    color: #FFF;
-}
+main ul li ul li {color: #000000;}
 
-ul li {
-    list-style-type: none;
-}
+body main div   {margin: 0 0 0 0;}
+
+main div div div ul li ul li{color: #FFF;}
+
+ul li {list-style-type: none;}
 
 
 /*******************      Img Styling      ******************/
@@ -151,27 +93,44 @@ main figure {margin-bottom: 2em;}
 
 img:hover { box-shadow: 5px 5px 10px gray;}
 
-#siteIcon{
-    height: 75px;
-    box-shadow: none !important;
-    padding: 0px;
-    margin: 1rem;
-}
+#siteIcon{height: 75px;box-shadow: none !important;padding: 0px;margin: 1rem;}
 
-#siteIconMini{
-    height: 40px;
-    box-shadow: none !important;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-}
+#siteIconMini{height: 40px;box-shadow: none !important;padding: 0px 0px 0px 0px;margin: 0px 0px 0px 0px;}
+
+/*******************      Image Slider       ******************/
+
 
 #sliderDots {text-align: center;}
+
+.slideshow-container {max-width: 1000px;position: relative;margin: auto;}
+
+.salesSlides {display: none;}
+
+.prev, .next {cursor: pointer;position: absolute;top: 50%;width: auto;margin-top: -22px;padding: 16px;color: white;font-weight: bold;font-size: 18px;transition: 0.6s ease;border-radius: 0 3px 3px 0;}
+
+.next {right: 0;border-radius: 3px 0 0 3px;}
+
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.7);}
+
+.productSpecs {color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 8px;width: 100%;text-align: center;}
+
+.numbertext {color: #f2f2f2;font-size: 14px;padding: 8px 12px;position: absolute;top: 0;font-weight: bold;}
+
+.dot {cursor: pointer;height: 13px;width: 13px;background-color: #bbb;border-radius: 50%;display: inline-block;transition: background-color 0.5s ease;margin-bottom: 20px;}
+
+.active, .dot:hover {background-color: #794A18;}
+
+.fade {-webkit-animation-name: fade;-webkit-animation-duration: 1.3s;animation-name: fade;animation-duration: 1.3s;}
+
+@-webkit-keyframes fade { from {opacity: .35} to {opacity: 1} }
+
+@keyframes fade { from {opacity: .35} to {opacity: 1} }
+
 
 /*******************      Form Styling       ******************/
 
 
-fieldset {padding-left: 1.5em; margin-left:1em; margin-bottom: 2em;
-     width: 40px;background-color: gainsboro;}
+fieldset {padding-left: 1.5em; margin-left:1em; margin-bottom: 2em;width: 40px;background-color: gainsboro;}
 
 form legend { width: 11em; text-align: center; font-size: 22px;border: darkgray solid 1px;padding: 1%;background-color: white;}
 
@@ -183,9 +142,7 @@ main form span { display: block;}
 
 label textarea { margin: .2em 0; width: 13em;}
 
-form button {
-    margin: 5px 0;
-    font-size: 18px; padding: 7px 12px;}
+form button {margin: 5px 0;  font-size: 18px; padding: 7px 12px;}
 
 .push { padding: 0 0 60% 0;}
 
@@ -206,8 +163,7 @@ table { border: black solid 1px; margin: 3em 5em 4em 5em;}
 
 table, th, td { border: black solid 2px;}
 
-th, td { text-align: center;padding: .4rem .7rem;
-    color: #FFFFFF;}
+th, td { text-align: center;padding: .4rem .7rem;color: #FFFFFF;}
 
 th { background: forestgreen;color: black;font-size: 28px;}
 
